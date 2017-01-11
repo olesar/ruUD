@@ -37,7 +37,7 @@ Created: 11 Jan 2017
 ||m|Gender=Masc|мужской род (_работник_, _стол_)|masculine gender|
 ||f|Gender=Fem|женский род (_работница_, _табуретка_)|feminine gender|
 ||n|Gender=Neut|средний род (_животное_, _озеро_)|neuter gender|
-|~|m-f|Gender=Masc|«общий род» (_задира_, _пьяница_); в большинстве случаев приравнивание к м. р. не будет порождать ошибки|common gender (the feature Gender=Com is not available in Russian UD)|
+|~|mf|Gender=Masc|«общий род» (_задира_, _пьяница_); в большинстве случаев приравнивание к м. р. не будет порождать ошибки|common gender (the feature Gender=Com is not available in Russian UD)|
 ||anim|Animacy=Anim|одушевленность (_человек_, _ангел_, _утопленник_)|animate|
 ||inan|Animacy=Inan|неодушевленность (_рука_, _облако_, _культура_)|inanimate|
 ||sg|Number=Sing|единственное число (_яблоко_, _гордость_)|singular number|
