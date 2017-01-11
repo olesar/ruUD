@@ -1,6 +1,6 @@
-UD statistics
+# UD 2.0 tagset and statistics
 
-Russian-SynTagRus (v.1.4 manual)  Created: 9 Dec 2016
+UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan 2017
 
 ## Parts of speech (XPOS)
 
@@ -10,7 +10,7 @@ Russian-SynTagRus (v.1.4 manual)  Created: 9 Dec 2016
 |ADP|preposition|99246|
 |ADV|adverb|55155|
 |AUX|auxiliary verb|7509|
-|CONJ|conjunction (conj.)|38947|
+|CCONJ|conjunction (coordination)|38947|
 |DET|determinant|25627|
 |INTJ|interjection|104|
 |NOUN|noun|261376|
@@ -19,7 +19,7 @@ Russian-SynTagRus (v.1.4 manual)  Created: 9 Dec 2016
 |PRON|pronoun|45810|
 |PROPN|proper noun|39191|
 |PUNCT|punctuation mark|196240|
-|SCONJ|conjunction (subj.)|18664|
+|SCONJ|conjunction (subordination)|18664|
 |SYM|symbol|945|
 |VERB|verb|124385|
 |X|unknown|41|
