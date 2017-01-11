@@ -7,8 +7,8 @@ Created: 11 Jan 2017
 |Status|RNC tag|XPOS tag|description(RUS)|description(ENG)|
 |---|---|---|---|---|
 ||S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|
-|+|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика»	proper noun|
-|-|INIT|PROPN|инициал (_запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются).|proper noun (initial letter)|
+|+|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика»|proper noun|
+|-|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются)|proper noun (initial letter)|
 ||A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|
 ||NUM|NUM|числительное (_четыре_, _десять_, _много_)|numeral|
 |-|ANUM|NUM|числительное-прилагательное (_один_, _седьмой_, _восьмидесятый_)|ordinal numeral|
@@ -17,8 +17,8 @@ Created: 11 Jan 2017
 |-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_)|predicative|
 ||ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
 |-|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
-|*|SPRO|PRON|местоимение-существительное (_она_, _что_)|pronoun (as noun)|
-|*|APRO|DET|местоимение-прилагательное (_этот_, _твой_)|adjectival pronoun/determiner|
+|\*|SPRO|PRON|местоимение-существительное (_она_, _что_)|pronoun (as noun)|
+|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_)|adjectival pronoun/determiner|
 |-|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
 |-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_)	predicative pronoun|
 ||PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
@@ -26,6 +26,9 @@ Created: 11 Jan 2017
 |+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_)|coordinating conjunction	|
 ||PART|PART|частица (_бы_, _же_, _пусть_)|particle|
 ||INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
+||NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
+|+||SYM|символ (_%_, _$_)|symbol|
+|+||PUNCT|знак препинания|punctuation mark|
 
 ## Grammatical features (FEAT)
 
