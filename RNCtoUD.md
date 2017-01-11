@@ -34,7 +34,7 @@ Created: 11 Jan 2017
 ||m|Gender=Masc|мужской род (_работник_, _стол_)|masculine gender|
 ||f|Gender=Fem|женский род (_работница_, _табуретка_)|feminine gender|
 ||n|Gender=Neut|средний род (_животное_, _озеро_)|neuter gender|
-|~|m-f|Gender=Masc|«общий род» (_задира_, _пьяница_)|common gender (the feature Gender=Com is not available in Russian UD)|
+|~|m-f|Gender=Masc|«общий род» (_задира_, _пьяница_); в большинстве случаев приравнивание к м. р. не будет порождать ошибки|common gender (the feature Gender=Com is not available in Russian UD)|
 ||anim|Animacy=Anim|одушевленность (_человек_, _ангел_, _утопленник_)|animate|
 ||inan|Animacy=Inan|неодушевленность (_рука_, _облако_, _культура_)|inanimate|
 ||sg|Number=Sing|единственное число (_яблоко_, _гордость_)|singular number|
@@ -48,15 +48,15 @@ Created: 11 Jan 2017
 ||voc|Case=Voc|звательная форма (_Господи_, _Серёж_, _ребят_)|Vocative case|
 ||gen2|Case=Par|второй родительный падеж (_чашка чаю_)|Partitive case|
 |-|dat2|Case=Dat|дистрибутивный дательный ([_по_] _многу_, _нескольку_, _стольку_)|second Dative case|
-|-|acc2|??|второй винительный падеж (_постричься в монахи_; _по два человека_)|second Accusative case (loss of animateness)|
-|-|loc2||второй предложный падеж (_в лесу_, _на оси́_)|second Locative case|
-|-|adnum||счётная форма (_два часа́_, _три шара́_)|adnumeral form|
+|-|acc2|Case=Nom|второй винительный падеж (_постричься в монахи_; _по два человека_)|second Accusative case (in UD is treated as Nominative, still animate)|
+|-|loc2|Case=Loc|второй предложный падеж (_в лесу_, _на оси́_)|second Locative case|
+|-|adnum|Case=Gen|счётная форма (_два часа́_, _три шара́_)|adnumeral form|
 ||brev|Variant=Short|краткая форма (_высок_, _нежна_, _прочны_, _рад_)|short form|
 |-|plen||полная форма (_высокий_, _нежная_, _прочные_, _морской_)|full form|
 |+||Degree=Pos|позитивная степень (_глубокий_); присваивается всем формам прилагательных, наречий и предикативов, не имеющих сравнительной или превосходной степени|positive, first degree|
 ||comp|Degree=Cmp|сравнительная степень (_глубже_)|comparative degree|
 |-|comp2|Degree=Cmp|форма «по+сравнительная степень» (_поглубже_)|second comparative degree (_po_ + comparative)|
-|*|supr|Degree=Sup|превосходная степень (_глубочайший_); ! в НКРЯ отсутствует и должна быть различена с позитивной степенью|superlative degree	|
+|\*|supr|Degree=Sup|превосходная степень (_глубочайший_); ! в НКРЯ отсутствует и лемматизируется по образцу _глубочайший_, должна быть различена с позитивной степенью|superlative degree	|
 ||pf|Aspect=Perf|совершенный вид (_пошёл_, _встречу_)|perfective aspect|
 ||ipf|Aspect=Imp|несовершенный вид (_ходил_, _встречаю_)|imperfective aspect|
 |-|intr||непереходность (_ходить_, _вариться_)|intransitive verb|
