@@ -1,0 +1,78 @@
+S	NOUN
+S	PROPN
+INIT	PROPN
+A	ADJ
+NUM	NUM
+ANUM	NUM
+V	VERB
+V	AUX
+PRAEDIC	VERB
+ADV	ADV
+PARENTH	ADV
+SPRO	PRON
+APRO	DET
+ADVPRO	ADV
+PRAEDICPRO	VERB
+PR	ADP
+CONJ	SCONJ
+CONJ	CCONJ
+PART	PART
+INTJ	INTJ
+NONLEX	X
+	SYM
+	PUNCT
+m	Gender=Masc
+f	Gender=Fem
+n	Gender=Neut
+mf	Gender=Masc
+anim	Animacy=Anim
+inan	Animacy=Inan
+sg	Number=Sing
+pl	Number=Plur
+nom	Case=Nom
+gen	Case=Gen
+dat	Case=Dat
+acc	Case=Acc
+ins	Case=Ins
+loc	Case=Loc
+voc	Case=Voc
+gen2	Case=Par
+dat2	Case=Dat
+acc2	Case=Nom
+loc2	Case=Loc
+adnum	Case=Gen
+brev	Variant=Short
+plen	
+	Degree=Pos
+comp	Degree=Cmp
+comp2	Degree=Cmp
+supr	Degree=Sup
+pf	Aspect=Perf
+ipf	Aspect=Imp
+intr	
+tran	
+act	Voice=Act
+pass	Voice=Pass
+med	Voice=Mid
+inf	VerbForm=Inf
+	VerbForm=Fin
+partcp	VerbForm=Part
+ger	VerbForm=Conv
+indic	Mood=Ind
+imper	Mood=Imp
+imper2	Mood=Imp
+praet	Tense=Past
+praes	Tense=Pres
+fut	Tense=Fut
+1p	Person=1
+2p	Person=2
+3p	Person=3
+persn	
+patrn	
+famn	
+zoon	
+0	
+anom	
+distort	
+ciph	
+abbr	
