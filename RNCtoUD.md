@@ -26,6 +26,11 @@ Created: 11 Jan 2017
 |+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_)|coordinating conjunction	|
 ||PART|PART|частица (_бы_, _же_, _пусть_)|particle|
 ||INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
+
+## Grammatical features (FEAT)
+
+|Status|RNC tag|XPOS tag|description(RUS)|description(ENG)|
+|---|---|---|---|---|
 ||m|Gender=Masc|мужской род (_работник_, _стол_)|masculine gender|
 ||f|Gender=Fem|женский род (_работница_, _табуретка_)|feminine gender|
 ||n|Gender=Neut|средний род (_животное_, _озеро_)|neuter gender|
