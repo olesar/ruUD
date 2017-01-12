@@ -61,7 +61,8 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 |itemque||1||||
 
 ## Multi-word conjunctions (should be tokenized as separate tokens linked by "mwe" deprel)
-и/или (4) should be tokenized as three tokens
+и/или (4) should be tokenized as three tokens<br />
+
 |LEMMA|CCONJ|SCONJ|PATTERN FOR CCONJ|PATTERN FOR SCONJ|COMMENT|
 |---|---|---|---|---|---|
 |а\_не\_то||1||||
