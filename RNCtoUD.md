@@ -22,8 +22,8 @@ Created: 11 Jan 2017
 |-|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
 |-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_)	predicative pronoun|
 ||PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
-||CONJ|SCONJ|союз (_что_, _чтобы_)|subordinating conjunction|
-|+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_)|coordinating conjunction	|
+||CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
+|+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/edit/master/conj_list.md)|coordinating conjunction|
 ||PART|PART|частица (_бы_, _же_, _пусть_)|particle|
 ||INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
 ||NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
