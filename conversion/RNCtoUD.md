@@ -15,7 +15,7 @@ Created: 11 Jan 2017
 ||V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
 |+|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
 |-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/blob/master/praedic_list.md)|predicative|
-|-|PRAEDICPRO|VERB|местоимение-предикатив (_некого_, _нечего_), см. [список](https://github.com/olesar/ruUD/blob/master/praedicpro_list.md)|predicative pronoun|
+|-|PRAEDICPRO|VERB|местоимение-предикатив (_некого_, _нечего_)|predicative pronoun|
 ||ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
 |-|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
 |\*|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|
