@@ -6,7 +6,7 @@ The list includes: demonstratives, personal and reflexive adjectival pronouns, q
 |LEMMA|STAT|
 |---|---|
 |ваш|180|
-|весь|3076|
+|весь|3079|
 |всякий|188|
 |его|1966|
 |ее|843|
