@@ -14,16 +14,16 @@ Created: 11 Jan 2017
 |-|ANUM|ADJ|числительное-прилагательное (_один_, _седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM)|ordinal numeral|
 ||V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
 |+|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
-|-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/edit/master/praedic_list.md)|predicative|
-|-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_), см. [список](https://github.com/olesar/ruUD/edit/master/praedicpro_list.md)|predicative pronoun|
+|-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/blob/master/praedic_list.md)|predicative|
+|-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_), см. [список](https://github.com/olesar/ruUD/blob/master/praedicpro_list.md)|predicative pronoun|
 ||ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
 |-|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
-|\*|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/edit/master/pron_list.md)|pronoun (as noun)|
-|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/edit/master/det_list.md)|adjectival pronoun/determiner|
+|\*|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|
+|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/blob/master/det_list.md)|adjectival pronoun/determiner|
 |-|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
 ||PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
 ||CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
-|+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/edit/master/conj_list.md)|coordinating conjunction|
+|+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/blob/master/conj_list.md)|coordinating conjunction|
 ||PART|PART|частица (_бы_, _же_, _пусть_)|particle|
 ||INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
 ||NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
