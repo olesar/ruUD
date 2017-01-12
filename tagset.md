@@ -6,23 +6,23 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 
 |XPOS|description|FREQ|
 |---|---|---|---:|
-|ADJ|adjective|108585|
+|ADJ|adjective|107077|
 |ADP|preposition|99246|
-|ADV|adverb|55155|
-|AUX|auxiliary verb|7509|
-|CCONJ|conjunction (coordination)|38947|
-|DET|determinant|25627|
-|INTJ|interjection|104|
-|NOUN|noun|261376|
-|NUM|numeral|13928|
-|PART|particle|33808|
-|PRON|pronoun|45810|
-|PROPN|proper noun|39191|
-|PUNCT|punctuation mark|196240|
-|SCONJ|conjunction (subordination)|18664|
-|SYM|symbol|945|
-|VERB|verb|124385|
-|X|unknown|41|
+|ADV|adverb|53698|
+|AUX|auxiliary verb|7510|
+|CCONJ|conjunction (coordination)|38258|
+|DET|determinant|26325|
+|INTJ|interjection|103|
+|NOUN|noun|261588|
+|NUM|numeral|13924|
+|PART|particle|33815|
+|PRON|pronoun|46057|
+|PROPN|proper noun|38954|
+|PUNCT|punctuation mark|196242|
+|SCONJ|conjunction (subordination)|19336|
+|SYM|symbol|952|
+|VERB|verb|126427|
+|X|unknown|54|
 
 ## Parts of speech and detailed list (UPOS)
 
