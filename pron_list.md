@@ -48,5 +48,10 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 |i|2|
 |you|2|
 
-## Multi-word pronouns (should be tokenized as separate tokens linked by "mwe" deprel)
-кто\_бы\_то\_ни\_было	3
+## Multi-word pronouns 
+(should be tokenized as separate tokens linked by "mwe" deprel)
+
+|LEMMA|STAT|
+|---|---|
+|кто_бы_то_ни_было|3|
+
