@@ -11,16 +11,16 @@ Created: 11 Jan 2017
 |-|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются)|proper noun (initial letter)|
 ||A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|
 ||NUM|NUM|числительное (_четыре_, _десять_, _много_)|numeral|
-|-|ANUM|ADJ|числительное-прилагательное (_один_, _седьмой_, _восьмидесятый_)|ordinal numeral|
+|-|ANUM|ADJ|числительное-прилагательное (_один_, _седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM)|ordinal numeral|
 ||V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
 |+|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
-|-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_)|predicative|
+|-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/edit/master/praedic_list.md)|predicative|
+|-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_), см. [список](https://github.com/olesar/ruUD/edit/master/praedicpro_list.md)|predicative pronoun|
 ||ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
 |-|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
-|\*|SPRO|PRON|местоимение-существительное (_она_, _что_)|pronoun (as noun)|
-|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_)|adjectival pronoun/determiner|
+|\*|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/edit/master/pron_list.md)|pronoun (as noun)|
+|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/edit/master/det_list.md)|adjectival pronoun/determiner|
 |-|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
-|-|PRAEDICPRO|VERB||местоимение-предикатив (_некого_, _нечего_)	predicative pronoun|
 ||PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
 ||CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
 |+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/edit/master/conj_list.md)|coordinating conjunction|
