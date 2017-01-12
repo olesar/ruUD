@@ -53,5 +53,4 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 
 |LEMMA|STAT|
 |---|---|
-|кто_бы_то_ни_было|3|
-
+|кто\_бы\_то\_ни\_было|3|
