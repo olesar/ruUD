@@ -123,7 +123,7 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 |так\_как||196||||
 |т.к.||3||||
 |так\_что||184||||
-|то\_есть||2||ND||
+|то\_есть||2|||not attested in rusgram|
 |тогда\_как||30||||
 |только\_бы||NA||||
 |только\_что||NA||||
@@ -142,3 +142,65 @@ ADV:
 PART:<br />
 ли (ли... ли..., то ли... или..., CCONJ)<br />
 лишь (SCONJ)
+
+# Lists in alphabetical order
+## CCONJ (coordinating conjunctions)
+а<br />
+ан<br />
+да<br />
+зато<br />
+и<br />
+или<br />
+иль<br />
+иначе<br />
+как<br />
+либо<br />
+насколько<br />
+ни<br />
+но<br />
+причем<br />
+сколь<br />
+сколько<br />
+то<br />
+только<br />
+хоть<br />
+чем<br />
+что<br />
+and<br />
+et
+
+## SCONJ (subordinating conjunctions)
+благо<br />
+будто<br />
+ведь<br />
+дабы<br />
+едва<br />
+ежели<br />
+если<br />
+ибо<br />
+иначе<br />
+как<br />
+когда<br />
+коли<br />
+насколько<br />
+нежели<br />
+пока<br />
+покуда<br />
+поскольку<br />
+постольку<br />
+причем<br />
+пусть<br />
+раз<br />
+разве<br />
+сколь<br />
+словно<br />
+тем<br />
+то<br />
+только<br />
+точно<br />
+хоть<br />
+хотя<br />
+чем<br />
+что<br />
+чтобы<br />
+itemque
