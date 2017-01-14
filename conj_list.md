@@ -60,7 +60,7 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 |чуть||NA||||
 |itemque||1||||
 
-## Multi-word conjunctions (should be tokenized as separate tokens linked by "mwe" deprel)
+## Multi-word conjunctions (should be tokenized as separate tokens linked by the "fixed" deprel)
 и/или (4) should be tokenized as three tokens<br />
 
 |LEMMA|CCONJ|SCONJ|PATTERN FOR CCONJ|PATTERN FOR SCONJ|COMMENT|
