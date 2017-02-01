@@ -1,6 +1,6 @@
 # Multitoken conversion
 
 Here comes the list of the multi-word expressions (MWE) in SynTagRus 2016. They are to be converted into UD 2.0 in token-by-token mode, mostly using "fixed" and "flat" dep relations.  
-[Google sheet](https://docs.google.com/spreadsheets/d/1W_IB5aF1dFT-KfVv6YWyFuUBqKYrz09kWwNWYl5IGWI/edit?usp=sharing)  
+<a href="https://docs.google.com/spreadsheets/d/1W_IB5aF1dFT-KfVv6YWyFuUBqKYrz09kWwNWYl5IGWI/edit?usp=sharing">Google sheet</a>  
 
 Additional list of MWEs ("oboroty") can be found at http://ruscorpora.ru/obgrams.html.  
