@@ -1,0 +1,261 @@
+# newdoc id = ru-lt-3
+# newpar id = ru-lt-3-p1
+# sent_id = ru-lt-3-p1-1
+# <p class="title">
+# text = Титул самого толерантного человека года получила Ванда Юкнайте
+1	Титул	ТИТУЛ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+2	самого	САМЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	толерантного	ТОЛЕРАНТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	человека	ЧЕЛОВЕК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	получила	ПОЛУЧИТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Ванда	ВАНДА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	Юкнайте	ЮКНАЙТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	flat	_	_
+# </p>
+
+# newpar id = ru-lt-3-p2
+# sent_id = ru-lt-3-p1-2
+# <p class="first">
+# text = Писатель Ванда Юкнайте в субботу в университете им. Витаутаса Великого получила звание самого толерантного человека 2016 года.
+1	Писатель	ПИСАТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Ванда	ВАНДА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
+3	Юкнайте	ЮКНАЙТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+4	в	В	ADP	UH	_	5	case	_	_
+5	субботу	СУББОТА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+6	в	В	ADP	UH	_	7	case	_	_
+7	университете	УНИВЕРСИТЕТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+8	им.	ИМ.	ADP	UH	_	9	case	_	_
+9	Витаутаса	ВИТАУТАС	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Великого	ВЕЛИКИЙ	ADJ	JJL	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat	_	_
+11	получила	ПОЛУЧИТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+12	звание	ЗВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	самого	САМЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	толерантного	ТОЛЕРАНТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	человека	ЧЕЛОВЕК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	2016	2016	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	11	punct	_	_
+# </p>
+
+# newpar id = ru-lt-3-p3
+# sent_id = ru-lt-3-p2-3
+# <p>
+# text = «Она получила эту награду за построение диалога, поощрение памяти и высказывание, что чужой боли не бывает, что трагедии XX века – Холокост, ссылки – коснулись всех граждан Литвы, вне зависимости от национальности», - сказал BNS представитель «Фонда Сугихары – Дипломаты за жизнь» Линас Венцлаускас.
+1	«	«	PUNCT	PUNCT	_	3	punct	_	_
+2	Она	ОНА	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	получила	ПОЛУЧИТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	42	ccomp	_	_
+4	эту	ЭТОТ	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
+5	награду	НАГРАДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	за	ЗА	ADP	UH	_	7	case	_	_
+7	построение	ПОСТРОЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+8	диалога	ДИАЛОГ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	поощрение	ПООЩРЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+11	памяти	ПАМЯТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	И	CCONJ	CC	_	13	cc	_	_
+13	высказывание	ВЫСКАЗЫВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+14	,	,	PUNCT	PUNCT	_	19	punct	_	_
+15	что	ЧТО	SCONJ	SCONJ	_	19	mark	_	_
+16	чужой	ЧУЖОЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	боли	БОЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	_
+18	не	НЕ	PART	NEG	Polarity=Neg	19	advmod	_	_
+19	бывает	БЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+20	,	,	PUNCT	PUNCT	_	30	punct	_	_
+21	что	ЧТО	SCONJ	SCONJ	_	30	mark	_	_
+22	трагедии	ТРАГЕДИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_
+23	XX	XX	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	века	ВЕК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	–	–	PUNCT	PUNCT	_	26	punct	_	_
+26	Холокост	ХОЛОКОСТ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+27	,	,	PUNCT	PUNCT	_	28	punct	_	_
+28	ссылки	ССЫЛКА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	26	conj	_	_
+29	–	–	PUNCT	PUNCT	_	26	punct	_	_
+30	коснулись	КОСНУТЬСЯ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	conj	_	_
+31	всех	ВЕСЬ	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	32	det	_	_
+32	граждан	ГРАЖДАНИН	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
+33	Литвы	ЛИТВА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	,	,	PUNCT	PUNCT	_	33	punct	_	_
+35	вне	ВНЕ	ADP	UH	_	38	case	_	_
+36	зависимости	ЗАВИСИМОСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	fixed	_	_
+37	от	ОТ	ADP	UH	_	35	fixed	_	_
+38	национальности	НАЦИОНАЛЬНОСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	_
+39	»	»	PUNCT	PUNCT	_	3	punct	_	_
+40	,	,	PUNCT	PUNCT	_	3	punct	_	_
+41	-	-	PUNCT	PUNCT	_	3	punct	_	_
+42	сказал	СКАЗАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+43	BNS	BNS	X	X	_	42	iobj	_	_
+44	представитель	ПРЕДСТАВИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
+45	«	«	PUNCT	PUNCT	_	46	punct	_	_
+46	Фонда	ФОНД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+47	Сугихары	СУГИХАРА	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	46	nmod	_	_
+48	–	–	PUNCT	PUNCT	_	47	punct	_	_
+49	Дипломаты	ДИПЛОМАТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	46	appos	_	_
+50	за	ЗА	ADP	UH	_	51	case	_	_
+51	жизнь	ЖИЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	49	nmod	_	_
+52	»	»	PUNCT	PUNCT	_	46	punct	_	_
+53	Линас	ЛИНАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	flat	_	_
+54	Венцлаускас	ВЕНЦЛАУСКАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	53	flat	_	_
+55	.	.	PUNCT	PUNCT	_	42	punct	_	_
+# </p>
+
+# newpar id = ru-lt-3-p4
+# sent_id = ru-lt-3-p3-4
+# <p>
+# text = По его словам, Юкнайте одна из первых сделала смелый шаг и публично признала, что ее родственник участвовал в Холокосте.
+1	По	ПО	ADP	UH	_	3	case	_	_
+2	его	ЕГО	DET	PRP$	_	3	det	_	_
+3	словам	СЛОВО	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	Юкнайте	ЮКНАЙТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	одна	ОДИН	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	_
+7	из	ИЗ	ADP	UH	_	8	case	_	_
+8	первых	ПЕРВЫЙ	ADJ	ORD	Case=Gen|Degree=Pos|Number=Plur	6	nmod	_	_
+9	сделала	СДЕЛАТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+10	смелый	СМЕЛЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	шаг	ШАГ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	и	И	CCONJ	CC	_	14	cc	_	_
+13	публично	ПУБЛИЧНО	ADV	RB	Degree=Pos	14	advmod	_	_
+14	признала	ПРИЗНАТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	conj	_	_
+15	,	,	PUNCT	PUNCT	_	19	punct	_	_
+16	что	ЧТО	SCONJ	SCONJ	_	19	mark	_	_
+17	ее	ЕЕ	DET	PRP$	_	18	det	_	_
+18	родственник	РОДСТВЕННИК	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	участвовал	УЧАСТВОВАТЬ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+20	в	В	ADP	UH	_	21	case	_	_
+21	Холокосте	ХОЛОКОСТ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	.	.	PUNCT	PUNCT	_	9	punct	_	_
+# </p>
+
+# newpar id = ru-lt-3-p5
+# sent_id = ru-lt-3-p4-5
+# <p>
+# text = На награду в этом году претендовали также писатель Марюс Ивашкявичюс и журналист Домас Буркаускас.
+1	На	НА	ADP	UH	_	2	case	_	_
+2	награду	НАГРАДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+3	в	В	ADP	UH	_	5	case	_	_
+4	этом	ЭТОТ	DET	PRP$	Case=Loc|Gender=Masc|Number=Sing	5	det	_	_
+5	году	ГОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	претендовали	ПРЕТЕНДОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+7	также	ТАКЖЕ	ADV	RB	Degree=Pos	6	advmod	_	_
+8	писатель	ПИСАТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	Марюс	МАРЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+10	Ивашкявичюс	ИВАШКЯВИЧЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+11	и	И	CCONJ	CC	_	12	cc	_	_
+12	журналист	ЖУРНАЛИСТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+13	Домас	ДОМАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
+14	Буркаускас	БУРКАУСКАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+# </p>
+
+# newpar id = ru-lt-3-p6
+# sent_id = ru-lt-3-p5-6
+# <p>
+# text = Эта ежегодная номинация присуждается гражданину Литвы, который своими действиями и открытым словом встал против ксенофобии и антисемитизма, проявлений радикализма и насилия в общественной жизни Литвы.
+1	Эта	ЭТОТ	DET	PRP$	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+2	ежегодная	ЕЖЕГОДНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	номинация	НОМИНАЦИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	присуждается	ПРИСУЖДАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	гражданину	ГРАЖДАНИН	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+6	Литвы	ЛИТВА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	PUNCT	_	14	punct	_	_
+8	который	КОТОРЫЙ	PRON	WPA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	своими	СВОЙ	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	действиями	ДЕЙСТВИЕ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	14	obl	_	_
+11	и	И	CCONJ	CC	_	13	cc	_	_
+12	открытым	ОТКРЫТЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	словом	СЛОВО	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	conj	_	_
+14	встал	ВСТАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+15	против	ПРОТИВ	ADP	UH	_	16	case	_	_
+16	ксенофобии	КСЕНОФОБИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+17	и	И	CCONJ	CC	_	18	cc	_	_
+18	антисемитизма	АНТИСЕМИТИЗМ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	conj	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	проявлений	ПРОЯВЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	conj	_	_
+21	радикализма	РАДИКАЛИЗМ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	и	И	CCONJ	CC	_	23	cc	_	_
+23	насилия	НАСИЛИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	conj	_	_
+24	в	В	ADP	UH	_	26	case	_	_
+25	общественной	ОБЩЕСТВЕННЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	жизни	ЖИЗНЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+27	Литвы	ЛИТВА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	.	.	PUNCT	PUNCT	_	4	punct	_	_
+# </p>
+
+# newpar id = ru-lt-3-p7
+# sent_id = ru-lt-3-p6-7
+# <p>
+# text = Первым титул самого толерантного человека в 2002 году получил Томас Шярнас.
+1	Первым	ПЕРВЫЙ	ADJ	ORD	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	_
+2	титул	ТИТУЛ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+3	самого	САМЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	толерантного	ТОЛЕРАНТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	человека	ЧЕЛОВЕК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	в	В	ADP	UH	_	8	case	_	_
+7	2002	2002	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	году	ГОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obj	_	_
+9	получил	ПОЛУЧИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Томас	ТОМАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Шярнас	ШЯРНАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
+12	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = ru-lt-3-p6-8
+# text = Среди номинантов – театровед Ирена Вейсайте, журналист Альгимантас Чекуолис, режиссер Саулюс Бержинис, ксендз Арунас Пешкайтис, психолог Робертас Повилайтис, исполнитель Юрга Шедуйките, журналист Миколас Друнга, поэт Томас Венцлова, философ Андрюс Навицкас, писатели Дайва Чепаускайте и Сигитас Парульскис, музыкант Андрюс Мамонтовас, журналист Донатас Пуслис, предприниматель Валдас Бальчюнас.
+1	Среди	СРЕДИ	ADP	UH	_	2	case	_	_
+2	номинантов	НОМИНАНТ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+3	–	–	PUNCT	PUNCT	_	2	punct	_	_
+4	театровед	ТЕАТРОВЕД	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Ирена	ИРЕНА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	flat	_	_
+6	Вейсайте	ВЕЙСАЙТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	flat	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	журналист	ЖУРНАЛИСТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+9	Альгимантас	АЛЬГИМАНТАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+10	Чекуолис	ЧЕКУОЛИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	режиссер	РЕЖИССЕР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+13	Саулюс	САУЛЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
+14	Бержинис	БЕРЖИНИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	ксендз	КСЕНДЗ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+17	Арунас	АРУНАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat	_	_
+18	Пешкайтис	ПЕШКАЙТИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	психолог	ПСИХОЛОГ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+21	Робертас	РОБЕРТАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat	_	_
+22	Повилайтис	ПОВИЛАЙТИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	исполнитель	ИСПОЛНИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+25	Юрга	ЮРГА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	24	flat	_	_
+26	Шедуйките	ШЕДУЙКИТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	flat	_	_
+27	,	,	PUNCT	PUNCT	_	28	punct	_	_
+28	журналист	ЖУРНАЛИСТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+29	Миколас	МИКОЛАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	flat	_	_
+30	Друнга	ДРУНГА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat	_	_
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	поэт	ПОЭТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+33	Томас	ТОМАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	flat	_	_
+34	Венцлова	ВЕНЦЛОВА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	flat	_	_
+35	,	,	PUNCT	PUNCT	_	36	punct	_	_
+36	философ	ФИЛОСОФ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+37	Андрюс	АНДРЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	flat	_	_
+38	Навицкас	НАВИЦКАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	flat	_	_
+39	,	,	PUNCT	PUNCT	_	40	punct	_	_
+40	писатели	ПИСАТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+41	Дайва	ДАЙВА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	40	flat	_	_
+42	Чепаускайте	ЧЕПАУСКАЙТЕ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	41	flat	_	_
+43	и	И	CCONJ	CC	_	44	cc	_	_
+44	Сигитас	СИГИТАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	41	conj	_	_
+45	Парульскис	ПАРУЛЬСКИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	flat	_	_
+46	,	,	PUNCT	PUNCT	_	47	punct	_	_
+47	музыкант	МУЗЫКАНТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+48	Андрюс	АНДРЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	flat	_	_
+49	Мамонтовас	МАМОНТОВАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	flat	_	_
+50	,	,	PUNCT	PUNCT	_	51	punct	_	_
+51	журналист	ЖУРНАЛИСТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+52	Донатас	ДОНАТАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	flat	_	_
+53	Пуслис	ПУСЛИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	52	flat	_	_
+54	,	,	PUNCT	PUNCT	_	55	punct	_	_
+55	предприниматель	ПРЕДПРИНИМАТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+56	Валдас	ВАЛДАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	55	flat	_	_
+57	Бальчюнас	БАЛЬЧЮНАС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	56	flat	_	_
+58	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
