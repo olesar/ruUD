@@ -1,0 +1,1585 @@
+# sent_id = telegraf-2011032305-31-266-ru
+# text = Как ранее передавал Телеграф, строить белорусскую АЭС начнут в апреле, заявил 21 марта директор Нижегородской инжиниринговой компании "Атомэнергопроект", исполняющий обязанности руководителя ЗАО "Атомстройэкспорт" Валерий Лимаренко.
+1	Как	КАК	SCONJ	IN	_	3	mark	_	_
+2	ранее	РАНЕЕ	ADV	RBR	Degree=Cmp	3	advmod	_	_
+3	передавал	ПЕРЕДАВАТЬ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+4	Телеграф	ТЕЛЕГРАФ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	строить	СТРОИТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+7	белорусскую	БЕЛОРУССКИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	АЭС	АЭС	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	начнут	НАЧАТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+10	в	В	ADP	IN	_	11	case	_	_
+11	апреле	АПРЕЛЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	9	punct	_	_
+13	заявил	ЗАЯВИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	21	21	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	директор	ДИРЕКТОР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+17	Нижегородской	НИЖЕГОРОДСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	инжиниринговой	ИНЖИНИРИНГОВЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	компании	КОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+21	Атомэнергопроект	АТОМЭНЕРГОПРОЕКТ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	исполняющий	ИСПОЛНЯТЬ	VERB	VBNL	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	conj	_	_
+25	обязанности	ОБЯЗАННОСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+26	руководителя	РУКОВОДИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	ЗАО	ЗАО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+29	Атомстройэкспорт	АТОМСТРОЙЭКСПОРТ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	flat	_	SpaceAfter=No
+30	"	"	PUNCT	PUNCT	_	29	punct	_	_
+31	Валерий	ВАЛЕРИЙ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	flat	_	_
+32	Лимаренко	ЛИМАРЕНКО	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	flat	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = telegraf-2011032305-35-267-ru
+# text = Между тем министр иностранных дел Литвы Аудронюс Ажубалис 9 марта во время неформальной встречи глав МИД стран Евросоюза в Копенгагене призвал ЕС придерживаться единой позиции в вопросе строительства Островецкой и Калининградской атомных электростанций.
+1	Между	МЕЖДУ	ADP	IN	_	3	case	_	_
+2	тем	ТО	PRON	DT	Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+3	министр	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+4	иностранных	ИНОСТРАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	дел	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	Литвы	ЛИТВА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	Аудронюс	АУДРОНЮС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+8	Ажубалис	АЖУБАЛИС	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	9	9	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+11	во	ВО	ADP	IN	_	14	case	_	_
+12	время	ВРЕМЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	неформальной	НЕФОРМАЛЬНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	встречи	ВСТРЕЧА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+15	глав	ГЛАВА	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	МИД	МИД	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+17	стран	СТРАНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	Евросоюза	ЕВРОСОЮЗ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	в	В	ADP	IN	_	20	case	_	_
+20	Копенгагене	КОПЕНГАГЕН	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+21	призвал	ПРИЗВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+22	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	придерживаться	ПРИДЕРЖИВАТЬСЯ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	21	xcomp	_	_
+24	единой	ЕДИНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	позиции	ПОЗИЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obj	_	_
+26	в	В	ADP	IN	_	27	case	_	_
+27	вопросе	ВОПРОС	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_
+28	строительства	СТРОИТЕЛЬСТВО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	Островецкой	ОСТРОВЕЦКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+30	и	И	CCONJ	CC	_	31	cc	_	_
+31	Калининградской	КАЛИНИНГРАДСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	_
+32	атомных	АТОМНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	электростанций	ЭЛЕКТРОСТАНЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = telegraf-2011032305-35-268-ru
+# text = По мнению Аудронюса Ажубалиса, проекты данных АЭС являются безответственными.
+1	По	ПО	ADP	IN	_	2	case	_	_
+2	мнению	МНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+3	Аудронюса	АУДРОНЮС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Ажубалиса	АЖУБАЛИС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	проекты	ПРОЕКТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	данных	ДАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	АЭС	АЭС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	являются	ЯВЛЯТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	безответственными	БЕЗОТВЕТСТВЕННЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = telegraf-2011032306-3-269-ru
+# text = Некляев: реальных санкций против Лукашенко ЕС не ввел
+1	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	9	punct	_	_
+3	реальных	РЕАЛЬНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	санкций	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obj	_	_
+5	против	ПРОТИВ	ADP	IN	_	6	case	_	_
+6	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	не	НЕ	PART	UH	_	9	advmod	_	_
+9	ввел	ВВЕСТИ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+
+# sent_id = telegraf-2011032306-7-270-ru
+# text = Лидер гражданской кампании "Говори правду!" Владимир Некляев считает, что Европейский союз не проявил должной решительности в вопросе санкций против Беларуси.
+1	Лидер	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	гражданской	ГРАЖДАНСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	кампании	КАМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	Говори	ГОВОРИТЬ	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	flat	_	_
+6	правду	ПРАВДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	5	punct	_	_
+9	Владимир	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+10	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+11	считает	СЧИТАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	17	punct	_	_
+13	что	ЧТО	SCONJ	IN	_	17	mark	_	_
+14	Европейский	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	союз	СОЮЗ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	не	НЕ	PART	UH	_	17	advmod	_	_
+17	проявил	ПРОЯВИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+18	должной	ДОЛЖЕН	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	решительности	РЕШИТЕЛЬНОСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obj	_	_
+20	в	В	ADP	IN	_	21	case	_	_
+21	вопросе	ВОПРОС	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	санкций	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+23	против	ПРОТИВ	ADP	IN	_	24	case	_	_
+24	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = telegraf-2011032306-7-271-ru
+# text = "Это не санкции.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	Это	ЭТО	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	не	НЕ	PART	UH	_	4	advmod	_	_
+4	санкции	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032306-7-272-ru
+# text = Европейский союз сделал еще один шаг навстречу белорусскому режиму.
+1	Европейский	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	союз	СОЮЗ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сделал	СДЕЛАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	еще	ЕЩЕ	ADV	RB	Degree=Pos	5	advmod	_	_
+5	один	ОДИН	NUM	CD	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nummod	_	_
+6	шаг	ШАГ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	навстречу	НАВСТРЕЧУ	ADP	IN	_	9	case	_	_
+8	белорусскому	БЕЛОРУССКИЙ	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	режиму	РЕЖИМ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032306-7-273-ru
+# text = ЕС пока не пошел на введение реальных санкций в отношении Лукашенко", -- заявляет Владимир Некляев.
+1	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	пока	ПОКА	ADV	RB	Degree=Pos	4	advmod	_	_
+3	не	НЕ	PART	UH	_	4	advmod	_	_
+4	пошел	ПОЙТИ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+5	на	НА	ADP	IN	_	6	case	_	_
+6	введение	ВВЕДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	реальных	РЕАЛЬНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	санкций	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	в	В	ADP	IN	_	11	case	_	_
+10	отношении	ОТНОШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	fixed	_	_
+11	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	4	punct	_	_
+14	--	--	PUNCT	PUNCT	_	4	punct	_	_
+15	заявляет	ЗАЯВЛЯТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	Владимир	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+17	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = telegraf-2011032306-11-274-ru
+# text = По словам лидера "Говори правду!", расширение визовых ограничений, одобренное на заседании Совет министров иностранных дел стран ЕС 23 марта, было согласовано значительно раньше, поэтому сомнений в них ни у кого не было.
+1	По	ПО	ADP	IN	_	2	case	_	_
+2	словам	СЛОВО	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	parataxis	_	_
+3	лидера	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	Говори	ГОВОРИТЬ	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	nmod	_	_
+6	правду	ПРАВДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	2	punct	_	_
+10	расширение	РАСШИРЕНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+11	визовых	ВИЗОВЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	ограничений	ОГРАНИЧЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	одобренное	ОДОБРИТЬ	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+15	на	НА	ADP	IN	_	16	case	_	_
+16	заседании	ЗАСЕДАНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+17	Совет	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	министров	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	иностранных	ИНОСТРАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	дел	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	obl	_	_
+21	стран	СТРАНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+22	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	23	23	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	14	punct	_	_
+26	было	БЫТЬ	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	согласовано	СОГЛАСОВАТЬ	VERB	VBNH	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+28	значительно	ЗНАЧИТЕЛЬНО	ADV	RB	Degree=Pos	29	advmod	_	_
+29	раньше	РАНЬШЕ	ADV	RBR	Degree=Cmp	27	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31	поэтому	ПОЭТОМУ	SCONJ	IN	_	32	mark	_	_
+32	сомнений	СОМНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	advcl	_	_
+33	в	В	ADP	IN	_	34	case	_	_
+34	них	ОНИ	PRON	PRP	Case=Loc|Number=Plur|Person=3	32	nmod	_	_
+35	ни	НИ	PART	UH	_	37	advmod	_	_
+36	у	У	ADP	IN	_	37	case	_	_
+37	кого	КТО	PRON	WP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	obl	_	_
+38	не	НЕ	PART	UH	_	39	advmod	_	_
+39	было	БЫТЬ	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	cop	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# sent_id = telegraf-2011032306-11-275-ru
+# text = Вводить же более серьезные экономические санкции ЕС, по мнению Владимира Некляева, не стал, чтобы не усугублять непростые отношения с белорусскими властями, сообщает "Белорусский партизан".
+1	Вводить	ВВОДИТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+2	же	ЖЕ	CCONJ	CC	_	15	cc	_	_
+3	более	БОЛЕЕ	ADV	RBR	Degree=Cmp	4	advmod	_	_
+4	серьезные	СЕРЬЕЗНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+5	экономические	ЭКОНОМИЧЕСКИЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	санкции	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+7	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	по	ПО	ADP	IN	_	10	case	_	_
+10	мнению	МНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	parataxis	_	_
+11	Владимира	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Некляева	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	10	punct	_	_
+14	не	НЕ	PART	UH	_	15	advmod	_	_
+15	стал	СТАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17	чтобы	ЧТОБЫ	SCONJ	IN	_	19	mark	_	_
+18	не	НЕ	PART	UH	_	19	advmod	_	_
+19	усугублять	УСУГУБЛЯТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	15	advcl	_	_
+20	непростые	НЕПРОСТОЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	отношения	ОТНОШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	_
+22	с	С	ADP	IN	_	24	case	_	_
+23	белорусскими	БЕЛОРУССКИЙ	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	властями	ВЛАСТЬ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	15	punct	_	_
+26	сообщает	СООБЩАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+27	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+28	Белорусский	БЕЛОРУССКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	партизан	ПАРТИЗАН	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+30	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	26	punct	_	_
+
+# sent_id = telegraf-2011032306-15-276-ru
+# text = "Этот шаг навстречу ЕС сделал с одной-единственной целью -- с предложением Лукашенко сделать шаг навстречу и освободить всех политзаключенных.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2	Этот	ЭТОТ	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	шаг	ШАГ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+4	навстречу	НАВСТРЕЧУ	ADV	RB	Degree=Pos	3	advmod	_	_
+5	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сделал	СДЕЛАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	с	С	ADP	IN	_	11	case	_	_
+8	одной	ОДИН	NUM	CD	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	единственной	ЕДИНСТВЕННЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	flat	_	_
+11	целью	ЦЕЛЬ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+12	--	--	PUNCT	PUNCT	_	11	punct	_	_
+13	с	С	ADP	IN	_	14	case	_	_
+14	предложением	ПРЕДЛОЖЕНИЕ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	appos	_	_
+15	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	сделать	СДЕЛАТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	шаг	ШАГ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	навстречу	НАВСТРЕЧУ	ADV	RB	Degree=Pos	17	advmod	_	_
+19	и	И	CCONJ	CC	_	20	cc	_	_
+20	освободить	ОСВОБОДИТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	16	conj	_	_
+21	всех	ВЕСЬ	DET	DT	Animacy=Anim|Case=Acc|Number=Plur	22	det	_	_
+22	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# sent_id = telegraf-2011032306-15-277-ru
+# text = Дальнейшее развитие конфликта между Минском и ЕС упирается именно в это -- в освобождение политзаключенных", -- поясняет политик.
+1	Дальнейшее	ДАЛЬНЕЙШИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	развитие	РАЗВИТИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	конфликта	КОНФЛИКТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	между	МЕЖДУ	ADP	IN	_	5	case	_	_
+5	Минском	МИНСКИЙ	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+6	и	И	CCONJ	CC	_	7	cc	_	_
+7	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	_
+8	упирается	УПИРАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	ccomp	_	_
+9	именно	ИМЕННО	PART	UH	_	11	advmod	_	_
+10	в	В	ADP	IN	_	11	case	_	_
+11	это	ЭТО	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+12	--	--	PUNCT	PUNCT	_	14	punct	_	_
+13	в	В	ADP	IN	_	14	case	_	_
+14	освобождение	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	appos	_	_
+15	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	8	punct	_	_
+18	--	--	PUNCT	PUNCT	_	8	punct	_	_
+19	поясняет	ПОЯСНЯТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+20	политик	ПОЛИТИК	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# sent_id = telegraf-2011032306-19-278-ru
+# text = Владимир Некляев рассматривает шаги Евросоюза как "реальную политическую волю урегулировать этот конфликт".
+1	Владимир	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	рассматривает	РАССМАТРИВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	шаги	ШАГ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	Евросоюза	ЕВРОСОЮЗ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	как	КАК	SCONJ	IN	_	10	mark	_	_
+7	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+8	реальную	РЕАЛЬНЫЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	политическую	ПОЛИТИЧЕСКИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	волю	ВОЛЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+11	урегулировать	УРЕГУЛИРОВАТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	этот	ЭТОТ	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	det	_	_
+13	конфликт	КОНФЛИКТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032306-19-279-ru
+# text = Одновременно с этим, отмечает оппозиционный политик, действия и заявления белорусского лидера Александра Лукашенко никак не способствуют разрешению данного конфликта.
+1	Одновременно	ОДНОВРЕМЕННО	ADV	RB	Degree=Pos	18	advmod	_	_
+2	с	С	ADP	IN	_	3	case	_	_
+3	этим	ЭТО	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	отмечает	ОТМЕЧАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+6	оппозиционный	ОППОЗИЦИОННЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	политик	ПОЛИТИК	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	действия	ДЕЙСТВИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+10	и	И	CCONJ	CC	_	11	cc	_	_
+11	заявления	ЗАЯВЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	conj	_	_
+12	белорусского	БЕЛОРУССКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	лидера	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+14	Александра	АЛЕКСАНДР	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat	_	_
+15	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat	_	_
+16	никак	НИКАК	ADV	RB	Degree=Pos	18	advmod	_	_
+17	не	НЕ	PART	UH	_	18	advmod	_	_
+18	способствуют	СПОСОБСТВОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	разрешению	РАЗРЕШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obj	_	_
+20	данного	ДАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	конфликта	КОНФЛИКТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# sent_id = telegraf-2011032306-23-280-ru
+# text = "Лукашенко (не знаю -- почему) слишком убежден в поддержке Кремля.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	не	НЕ	PART	UH	_	5	advmod	_	_
+5	знаю	ЗНАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+6	--	--	PUNCT	PUNCT	_	7	punct	_	_
+7	почему	ПОЧЕМУ	ADV	RB	Degree=Pos	5	advcl	_	SpaceAfter=No
+8	)	)	PUNCT	PUNCT	_	5	punct	_	_
+9	слишком	СЛИШКОМ	ADV	RB	Degree=Pos	10	advmod	_	_
+10	убежден	УБЕЖДЕННЫЙ	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+11	в	В	ADP	IN	_	12	case	_	_
+12	поддержке	ПОДДЕРЖКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	Кремля	КРЕМЛЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = telegraf-2011032306-23-281-ru
+# text = Но даже поддержка Кремля не обеспечит ему комфортное существование при ссоре с Европейским союзом.
+1	Но	НО	CCONJ	CC	_	6	cc	_	_
+2	даже	ДАЖЕ	PART	UH	_	3	advmod	_	_
+3	поддержка	ПОДДЕРЖКА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Кремля	КРЕМЛЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	не	НЕ	PART	UH	_	6	advmod	_	_
+6	обеспечит	ОБЕСПЕЧИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	ему	ОН	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	iobj	_	_
+8	комфортное	КОМФОРТНЫЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	существование	СУЩЕСТВОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+10	при	ПРИ	ADP	IN	_	11	case	_	_
+11	ссоре	ССОРА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+12	с	С	ADP	IN	_	14	case	_	_
+13	Европейским	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	союзом	СОЮЗ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = telegraf-2011032306-23-282-ru
+# text = Этой поддержки явно недостаточно", -- считает Владимир Некляев.
+1	Этой	ЭТОТ	DET	DT	Case=Gen|Gender=Fem|Number=Sing	2	det	_	_
+2	поддержки	ПОДДЕРЖКА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+3	явно	ЯВНО	ADV	RB	Degree=Pos	4	advmod	_	_
+4	недостаточно	НЕДОСТАТОЧНО	VERB	PRED	Degree=Pos	8	ccomp	_	SpaceAfter=No
+5	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	--	--	PUNCT	PUNCT	_	4	punct	_	_
+8	считает	СЧИТАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	Владимир	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = telegraf-2011032306-27-283-ru
+# text = В то же время лидер "Говори правду!" убежден, что если белорусский президент затянет с освобождением политзаключенных, чего требует от него Евросоюз, "проблема освобождения белорусских политзаключенных станет уже не только вопросом европейской политики".
+1	В	В	ADP	IN	_	4	case	_	_
+2	то	ТОТ	DET	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+3	же	ЖЕ	PART	UH	_	2	advmod	_	_
+4	время	ВРЕМЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+5	лидер	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+6	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	Говори	ГОВОРИТЬ	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	nmod	_	_
+8	правду	ПРАВДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	!	!	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	7	punct	_	_
+11	убежден	УБЕЖДЕННЫЙ	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	33	punct	_	_
+13	что	ЧТО	SCONJ	IN	_	33	mark	_	_
+14	если	ЕСЛИ	SCONJ	IN	_	17	mark	_	_
+15	белорусский	БЕЛОРУССКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	президент	ПРЕЗИДЕНТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	затянет	ЗАТЯНУТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	33	advcl	_	_
+18	с	С	ADP	IN	_	19	case	_	_
+19	освобождением	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+20	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	чего	ЧТО	PRON	WP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obj	_	_
+23	требует	ТРЕБОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	от	ОТ	ADP	IN	_	25	case	_	_
+25	него	ОН	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+26	Евросоюз	ЕВРОСОЮЗ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	23	punct	_	_
+28	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+29	проблема	ПРОБЛЕМА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+30	освобождения	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	белорусских	БЕЛОРУССКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+33	станет	СТАТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+34	уже	УЖЕ	ADV	RB	Degree=Pos	37	advmod	_	_
+35	не	НЕ	PART	UH	_	37	advmod	_	_
+36	только	ТОЛЬКО	PART	UH	_	37	advmod	_	_
+37	вопросом	ВОПРОС	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obj	_	_
+38	европейской	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	политики	ПОЛИТИКА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = telegraf-2011032306-27-284-ru
+# text = "Для политических лидеров Евросоюза, которые взяли опекунство над белорусскими политзаключенными, их освобождение станет делом чести, личным делом", -- отмечает Владимир Некляев.
+1	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+2	Для	ДЛЯ	ADP	IN	_	4	case	_	_
+3	политических	ПОЛИТИЧЕСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	лидеров	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+5	Евросоюза	ЕВРОСОЮЗ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	которые	КОТОРЫЙ	PRON	WPA	Case=Nom|Number=Plur	8	nsubj	_	_
+8	взяли	ВЗЯТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	опекунство	ОПЕКУНСТВО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	над	НАД	ADP	IN	_	12	case	_	_
+11	белорусскими	БЕЛОРУССКИЙ	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	политзаключенными	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	8	punct	_	_
+14	их	ИХ	DET	PRP$	_	15	det	_	_
+15	освобождение	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	станет	СТАТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	25	ccomp	_	_
+17	делом	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obj	_	_
+18	чести	ЧЕСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20	личным	ЛИЧНЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	делом	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	16	punct	_	_
+24	--	--	PUNCT	PUNCT	_	16	punct	_	_
+25	отмечает	ОТМЕЧАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+26	Владимир	ВЛАДИМИР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	Некляев	НЕКЛЯЕВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# sent_id = telegraf-2011032306-31-285-ru
+# text = "Это понимают и в белорусском МИДе, и в администрации президента.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	Это	ЭТО	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+3	понимают	ПОНИМАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	и	И	CCONJ	CC	_	7	cc	_	_
+5	в	В	ADP	IN	_	7	case	_	_
+6	белорусском	БЕЛОРУССКИЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	МИДе	МИД	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9	и	И	CCONJ	CC	_	11	cc	_	_
+10	в	В	ADP	IN	_	11	case	_	_
+11	администрации	АДМИНИСТРАЦИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_
+12	президента	ПРЕЗИДЕНТ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032306-31-286-ru
+# text = Но ведь все упирается в упорство, месть одного-единственного человека.
+1	Но	НО	CCONJ	CC	_	2	cc	_	_
+2	ведь	ВЕДЬ	PART	UH	_	4	advmod	_	_
+3	все	ВСЕ	PRON	DT	Case=Nom|Number=Plur	4	nsubj	_	_
+4	упирается	УПИРАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	В	ADP	IN	_	6	case	_	_
+6	упорство	УПОРСТВО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	месть	МЕСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+9	одного	ОДИН	NUM	CD	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	единственного	ЕДИНСТВЕННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	flat	_	_
+12	человека	ЧЕЛОВЕК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032306-31-287-ru
+# text = В проблеме освобождения политзаключенных, кроме личностного, ничего не осталось.
+1	В	В	ADP	IN	_	2	case	_	_
+2	проблеме	ПРОБЛЕМА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+3	освобождения	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6	кроме	КРОМЕ	ADP	IN	_	7	case	_	_
+7	личностного	ЛИЧНОСТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	7	punct	_	_
+9	ничего	НИЧТО	PRON	DT	Case=Gen|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	не	НЕ	PART	UH	_	11	advmod	_	_
+11	осталось	ОСТАТЬСЯ	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = telegraf-2011032306-31-288-ru
+# text = Именно личная месть диктовала аресты и пытки политзаключенных.
+1	Именно	ИМЕННО	PART	UH	_	3	advmod	_	_
+2	личная	ЛИЧНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	месть	МЕСТЬ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	диктовала	ДИКТОВАТЬ	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	аресты	АРЕСТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	и	И	CCONJ	CC	_	7	cc	_	_
+7	пытки	ПЫТКА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
+8	политзаключенных	ПОЛИТЗАКЛЮЧЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032306-31-289-ru
+# text = И это понимают все.
+1	И	И	CCONJ	CC	_	2	cc	_	_
+2	это	ЭТО	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+3	понимают	ПОНИМАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	все	ВСЕ	PRON	DT	Case=Nom|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032306-31-290-ru
+# text = В этой проблеме не может быть никакого компромисса: здесь уже "или - или".
+1	В	В	ADP	IN	_	3	case	_	_
+2	этой	ЭТОТ	DET	DT	Case=Loc|Gender=Fem|Number=Sing	3	det	_	_
+3	проблеме	ПРОБЛЕМА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	не	НЕ	PART	UH	_	5	advmod	_	_
+5	может	МОЧЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	быть	БЫТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	никакого	НИКАКОЙ	DET	DT	Case=Gen|Gender=Masc|Number=Sing	8	det	_	_
+8	компромисса	КОМПРОМИСС	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	13	punct	_	_
+10	здесь	ЗДЕСЬ	ADV	RB	Degree=Pos	13	advmod	_	_
+11	уже	УЖЕ	ADV	RB	Degree=Pos	13	advmod	_	_
+12	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	или	ИЛИ	CCONJ	CC	_	5	parataxis	_	_
+14	-	-	PUNCT	PUNCT	_	15	punct	_	_
+15	или	ИЛИ	CCONJ	CC	_	13	flat	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032306-31-291-ru
+# text = И любой здравомыслящий политик займет сторону Европейского союза", -- заявляет лидер "Говори правду!".
+1	И	И	CCONJ	CC	_	2	cc	_	_
+2	любой	ЛЮБОЙ	DET	DT	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	здравомыслящий	ЗДРАВОМЫСЛЯЩИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	политик	ПОЛИТИК	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	займет	ЗАНЯТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+6	сторону	СТОРОНА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	Европейского	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	союза	СОЮЗ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	5	punct	_	_
+11	--	--	PUNCT	PUNCT	_	5	punct	_	_
+12	заявляет	ЗАЯВЛЯТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	лидер	ЛИДЕР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	Говори	ГОВОРИТЬ	VERB	VBC	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	13	nmod	_	_
+16	правду	ПРАВДА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	!	!	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032306-35-292-ru
+# text = Как сообщал Телеграф, 23 марта на заседании совета министров иностранных дел стран Евросоюза было принято решение о расширении санкций против Беларуси.
+1	Как	КАК	SCONJ	IN	_	2	mark	_	_
+2	сообщал	СООБЩАТЬ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+3	Телеграф	ТЕЛЕГРАФ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	23	23	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+7	на	НА	ADP	IN	_	8	case	_	_
+8	заседании	ЗАСЕДАНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+9	совета	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	министров	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	иностранных	ИНОСТРАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	дел	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+13	стран	СТРАНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	Евросоюза	ЕВРОСОЮЗ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	было	БЫТЬ	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	принято	ПРИНЯТЫЙ	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+17	решение	РЕШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+18	о	О	ADP	IN	_	19	case	_	_
+19	расширении	РАСШИРЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+20	санкций	САНКЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	против	ПРОТИВ	ADP	IN	_	22	case	_	_
+22	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# sent_id = telegraf-2011032306-35-293-ru
+# text = По сообщениям европейских дипломатов, в обновленный черный список ЕС были добавлены 29 белорусских компаний, а также 12 частных лиц.
+1	По	ПО	ADP	IN	_	2	case	_	_
+2	сообщениям	СООБЩЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	_
+3	европейских	ЕВРОПЕЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	дипломатов	ДИПЛОМАТ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	в	В	ADP	IN	_	9	case	_	_
+7	обновленный	ОБНОВИТЬ	VERB	VBNL	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	черный	ЧЕРНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	список	СПИСОК	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+10	ЕС	ЕС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	были	БЫТЬ	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	добавлены	ДОБАВИТЬ	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	29	29	NUM	CD	Case=Nom	15	nummod:gov	_	_
+14	белорусских	БЕЛОРУССКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	компаний	КОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	21	punct	_	_
+17	а	А	CCONJ	CC	_	21	cc	_	_
+18	также	ТАКЖЕ	PART	UH	_	17	fixed	_	_
+19	12	12	NUM	CD	Case=Nom	21	nummod:gov	_	_
+20	частных	ЧАСТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	лиц	ЛИЦО	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = telegraf-2011032307-3-294-ru
+# text = Комитет министров СЕ призвал Беларусь к мораторию на смертную казнь
+1	Комитет	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	министров	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	СЕ	СЕ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	призвал	ПРИЗВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	Беларусь	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	к	К	ADP	IN	_	7	case	_	_
+7	мораторию	МОРАТОРИЙ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+8	на	НА	ADP	IN	_	10	case	_	_
+9	смертную	СМЕРТНЫЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	казнь	КАЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	_
+
+# sent_id = telegraf-2011032307-7-295-ru
+# text = Руководящий орган Совета Европы -- комитет министров -- выступил с осуждением приведения в исполнение смертного приговора осужденным за теракт в минском метро Дмитрию Коновалову и Владиславу Ковалеву и призвал власти Беларуси как можно скорее ввести мораторий на смертную казнь, что должно стать первым шагом на пути к ее полной отмене.
+1	Руководящий	РУКОВОДЯЩИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	орган	ОРГАН	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	Совета	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Европы	ЕВРОПА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	--	--	PUNCT	PUNCT	_	6	punct	_	_
+6	комитет	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+7	министров	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	--	--	PUNCT	PUNCT	_	6	punct	_	_
+9	выступил	ВЫСТУПИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	с	С	ADP	IN	_	11	case	_	_
+11	осуждением	ОСУЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	приведения	ПРИВЕДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	в	В	ADP	IN	_	14	case	_	_
+14	исполнение	ИСПОЛНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	смертного	СМЕРТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	приговора	ПРИГОВОР	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	осужденным	ОСУЖДЕННЫЙ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
+18	за	ЗА	ADP	IN	_	19	case	_	_
+19	теракт	ТЕРАКТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	в	В	ADP	IN	_	22	case	_	_
+21	минском	МИНСКИЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	метро	МЕТРО	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+23	Дмитрию	ДМИТРИЙ	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+24	Коновалову	КОНОВАЛОВ	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	flat	_	_
+25	и	И	CCONJ	CC	_	26	cc	_	_
+26	Владиславу	ВЛАДИСЛАВ	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	conj	_	_
+27	Ковалеву	КОВАЛЕВ	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	26	flat	_	_
+28	и	И	CCONJ	CC	_	29	cc	_	_
+29	призвал	ПРИЗВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+30	власти	ВЛАСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obj	_	_
+31	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	как	КАК	SCONJ	IN	_	34	advmod	_	_
+33	можно	МОЖНО	VERB	PRED	Degree=Pos	32	fixed	_	_
+34	скорее	СКОРО	ADV	RBR	Degree=Cmp	35	advmod	_	_
+35	ввести	ВВЕСТИ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+36	мораторий	МОРАТОРИЙ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	_
+37	на	НА	ADP	IN	_	39	case	_	_
+38	смертную	СМЕРТНЫЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	казнь	КАЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	PUNCT	_	42	punct	_	_
+41	что	ЧТО	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	nsubj	_	_
+42	должно	ДОЛЖЕН	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	36	acl	_	_
+43	стать	СТАТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	42	xcomp	_	_
+44	первым	ПЕРВЫЙ	ADJ	ORD	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+45	шагом	ШАГ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	43	obj	_	_
+46	на	НА	ADP	IN	_	47	case	_	_
+47	пути	ПУТЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	45	nmod	_	_
+48	к	К	ADP	IN	_	51	case	_	_
+49	ее	ЕЕ	DET	PRP$	_	51	det	_	_
+50	полной	ПОЛНЫЙ	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	отмене	ОТМЕНА	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = telegraf-2011032307-11-296-ru
+# text = В Комитете министров СЕ вместе с тем напомнили, что Совет Европы решительно осудил теракт на станции "Октябрьская" 11 апреля 2011 года, однако подчеркнули, что "правосудие не может вершиться за счет новых убийств".
+1	В	В	ADP	IN	_	2	case	_	_
+2	Комитете	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	министров	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	СЕ	СЕ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	вместе	ВМЕСТЕ	ADV	RB	Degree=Pos	8	advmod	_	_
+6	с	С	ADP	IN	_	7	case	_	_
+7	тем	ТО	PRON	DT	Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+8	напомнили	НАПОМНИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	14	punct	_	_
+10	что	ЧТО	SCONJ	IN	_	14	mark	_	_
+11	Совет	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	Европы	ЕВРОПА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	решительно	РЕШИТЕЛЬНО	ADV	RB	Degree=Pos	14	advmod	_	_
+14	осудил	ОСУДИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+15	теракт	ТЕРАКТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	на	НА	ADP	IN	_	17	case	_	_
+17	станции	СТАНЦИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	Октябрьская	ОКТЯБРЬСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	flat	_	SpaceAfter=No
+20	"	"	PUNCT	PUNCT	_	19	punct	_	_
+21	11	11	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	апреля	АПРЕЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+23	2011	2011	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26	однако	ОДНАКО	CCONJ	CC	_	27	cc	_	_
+27	подчеркнули	ПОДЧЕРКНУТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	33	punct	_	_
+29	что	ЧТО	SCONJ	IN	_	33	mark	_	_
+30	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+31	правосудие	ПРАВОСУДИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	_
+32	не	НЕ	PART	UH	_	33	advmod	_	_
+33	может	МОЧЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	_	_
+34	вершиться	ВЕРШИТЬСЯ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	33	xcomp	_	_
+35	за	ЗА	ADP	IN	_	38	case	_	_
+36	счет	СЧЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	fixed	_	_
+37	новых	НОВЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	убийств	УБИЙСТВО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	33	obl	_	SpaceAfter=No
+39	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = telegraf-2011032307-15-297-ru
+# text = "Применив эту меру наказания, которая является необратимой и непоправимой, белорусские власти пренебрегли одной из основополагающих ценностей Совета Европы — правом на жизнь.
+1	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+2	Применив	ПРИМЕНИТЬ	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	15	advcl	_	_
+3	эту	ЭТОТ	DET	DT	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
+4	меру	МЕРА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	наказания	НАКАЗАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	которая	КОТОРЫЙ	PRON	WPA	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	является	ЯВЛЯТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+9	необратимой	НЕОБРАТИМЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	obj	_	_
+10	и	И	CCONJ	CC	_	11	cc	_	_
+11	непоправимой	НЕПОПРАВИМЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	белорусские	БЕЛОРУССКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	власти	ВЛАСТЬ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	пренебрегли	ПРЕНЕБРЕЧЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	одной	ОДИН	DET	DT	Case=Ins|Gender=Fem|Number=Sing	15	obj	_	_
+17	из	ИЗ	ADP	IN	_	19	case	_	_
+18	основополагающих	ОСНОВОПОЛАГАЮЩИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	ценностей	ЦЕННОСТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+20	Совета	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	Европы	ЕВРОПА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	—	—	PUNCT	PUNCT	_	23	punct	_	_
+23	правом	ПРАВО	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	appos	_	_
+24	на	НА	ADP	IN	_	25	case	_	_
+25	жизнь	ЖИЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = telegraf-2011032307-15-298-ru
+# text = Такие действия противоречат нашей общей цели по сближению Беларуси и Совета Европы", -- говорится в заявлении комитета, обнародованном 22 марта.
+1	Такие	ТАКОЙ	DET	DT	Case=Nom|Number=Plur	2	det	_	_
+2	действия	ДЕЙСТВИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	противоречат	ПРОТИВОРЕЧИТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	_
+4	нашей	НАШ	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	6	det	_	_
+5	общей	ОБЩИЙ	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	цели	ЦЕЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+7	по	ПО	ADP	IN	_	8	case	_	_
+8	сближению	СБЛИЖЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+9	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	И	CCONJ	CC	_	11	cc	_	_
+11	Совета	СОВЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	Европы	ЕВРОПА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	3	punct	_	_
+15	--	--	PUNCT	PUNCT	_	3	punct	_	_
+16	говорится	ГОВОРИТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	в	В	ADP	IN	_	18	case	_	_
+18	заявлении	ЗАЯВЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+19	комитета	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	обнародованном	ОБНАРОДОВАТЬ	VERB	VBNL	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+22	22	22	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# sent_id = telegraf-2011032307-19-299-ru
+# text = Как ранее передавал Телеграф, Любовь Ковалева, мать приговоренного к высшей мере наказания за соучастие в теракте в минском метро Владислава Ковалева начала кампанию против смертной казни, чтобы спасти от смерти собственного сына, однако не оставила свою инициативу и после приведения в исполнение судебного приговора.
+1	Как	КАК	SCONJ	IN	_	3	mark	_	_
+2	ранее	РАНЕЕ	ADV	RBR	Degree=Cmp	3	advmod	_	_
+3	передавал	ПЕРЕДАВАТЬ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+4	Телеграф	ТЕЛЕГРАФ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	Любовь	ЛЮБОВЬ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+7	Ковалева	КОВАЛЕВА	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	мать	МАТЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+10	приговоренного	ПРИГОВОРИТЬ	VERB	VBNL	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+11	к	К	ADP	IN	_	13	case	_	_
+12	высшей	ВЫСШИЙ	ADJ	JJL	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	_
+13	мере	МЕРА	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+14	наказания	НАКАЗАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	за	ЗА	ADP	IN	_	16	case	_	_
+16	соучастие	СОУЧАСТИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+17	в	В	ADP	IN	_	18	case	_	_
+18	теракте	ТЕРАКТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	в	В	ADP	IN	_	21	case	_	_
+20	минском	МИНСКИЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	метро	МЕТРО	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+22	Владислава	ВЛАДИСЛАВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+23	Ковалева	КОВАЛЕВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	flat	_	_
+24	начала	НАЧАТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+25	кампанию	КАМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	против	ПРОТИВ	ADP	IN	_	28	case	_	_
+27	смертной	СМЕРТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	казни	КАЗНЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30	чтобы	ЧТОБЫ	SCONJ	IN	_	31	mark	_	_
+31	спасти	СПАСТИ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	24	advcl	_	_
+32	от	ОТ	ADP	IN	_	33	case	_	_
+33	смерти	СМЕРТЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
+34	собственного	СОБСТВЕННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	сына	СЫН	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+37	однако	ОДНАКО	CCONJ	CC	_	39	cc	_	_
+38	не	НЕ	PART	UH	_	39	advmod	_	_
+39	оставила	ОСТАВИТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	conj	_	_
+40	свою	СВОЙ	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing	41	det	_	_
+41	инициативу	ИНИЦИАТИВА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	_
+42	и	И	PART	UH	_	44	advmod	_	_
+43	после	ПОСЛЕ	ADP	IN	_	44	case	_	_
+44	приведения	ПРИВЕДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	obl	_	_
+45	в	В	ADP	IN	_	46	case	_	_
+46	исполнение	ИСПОЛНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	nmod	_	_
+47	судебного	СУДЕБНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	_
+48	приговора	ПРИГОВОР	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# sent_id = telegraf-2011032307-23-300-ru
+# text = Президент Беларуси Александр Лукашенко заявил, что подписывает смертные приговоры только тем, в отношении кого убежден на 100%, что они совершили те преступления, за которые предусмотрена смертная казнь.
+1	Президент	ПРЕЗИДЕНТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Александр	АЛЕКСАНДР	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+4	Лукашенко	ЛУКАШЕНКО	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	заявил	ЗАЯВИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	что	ЧТО	SCONJ	IN	_	8	mark	_	_
+8	подписывает	ПОДПИСЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+9	смертные	СМЕРТНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	приговоры	ПРИГОВОР	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	только	ТОЛЬКО	PART	UH	_	12	advmod	_	_
+12	тем	ТО	PRON	DT	Case=Ins|Gender=Neut|Number=Sing	10	iobj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14	в	В	ADP	IN	_	16	case	_	_
+15	отношении	ОТНОШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	кого	КТО	PRON	WP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+17	убежден	УБЕЖДЕННЫЙ	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	acl:relcl	_	_
+18	на	НА	ADP	IN	_	20	case	_	_
+19	100	100	NUM	CD	Case=Acc	20	nummod:gov	_	SpaceAfter=No
+20	%	ПРОЦЕНТ-ЗНАК	SYM	SYM	_	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22	что	ЧТО	SCONJ	IN	_	24	mark	_	_
+23	они	ОНИ	PRON	PRP	Case=Nom|Number=Plur|Person=3	24	nsubj	_	_
+24	совершили	СОВЕРШИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+25	те	ТОТ	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	26	det	_	_
+26	преступления	ПРЕСТУПЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
+28	за	ЗА	ADP	IN	_	29	case	_	_
+29	которые	КОТОРЫЙ	PRON	WPA	Animacy=Inan|Case=Acc|Number=Plur	30	obl	_	_
+30	предусмотрена	ПРЕДУСМОТРЕТЬ	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
+31	смертная	СМЕРТНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	казнь	КАЗНЬ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032307-23-301-ru
+# text = Что касается минских террористов Дмитрия Коновалова и Владислава Ковалева, то, по его словам, Бог "за этих простит".
+1	Что	ЧТО	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	касается	КАСАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	advcl	_	_
+3	минских	МИНСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	террористов	ТЕРРОРИСТ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+5	Дмитрия	ДМИТРИЙ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	_
+6	Коновалова	КОНОВАЛОВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat	_	_
+7	и	И	CCONJ	CC	_	8	cc	_	_
+8	Владислава	ВЛАДИСЛАВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	Ковалева	КОВАЛЕВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	то	ТО	SCONJ	IN	_	21	mark	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	по	ПО	ADP	IN	_	15	case	_	_
+14	его	ЕГО	DET	PRP$	_	15	det	_	_
+15	словам	СЛОВО	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	21	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	15	punct	_	_
+17	Бог	БОГ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+18	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+19	за	ЗА	ADP	IN	_	20	case	_	_
+20	этих	ЭТОТ	DET	DT	Animacy=Anim|Case=Acc|Number=Plur	21	obl	_	_
+21	простит	ПРОСТИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = telegraf-2011032308-3-302-ru
+# text = Купюра в 200 тыс. рублей поступит в банкоматы в конце марта
+1	Купюра	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	в	В	ADP	IN	_	5	case	_	_
+3	200	200	NUM	CD	Case=Acc	4	compound	_	_
+4	тыс.	ТЫС.	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nummod:gov	_	_
+5	рублей	РУБЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+6	поступит	ПОСТУПИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	В	ADP	IN	_	8	case	_	_
+8	банкоматы	БАНКОМАТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+9	в	В	ADP	IN	_	10	case	_	_
+10	конце	КОНЕЦ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+
+# sent_id = telegraf-2011032308-7-303-ru
+# text = Белорусские банки готовы работать с 200-тысячной купюрой.
+1	Белорусские	БЕЛОРУССКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	банки	БАНК	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	готовы	ГОТОВЫЙ	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	работать	РАБОТАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	с	С	ADP	IN	_	7	case	_	_
+6	200-тысячной	200-ТЫСЯЧНЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	купюрой	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032308-7-304-ru
+# text = Об этом говорится в официальном сообщении "Беларусбанка", который 22 марта первым протестировал банковское оборудование в работе с новой купюрой, презентованной 12 марта Нацбанком.
+1	Об	ОБ	ADP	IN	_	2	case	_	_
+2	этом	ЭТО	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	говорится	ГОВОРИТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	В	ADP	IN	_	6	case	_	_
+5	официальном	ОФИЦИАЛЬНЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сообщении	СООБЩЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	Беларусбанка	БЕЛАРУСБАНК	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	15	punct	_	_
+11	который	КОТОРЫЙ	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+12	22	22	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+14	первым	ПЕРВЫЙ	ADJ	ORD	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+15	протестировал	ПРОТЕСТИРОВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+16	банковское	БАНКОВСКИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	оборудование	ОБОРУДОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+18	в	В	ADP	IN	_	19	case	_	_
+19	работе	РАБОТА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+20	с	С	ADP	IN	_	22	case	_	_
+21	новой	НОВЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	купюрой	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	презентованной	ПРЕЗЕНТОВАТЬ	VERB	VBNL	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	22	acl	_	_
+25	12	12	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+27	Нацбанком	НАЦБАНК	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl:agent	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032308-11-305-ru
+# text = Как сообщили в "Беларусбанке", в настоящее время тестирование специализированного банковского оборудования еще не завершено.
+1	Как	КАК	SCONJ	IN	_	2	mark	_	_
+2	сообщили	СООБЩИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+3	в	В	ADP	IN	_	5	case	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	Беларусбанке	БЕЛАРУСБАНК	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8	в	В	ADP	IN	_	10	case	_	_
+9	настоящее	НАСТОЯЩИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	время	ВРЕМЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+11	тестирование	ТЕСТИРОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+12	специализированного	СПЕЦИАЛИЗИРОВАННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	банковского	БАНКОВСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	оборудования	ОБОРУДОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+15	еще	ЕЩЕ	ADV	RB	Degree=Pos	17	advmod	_	_
+16	не	НЕ	PART	UH	_	17	advmod	_	_
+17	завершено	ЗАВЕРШИТЬ	VERB	VBNH	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# sent_id = telegraf-2011032308-11-306-ru
+# text = Планируется, что новые купюры будут вводиться в обращение постепенно и уже в конце марта они будут загружены в некоторые банкоматы банка.
+1	Планируется	ПЛАНИРОВАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	7	punct	_	_
+3	что	ЧТО	SCONJ	IN	_	7	mark	_	_
+4	новые	НОВЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	купюры	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	будут	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	вводиться	ВВОДИТЬСЯ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	ccomp	_	_
+8	в	В	ADP	IN	_	9	case	_	_
+9	обращение	ОБРАЩЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+10	постепенно	ПОСТЕПЕННО	ADV	RB	Degree=Pos	7	advmod	_	_
+11	и	И	CCONJ	CC	_	18	cc	_	_
+12	уже	УЖЕ	ADV	RB	Degree=Pos	14	advmod	_	_
+13	в	В	ADP	IN	_	14	case	_	_
+14	конце	КОНЕЦ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+15	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	они	ОНИ	PRON	PRP	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+17	будут	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	загружены	ЗАГРУЗИТЬ	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+19	в	В	ADP	IN	_	21	case	_	_
+20	некоторые	НЕКОТОРЫЙ	DET	DT	Animacy=Inan|Case=Acc|Number=Plur	21	det	_	_
+21	банкоматы	БАНКОМАТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obl	_	_
+22	банка	БАНК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = telegraf-2011032308-15-307-ru
+# text = Как сообщал Телеграф, Национальный банк Беларуси презентовал новую банкноту 12 марта.
+1	Как	КАК	SCONJ	IN	_	2	mark	_	_
+2	сообщал	СООБЩАТЬ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+3	Телеграф	ТЕЛЕГРАФ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	Национальный	НАЦИОНАЛЬНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	банк	БАНК	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	презентовал	ПРЕЗЕНТОВАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	новую	НОВЫЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	банкноту	БАНКНОТА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	12	12	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = telegraf-2011032308-15-308-ru
+# text = На лицевой стороне купюры изображен Могилевский областной художественной музей им. П. В. Масленникова.
+1	На	НА	ADP	IN	_	3	case	_	_
+2	лицевой	ЛИЦЕВОЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороне	СТОРОНА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	купюры	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	изображен	ИЗОБРАЗИТЬ	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	Могилевский	МОГИЛЕВСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+7	областной	ОБЛАСТНОЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	художественной	ХУДОЖЕСТВЕННЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	музей	МУЗЕЙ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	им.	ИМЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	case	_	_
+11	П.	П.	PROPN	NNP	_	9	nmod	_	_
+12	В.	В.	PROPN	NNP	_	11	flat	_	_
+13	Масленникова	МАСЛЕННИКОВ	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032308-15-309-ru
+# text = Купюра выполнена в зелено-серых, коричневых и оранжевых тонах.
+1	Купюра	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	выполнена	ВЫПОЛНИТЬ	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	В	ADP	IN	_	9	case	_	_
+4	зелено-серых	ЗЕЛЕНО-СЕРЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	коричневых	КОРИЧНЕВЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	4	conj	_	_
+7	и	И	CCONJ	CC	_	8	cc	_	_
+8	оранжевых	ОРАНЖЕВЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	4	conj	_	_
+9	тонах	ТОН	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = telegraf-2011032308-15-310-ru
+# text = На ее обратной стороне изображен коллаж из декоративных элементов здания музея.
+1	На	НА	ADP	IN	_	4	case	_	_
+2	ее	ЕЕ	DET	PRP$	_	4	det	_	_
+3	обратной	ОБРАТНЫЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	стороне	СТОРОНА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	изображен	ИЗОБРАЗИТЬ	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	коллаж	КОЛЛАЖ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	из	ИЗ	ADP	IN	_	9	case	_	_
+8	декоративных	ДЕКОРАТИВНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	элементов	ЭЛЕМЕНТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	здания	ЗДАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	музея	МУЗЕЙ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032308-19-311-ru
+# text = Новая купюра стала первой в Беларуси, на которой стоит подпись нынешней главы Национального банка Надежды Ермаковой.
+1	Новая	НОВЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	купюра	КУПЮРА	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	стала	СТАТЬ	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	первой	ПЕРВЫЙ	ADJ	ORD	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	obj	_	_
+5	в	В	ADP	IN	_	6	case	_	_
+6	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	10	punct	_	_
+8	на	НА	ADP	IN	_	9	case	_	_
+9	которой	КОТОРЫЙ	PRON	WPA	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	стоит	СТОЯТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	подпись	ПОДПИСЬ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	нынешней	НЫНЕШНИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	главы	ГЛАВА	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	Национального	НАЦИОНАЛЬНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	банка	БАНК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	Надежды	НАДЕЖДА	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	flat	_	_
+17	Ермаковой	ЕРМАКОВА	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = telegraf-2011032309-3-312-ru
+# text = Сирия хочет выпускать лекарства вместе с Беларусью
+1	Сирия	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	хочет	ХОТЕТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выпускать	ВЫПУСКАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	лекарства	ЛЕКАРСТВО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	вместе	ВМЕСТЕ	ADV	RB	Degree=Pos	3	advmod	_	_
+6	с	С	ADP	IN	_	7	case	_	_
+7	Беларусью	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+
+# sent_id = telegraf-2011032309-7-313-ru
+# text = Беларусь и Сирия планируют заняться совместным выпуском лекарств.
+1	Беларусь	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	и	И	CCONJ	CC	_	3	cc	_	_
+3	Сирия	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	планируют	ПЛАНИРОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	заняться	ЗАНЯТЬСЯ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+6	совместным	СОВМЕСТНЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	выпуском	ВЫПУСК	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
+8	лекарств	ЛЕКАРСТВО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032309-7-314-ru
+# text = Об этом 23 марта рассказал министр здравоохранения Сирии Ваэль Аль-Халкі, который находится с визитом в Минске.
+1	Об	ОБ	ADP	IN	_	2	case	_	_
+2	этом	ЭТО	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	23	23	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	рассказал	РАССКАЗАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	министр	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	здравоохранения	ЗДРАВООХРАНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	Сирии	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	Ваэль	ВАЭЛЬ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+10	Аль-Халкі	АЛЬ-ХАЛКИ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	который	КОТОРЫЙ	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	находится	НАХОДИТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+14	с	С	ADP	IN	_	15	case	_	_
+15	визитом	ВИЗИТ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+16	в	В	ADP	IN	_	17	case	_	_
+17	Минске	МИНСК	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032309-7-315-ru
+# text = "Беларусь и Сирия изучают возможность создания на территориях обеих стран совместных предприятий по выпуску лекарственных средств.
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	Беларусь	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	и	И	CCONJ	CC	_	4	cc	_	_
+4	Сирия	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	изучают	ИЗУЧАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	возможность	ВОЗМОЖНОСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	создания	СОЗДАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	на	НА	ADP	IN	_	9	case	_	_
+9	территориях	ТЕРРИТОРИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	_
+10	обеих	ОБА	NUM	CD	Case=Gen|Gender=Fem	11	nummod	_	_
+11	стран	СТРАНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	совместных	СОВМЕСТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	предприятий	ПРЕДПРИЯТИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+14	по	ПО	ADP	IN	_	15	case	_	_
+15	выпуску	ВЫПУСК	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+16	лекарственных	ЛЕКАРСТВЕННЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	средств	СРЕДСТВО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032309-7-316-ru
+# text = Несколько сирийских инвесторов изъявили желание принять участие в реализации подобных проектов", -- сказал он.
+1	Несколько	НЕСКОЛЬКО	NUM	CD	Case=Nom	3	nummod:gov	_	_
+2	сирийских	СИРИЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	инвесторов	ИНВЕСТОР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	изъявили	ИЗЪЯВИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+5	желание	ЖЕЛАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	принять	ПРИНЯТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	участие	УЧАСТИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	в	В	ADP	IN	_	9	case	_	_
+9	реализации	РЕАЛИЗАЦИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	подобных	ПОДОБНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	проектов	ПРОЕКТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	4	punct	_	_
+14	--	--	PUNCT	PUNCT	_	4	punct	_	_
+15	сказал	СКАЗАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	он	ОН	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = telegraf-2011032309-11-317-ru
+# text = По словам министра здравоохранения Сирии, инвесторы готовы приступить к созданию совместных предприятий с Беларусью "уже сегодня", передает БелТА.
+1	По	ПО	ADP	IN	_	2	case	_	_
+2	словам	СЛОВО	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	_
+3	министра	МИНИСТР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	здравоохранения	ЗДРАВООХРАНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	Сирии	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	инвесторы	ИНВЕСТОР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	готовы	ГОТОВЫЙ	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	21	ccomp	_	_
+9	приступить	ПРИСТУПИТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	к	К	ADP	IN	_	11	case	_	_
+11	созданию	СОЗДАНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+12	совместных	СОВМЕСТНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	предприятий	ПРЕДПРИЯТИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	с	С	ADP	IN	_	15	case	_	_
+15	Беларусью	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+16	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+17	уже	УЖЕ	ADV	RB	Degree=Pos	18	advmod	_	_
+18	сегодня	СЕГОДНЯ	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	8	punct	_	_
+21	передает	ПЕРЕДАВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	БелТА	БЕЛТА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = telegraf-2011032309-15-318-ru
+# text = Кроме того, сирийские компании планируют закупить в Беларуси противораковые и антивирусные лекарства, препараты крови.
+1	Кроме	КРОМЕ	ADP	IN	_	2	case	_	_
+2	того	ТО	PRON	DT	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	сирийские	СИРИЙСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	компании	КОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	планируют	ПЛАНИРОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	закупить	ЗАКУПИТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	в	В	ADP	IN	_	9	case	_	_
+9	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	противораковые	ПРОТИВОРАКОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+11	и	И	CCONJ	CC	_	12	cc	_	_
+12	антивирусные	АНТИВИРУСНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	conj	_	_
+13	лекарства	ЛЕКАРСТВО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	препараты	ПРЕПАРАТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	conj	_	_
+16	крови	КРОВЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = telegraf-2011032309-15-319-ru
+# text = "Также Сирию интересует белорусское детское питание, включая сухие молочные смеси.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	Также	ТАКЖЕ	ADV	RB	Degree=Pos	4	advmod	_	_
+3	Сирию	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	интересует	ИНТЕРЕСОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	белорусское	БЕЛОРУССКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	детское	ДЕТСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	питание	ПИТАНИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9	включая	ВКЛЮЧАЯ	ADP	IN	_	12	case	_	_
+10	сухие	СУХОЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+11	молочные	МОЛОЧНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	смеси	СМЕСЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032309-15-320-ru
+# text = При этом сирийские препараты будут доступны в белорусских аптеках.
+1	При	ПРИ	ADP	IN	_	2	case	_	_
+2	этом	ЭТО	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	сирийские	СИРИЙСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	препараты	ПРЕПАРАТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	будут	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	доступны	ДОСТУПНЫЙ	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	в	В	ADP	IN	_	9	case	_	_
+8	белорусских	БЕЛОРУССКИЙ	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	аптеках	АПТЕКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = telegraf-2011032309-15-321-ru
+# text = В настоящее время сирийские лекарства продаются в 53 странах мира.
+1	В	В	ADP	IN	_	3	case	_	_
+2	настоящее	НАСТОЯЩИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	ВРЕМЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	сирийские	СИРИЙСКИЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	лекарства	ЛЕКАРСТВО	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	продаются	ПРОДАВАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	В	ADP	IN	_	9	case	_	_
+8	53	53	NUM	CD	Case=Loc	9	nummod	_	_
+9	странах	СТРАНА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+10	мира	МИР	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = telegraf-2011032309-15-322-ru
+# text = В Беларуси, уверен, они тоже будут востребованы", -- рассказал Ваэль Аль-Халки.
+1	В	В	ADP	IN	_	2	case	_	_
+2	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	уверен	УВЕРЕННЫЙ	ADJ	JJH	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	они	ОНИ	PRON	PRP	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+7	тоже	ТОЖЕ	PART	UH	_	9	advmod	_	_
+8	будут	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	востребованы	ВОСТРЕБОВАТЬ	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	ccomp	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	9	punct	_	_
+12	--	--	PUNCT	PUNCT	_	9	punct	_	_
+13	рассказал	РАССКАЗАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	Ваэль	ВАЭЛЬ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	Аль-Халки	АЛЬ-ХАЛКИ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = telegraf-2011032309-19-323-ru
+# text = Также Беларусь и Сирия в будущем планируют заключить соглашение о сотрудничестве в области здравоохранения.
+1	Также	ТАКЖЕ	ADV	RB	Degree=Pos	7	advmod	_	_
+2	Беларусь	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	и	И	CCONJ	CC	_	4	cc	_	_
+4	Сирия	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+5	в	В	ADP	IN	_	6	case	_	_
+6	будущем	БУДУЩЕЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	планируют	ПЛАНИРОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	заключить	ЗАКЛЮЧИТЬ	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	соглашение	СОГЛАШЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	о	О	ADP	IN	_	11	case	_	_
+11	сотрудничестве	СОТРУДНИЧЕСТВО	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	в	В	ADP	IN	_	14	case	_	_
+13	области	ОБЛАСТЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	_
+14	здравоохранения	ЗДРАВООХРАНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = telegraf-2011032309-19-324-ru
+# text = Ваэль Аль-Халки также поблагодарил белорусов и правительство страны "за поддержку Сирии в тяжелый момент".
+1	Ваэль	ВАЭЛЬ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Аль-Халки	АЛЬ-ХАЛКИ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	также	ТАКЖЕ	ADV	RB	Degree=Pos	4	advmod	_	_
+4	поблагодарил	ПОБЛАГОДАРИТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	белорусов	БЕЛОРУС	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	и	И	CCONJ	CC	_	7	cc	_	_
+7	правительство	ПРАВИТЕЛЬСТВО	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+8	страны	СТРАНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	за	ЗА	ADP	IN	_	11	case	_	_
+11	поддержку	ПОДДЕРЖКА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+12	Сирии	СИРИЯ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	в	В	ADP	IN	_	15	case	_	_
+14	тяжелый	ТЯЖЕЛЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	момент	МОМЕНТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032310-3-325-ru
+# text = С 25 марта "Белавиа" переходит на летнее расписание рейсов
+1	С	С	ADP	IN	_	3	case	_	_
+2	25	25	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	_
+7	переходит	ПЕРЕХОДИТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	НА	ADP	IN	_	10	case	_	_
+9	летнее	ЛЕТНИЙ	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	расписание	РАСПИСАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+11	рейсов	РЕЙС	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+
+# sent_id = telegraf-2011032310-7-326-ru
+# text = С 25 марта по 27 октября национальная авиакомпания "Белавиа" будет работать по летнему расписанию рейсов.
+1	С	С	ADP	IN	_	3	case	_	_
+2	25	25	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	марта	МАРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+4	по	ПО	ADP	IN	_	6	case	_	_
+5	27	27	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	октября	ОКТЯБРЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+7	национальная	НАЦИОНАЛЬНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	авиакомпания	АВИАКОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	flat	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	10	punct	_	_
+12	будет	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	работать	РАБОТАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+14	по	ПО	ADP	IN	_	16	case	_	_
+15	летнему	ЛЕТНИЙ	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	расписанию	РАСПИСАНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+17	рейсов	РЕЙС	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = telegraf-2011032310-7-327-ru
+# text = В этот период авиакомпания увеличивает частоту выполнения полетов, вводит традиционные сезонные рейсы, а также открывает новые направления полетов, сообщили в "Белавиа".
+1	В	В	ADP	IN	_	3	case	_	_
+2	этот	ЭТОТ	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	период	ПЕРИОД	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	авиакомпания	АВИАКОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	увеличивает	УВЕЛИЧИВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	ccomp	_	_
+6	частоту	ЧАСТОТА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	выполнения	ВЫПОЛНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	полетов	ПОЛЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	вводит	ВВОДИТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	традиционные	ТРАДИЦИОННЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+12	сезонные	СЕЗОННЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	рейсы	РЕЙС	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	а	А	CCONJ	CC	_	17	cc	_	_
+16	также	ТАКЖЕ	PART	UH	_	15	fixed	_	_
+17	открывает	ОТКРЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	новые	НОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	направления	НАПРАВЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+20	полетов	ПОЛЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	5	punct	_	_
+22	сообщили	СООБЩИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+23	в	В	ADP	IN	_	25	case	_	_
+24	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+25	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# sent_id = telegraf-2011032310-11-328-ru
+# text = В частности, как сообщили Телеграфу, в этом летнем сезоне "Белавиа" увеличивает частоту выполнения рейсов практически по всем направлениям -- в Париж, Тель-Авив, Екатеринбург, Тегеран, Ларнака, Ашхабад, Санкт-Петербург, Баку и другие города.
+1	В	В	ADP	IN	_	15	parataxis	_	_
+2	частности	ЧАСТНОСТЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	как	КАК	SCONJ	IN	_	5	mark	_	_
+5	сообщили	СООБЩИТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+6	Телеграфу	ТЕЛЕГРАФ	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	5	punct	_	_
+8	в	В	ADP	IN	_	11	case	_	_
+9	этом	ЭТОТ	DET	DT	Case=Loc|Gender=Masc|Number=Sing	11	det	_	_
+10	летнем	ЛЕТНИЙ	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	сезоне	СЕЗОН	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+12	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+14	"	"	PUNCT	PUNCT	_	13	punct	_	_
+15	увеличивает	УВЕЛИЧИВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	частоту	ЧАСТОТА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	выполнения	ВЫПОЛНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	рейсов	РЕЙС	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	практически	ПРАКТИЧЕСКИ	ADV	RB	Degree=Pos	22	advmod	_	_
+20	по	ПО	ADP	IN	_	22	case	_	_
+21	всем	ВЕСЬ	DET	DT	Case=Dat|Number=Plur	22	det	_	_
+22	направлениям	НАПРАВЛЕНИЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	_
+23	--	--	PUNCT	PUNCT	_	25	punct	_	_
+24	в	В	ADP	IN	_	25	case	_	_
+25	Париж	ПАРИЖ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	Тель-Авив	ТЕЛЬ-АВИВ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	Екатеринбург	ЕКАТЕРИНБУРГ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	Тегеран	ТЕГЕРАН	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	Ларнака	ЛАРНАКА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+34	,	,	PUNCT	PUNCT	_	35	punct	_	_
+35	Ашхабад	АШХАБАД	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	37	punct	_	_
+37	Санкт-Петербург	САНКТ-ПЕТЕРБУРГ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	39	punct	_	_
+39	Баку	БАКУ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	_
+40	и	И	CCONJ	CC	_	42	cc	_	_
+41	другие	ДРУГОЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	42	amod	_	_
+42	города	ГОРОД	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# sent_id = telegraf-2011032310-11-329-ru
+# text = Кроме того, возобновляются сезонные рейсы в Караганду, Кустанай, Павлодар, Манчестер, Сочи и Симферополь.
+1	Кроме	КРОМЕ	ADP	IN	_	2	case	_	_
+2	того	ТО	PRON	DT	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	возобновляются	ВОЗОБНОВЛЯТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	сезонные	СЕЗОННЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	рейсы	РЕЙС	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+7	в	В	ADP	IN	_	8	case	_	_
+8	Караганду	КАРАГАНДА	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	Кустанай	КУСТАНАЙ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	Павлодар	ПАВЛОДАР	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	Манчестер	МАНЧЕСТЕР	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	Сочи	СОЧИ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+17	и	И	CCONJ	CC	_	18	cc	_	_
+18	Симферополь	СИМФЕРОПОЛЬ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = telegraf-2011032310-15-330-ru
+# text = С 3 июня "Белавиа" открывает новый рейс Минск - Новосибирск - Минск, который станет самым дальним пунктом назначения для авиакомпании, а с 15 июня рейс Минск - Батуми будет выполняться ежедневно.
+1	С	С	ADP	IN	_	3	case	_	_
+2	3	3	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	июня	ИЮНЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	_
+7	открывает	ОТКРЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	новый	НОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	рейс	РЕЙС	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	Минск	МИНСК	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+11	-	-	PUNCT	PUNCT	_	12	punct	_	_
+12	Новосибирск	НОВОСИБИРСК	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
+13	-	-	PUNCT	PUNCT	_	14	punct	_	_
+14	Минск	МИНСК	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16	который	КОТОРЫЙ	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	станет	СТАТЬ	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+18	самым	САМЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	дальним	ДАЛЬНИЙ	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	пунктом	ПУНКТ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obj	_	_
+21	назначения	НАЗНАЧЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	для	ДЛЯ	ADP	IN	_	23	case	_	_
+23	авиакомпании	АВИАКОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	34	punct	_	_
+25	а	А	CCONJ	CC	_	34	cc	_	_
+26	с	С	ADP	IN	_	28	case	_	_
+27	15	15	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	июня	ИЮНЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	_
+29	рейс	РЕЙС	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+30	Минск	МИНСК	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	flat	_	_
+31	-	-	PUNCT	PUNCT	_	32	punct	_	_
+32	Батуми	БАТУМИ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	flat	_	_
+33	будет	БЫТЬ	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	34	aux	_	_
+34	выполняться	ВЫПОЛНЯТЬСЯ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	conj	_	_
+35	ежедневно	ЕЖЕДНЕВНО	ADV	RB	Degree=Pos	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = telegraf-2011032310-19-331-ru
+# text = "Открывая новый сезон, мы стараемся учитывать в первую очередь пожелания наших пассажиров и планируем в соответствии с ними свои маршруты.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	Открывая	ОТКРЫВАТЬ	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+3	новый	НОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	сезон	СЕЗОН	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	мы	МЫ	PRON	PRP	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+7	стараемся	СТАРАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	учитывать	УЧИТЫВАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	в	В	ADP	IN	_	8	advmod	_	_
+10	первую	ПЕРВЫЙ	ADJ	ORD	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	fixed	_	_
+11	очередь	ОЧЕРЕДЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	fixed	_	_
+12	пожелания	ПОЖЕЛАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+13	наших	НАШ	DET	PRP$	Case=Gen|Number=Plur	14	det	_	_
+14	пассажиров	ПАССАЖИР	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	И	CCONJ	CC	_	16	cc	_	_
+16	планируем	ПЛАНИРОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	в	В	ADP	IN	_	20	case	_	_
+18	соответствии	СООТВЕТСТВИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	fixed	_	_
+19	с	С	ADP	IN	_	17	fixed	_	_
+20	ними	ОНИ	PRON	PRP	Case=Ins|Number=Plur|Person=3	16	obl	_	_
+21	свои	СВОЙ	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	22	det	_	_
+22	маршруты	МАРШРУТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = telegraf-2011032310-19-332-ru
+# text = Также мы стремимся, чтобы в период отпусков наши клиенты могли выбирать рейсы с удобными стыковками, и без утомительных ожиданий начинать отдыхать", -- рассказал генеральный директор "Белавиа" Анатолий Гусаров.
+1	Также	ТАКЖЕ	ADV	RB	Degree=Pos	3	advmod	_	_
+2	мы	МЫ	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	стремимся	СТРЕМИТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	27	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	11	punct	_	_
+5	чтобы	ЧТОБЫ	SCONJ	IN	_	11	mark	_	_
+6	в	В	ADP	IN	_	7	case	_	_
+7	период	ПЕРИОД	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+8	отпусков	ОТПУСК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	наши	НАШ	DET	PRP$	Case=Nom|Number=Plur	10	det	_	_
+10	клиенты	КЛИЕНТ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	могли	МОЧЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+12	выбирать	ВЫБИРАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	рейсы	РЕЙС	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	с	С	ADP	IN	_	16	case	_	_
+15	удобными	УДОБНЫЙ	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	стыковками	СТЫКОВКА	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	22	punct	_	_
+18	и	И	CCONJ	CC	_	22	cc	_	_
+19	без	БЕЗ	ADP	IN	_	21	case	_	_
+20	утомительных	УТОМИТЕЛЬНЫЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	ожиданий	ОЖИДАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	obl	_	_
+22	начинать	НАЧИНАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+23	отдыхать	ОТДЫХАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	3	punct	_	_
+26	--	--	PUNCT	PUNCT	_	3	punct	_	_
+27	рассказал	РАССКАЗАТЬ	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+28	генеральный	ГЕНЕРАЛЬНЫЙ	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	директор	ДИРЕКТОР	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+30	"	"	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	"	"	PUNCT	PUNCT	_	31	punct	_	_
+33	Анатолий	АНАТОЛИЙ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat	_	_
+34	Гусаров	ГУСАРОВ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	flat	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# sent_id = telegraf-2011032310-23-333-ru
+# text = Кроме того, в преддверии Олимпийских игр "Белавиа" увеличивает количество рейсов в Лондон, так как авиакомпания выступает перевозчиком олимпийской и параолимпийской сборных Беларуси.
+1	Кроме	КРОМЕ	ADP	IN	_	2	case	_	_
+2	того	ТО	PRON	DT	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	в	В	ADP	IN	_	5	case	_	_
+5	преддверии	ПРЕДДВЕРИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+6	Олимпийских	ОЛИМПИЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	игр	ИГРА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	Белавиа	БЕЛАВИА	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	9	punct	_	_
+11	увеличивает	УВЕЛИЧИВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	количество	КОЛИЧЕСТВО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	рейсов	РЕЙС	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	в	В	ADP	IN	_	15	case	_	_
+15	Лондон	ЛОНДОН	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	так	ТАК	ADV	RB	Degree=Pos	20	mark	_	_
+18	как	КАК	SCONJ	IN	_	17	fixed	_	_
+19	авиакомпания	АВИАКОМПАНИЯ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	выступает	ВЫСТУПАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+21	перевозчиком	ПЕРЕВОЗЧИК	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obj	_	_
+22	олимпийской	ОЛИМПИЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+23	и	И	CCONJ	CC	_	24	cc	_	_
+24	параолимпийской	ПАРАОЛИМПИЙСКИЙ	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	conj	_	_
+25	сборных	СБОРНАЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+26	Беларуси	БЕЛАРУСЬ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
