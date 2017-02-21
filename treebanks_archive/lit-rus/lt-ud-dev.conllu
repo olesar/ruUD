@@ -1,0 +1,1306 @@
+# newpar id = 144
+# sent_id = 144
+# text = Sutinku, bet polinkis kalbėti, juo labiau šaukti apie kitų kaltes (nors tai psichologiškai suprantama reakcija) tik sunkina problemą.
+1	Sutinku	sutikti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	PUNCT	_	21	punct	_	_
+3	bet	bet	CCONJ	CC	_	21	cc	_	_
+4	polinkis	polinkis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+5	kalbėti	kalbėti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	juo	juo	PART	UH	_	9	mark	_	_
+8	labiau	labai	ADV	RBR	Degree=Cmp	9	advmod	_	_
+9	šaukti	šaukti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	5	conj	_	_
+10	apie	apie	ADP	UH	_	12	case	_	_
+11	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	12	nmod	_	_
+12	kaltes	kaltė	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+13	(	(	PUNCT	PUNCT	_	18	punct	_	_
+14	nors	nors	SCONJ	UH	_	19	mark	_	_
+15	tai	tai	PRON	DT	_	18	nsubj	_	_
+16	psichologiškai	psichologiškai	ADV	RB	Degree=Pos	17	advmod	_	_
+17	suprantama	suprasti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+18	reakcija	reakcija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
+19	)	)	PUNCT	PUNCT	_	18	punct	_	_
+20	tik	tik	ADV	RB	Degree=Pos	21	advmod	_	_
+21	sunkina	sunkinti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+22	problemą	problema	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 145
+# sent_id = 145
+# text = Kalbėjimas apie savo kaltes (kuris reikalauja vidinio brandumo ir tam tikrų pastangų) ją gali kiek palengvinti.
+1	Kalbėjimas	kalbėjimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	apie	apie	ADP	UH	_	4	case	_	_
+3	savo	savo	DET	PRP$	_	4	det	_	_
+4	kaltes	kaltė	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
+5	(	(	PUNCT	PUNCT	_	6	punct	_	_
+6	kuris	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	reikalauja	reikalauti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+8	vidinio	vidinis	ADJ	NN	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+9	brandumo	brandumas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	_
+10	ir	ir	CCONJ	CC	_	13	cc	_	_
+11	tam	tam	DET	DT	_	13	det	_	_
+12	tikrų	tikras	PRON	DT	Case=Gen|Gender=Fem|Number=Plur	11	fixed	_	_
+13	pastangų	pastangos	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	_
+14	)	)	PUNCT	PUNCT	_	13	punct	_	_
+15	ją	jis	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	obj	_	_
+16	gali	galėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	kiek	kiek	ADV	WRB	Degree=Pos	18	advmod	_	_
+18	palengvinti	palengvinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+19	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# newpar id = 146
+# sent_id = 146
+# text = Santykiuose su Vilnijos lenkais ima veikti tragiškas grįžtamasis ryšys: vienų nenuolaidumas stiprina kitų nenuolaidumą.
+1	Santykiuose	santykis	NOUN	NN	Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+2	su	su	ADP	UH	_	4	case	_	_
+3	Vilnijos	Vilnija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+4	lenkais	lenkas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+5	ima	imti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	veikti	veikti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	tragiškas	tragiškas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	grįžtamasis	grįžti	VERB	VBNL	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	ryšys	ryšys	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	:	:	PUNCT	PUNCT	_	11	punct	_	_
+11	vienų	vienas	PRON	DT	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+12	nenuolaidumas	nenuolaidumas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	13	nsubj	_	_
+13	stiprina	stiprinti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	15	nmod	_	_
+15	nenuolaidumą	nenuolaidumas	NOUN	NN	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	13	obj	_	_
+16	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# newpar id = 147
+# sent_id = 147
+# text = Ko gero, tas grįžtamasis ryšys veikia nuo 1939 metų.
+1	Ko	kas	ADV	WRB	Degree=Pos	7	parataxis	_	_
+2	gero	geras	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	PUNCT	_	1	punct	_	_
+4	tas	tas	DET	DT	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	grįžtamasis	grįžti	VERB	VBNL	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	ryšys	ryšys	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	veikia	veikti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	nuo	nuo	ADP	UH	_	10	case	_	_
+9	1939	1939	ADJ	ORD	_	10	amod	_	_
+10	metų	metai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# newpar id = 148
+# sent_id = 148
+# text = Kada Vilnija grįžo Lietuvai, daugelis tenykščių gyventojų dar nesunkiai galėjo pakrypti Lietuvos pusėn.
+1	Kada	Kada	ADV	RB	Degree=Pos	3	advmod	_	_
+2	Vilnija	Vilnija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	grįžo	grįžti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+4	Lietuvai	Lietuva	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	_
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	daugelis	daugelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	tenykščių	tenykštis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	gyventojų	gyventojas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	dar	dar	ADV	RB	Degree=Pos	10	advmod	_	_
+10	nesunkiai	nesunkiai	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	_	_
+11	galėjo	galėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	pakrypti	pakrypti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+14	pusėn	pusėn	NOUN	NN	_	12	obl	_	_
+15	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# newpar id = 149
+# sent_id = 149
+# text = Dažnas jų sutiko ir net norėjo vadintis lietuviu, tik kitonišku, lenkiškai kalbančiu, išlaikančiu ryšį su lenkų kultūra.
+1	Dažnas	dažnas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	jų	jie	PRON	PRP	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+3	sutiko	sutikti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ir	ir	CCONJ	CC	_	6	cc	_	_
+5	net	net	PART	UH	_	6	advmod	_	_
+6	norėjo	norėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	vadintis	vadintis	VERB	VB	Polarity=Pos|Reflex=Yes|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	lietuviu	lietuvis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	iobj	_	_
+9	,	,	PUNCT	PUNCT	_	14	punct	_	_
+10	tik	tik	ADV	RB	Degree=Pos	14	advmod	_	_
+11	kitonišku	kitonišku	ADV	RB	Degree=Pos	14	advmod	_	_
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	lenkiškai	lenkiškai	ADV	RB	Degree=Pos	11	conj	_	_
+14	kalbančiu	kalbėti	VERB	VBNL	Case=Ins|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	8	conj	_	_
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	išlaikančiu	išlaikyti	VERB	VBNL	Case=Ins|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+17	ryšį	ryšys	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	su	su	ADP	UH	_	20	case	_	_
+19	lenkų	lenkas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_
+20	kultūra	kultūra	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 150
+# sent_id = 150
+# text = Tai buvo tiesiog sudėtingesnė tautinės sąmonės forma, būdinga tokiems žmonėms kaip Mykolas Riomeris.
+1	Tai	tai	PRON	DT	_	7	nsubj	_	_
+2	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	tiesiog	tiesiog	ADV	RB	Degree=Pos	4	advmod	_	_
+4	sudėtingesnė	sudėtingas	ADJ	JJR	Case=Nom|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	amod	_	_
+5	tautinės	tautinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	sąmonės	sąmonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+7	forma	forma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	būdinga	būdingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	acl	_	_
+10	tokiems	toks	DET	DT	Case=Dat|Gender=Masc|Number=Plur	11	det	_	_
+11	žmonėms	žmogus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_
+12	kaip	kaip	SCONJ	UH	_	13	case	_	_
+13	Mykolas	Mykolas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Riomeris	Riomeris	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# newpar id = 151
+# sent_id = 151
+# text = Kiti, kaip žinoma, aiškios tautinės sąmonės iš vis neturėjo.
+1	Kiti	kitas	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3	kaip	kaip	SCONJ	UH	_	4	mark	_	_
+4	žinoma	žinoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	aiškios	aiškus	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	tautinės	tautinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	sąmonės	sąmonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obj	_	_
+9	iš	iš	ADP	UH	_	10	case	_	_
+10	vis	vis	ADV	RB	Degree=Pos	11	obl	_	_
+11	neturėjo	turėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# newpar id = 152
+# sent_id = 152
+# text = Treti buvo nevietinės kilmės lenkai, bet tai nereiškė, kad juos derėjo diskriminuoti.
+1	Treti	trečias	ADJ	ORD	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	nevietinės	nevietinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	4	amod	_	_
+4	kilmės	kilmė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+5	lenkai	lenkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	bet	bet	CCONJ	CC	_	9	cc	_	_
+8	tai	tai	PRON	DT	_	9	nsubj	_	_
+9	nereiškė	reikšti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	kad	kad	SCONJ	UH	_	13	mark	_	_
+12	juos	jie	PRON	PRP	Case=Acc|Number=Plur|Person=3	14	obj	_	_
+13	derėjo	derėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+14	diskriminuoti	diskriminuoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 153
+# sent_id = 153
+# text = Tačiau jau 1939 metais prasidėjo įkyrus ir beatodairiškas krašto lietuvinimas, visiškai neatsižvelgiąs į jo ypatingumus, į sudėtingas ir ne tokias sudėtingas sąmonės formas.
+1	Tačiau	Tačiau	CCONJ	CC	_	5	cc	_	_
+2	jau	jau	PART	UH	_	4	advmod	_	_
+3	1939	1939	ADJ	ORD	_	4	amod	_	_
+4	metais	metai	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+5	prasidėjo	prasidėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	įkyrus	įkyrus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+7	ir	ir	CCONJ	CC	_	8	cc	_	_
+8	beatodairiškas	beatodairiškas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	6	conj	_	_
+9	krašto	kraštas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+10	lietuvinimas	lietuvinimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	visiškai	visiškai	ADV	RB	Degree=Pos	13	advmod	_	_
+13	neatsižvelgiąs	atsižvelgti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|Reflex=Yes|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	5	advcl	_	_
+14	į	į	ADP	UH	_	16	case	_	_
+15	jo	jo	DET	PRP$	_	16	det	_	_
+16	ypatingumus	ypatingumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+17	,	,	PUNCT	PUNCT	_	25	punct	_	_
+18	į	į	ADP	UH	_	25	case	_	_
+19	sudėtingas	sudėtingas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	_
+20	ir	ir	CCONJ	CC	_	23	cc	_	_
+21	ne	ne	PART	UH	Polarity=Neg	22	advmod	_	_
+22	tokias	toks	DET	DT	Case=Acc|Gender=Fem|Number=Plur	23	det	_	_
+23	sudėtingas	sudėtingas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	19	conj	_	_
+24	sąmonės	sąmonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+25	formas	forma	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	conj	_	_
+26	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 154
+# sent_id = 154
+# text = Jis buvo pagal išgales tęsiamas nacių okupacijos metais.
+1	Jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	pagal	pagal	ADP	UH	_	4	case	_	_
+4	išgales	išgalė	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+5	tęsiamas	tęsti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+6	nacių	nacis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+7	okupacijos	okupacija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+8	metais	metai	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+9	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 155
+# sent_id = 155
+# text = Tai lėmė nepalankų Lietuvai lūžį – vietos žmonės įpyko ir pasirinko ne lietuviškumą, o lenkiškumą.
+1	Tai	tai	PRON	DT	_	2	nsubj	_	_
+2	lėmė	lemti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	nepalankų	nepalankus	ADJ	NN	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	Lietuvai	Lietuva	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	_
+5	lūžį	lūžis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	–	–	PUNCT	PUNCT	_	9	punct	_	_
+7	vietos	vieta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+8	žmonės	žmogus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	įpyko	įpykti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+10	ir	ir	CCONJ	CC	_	11	cc	_	_
+11	pasirinko	pasirinkti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+12	ne	ne	PART	UH	Polarity=Neg	13	cc	_	_
+13	lietuviškumą	lietuviškumas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	obj	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	o	o	CCONJ	CC	_	16	cc	_	_
+16	lenkiškumą	lenkiškumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# newpar id = 156
+# sent_id = 156
+# text = Buvo ir kitokių priežasčių, bet, manau, nėra jokios abejonės, kad tokią plėtotę nemaža dalimi lėmė mūsų siaurakakčiai patriotai.
+1	Buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	ir	ir	PART	UH	_	4	advmod	_	_
+3	kitokių	kitoks	DET	DT	Case=Gen|Gender=Fem|Number=Plur	4	det	_	_
+4	priežasčių	priežastis	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+5	,	,	PUNCT	PUNCT	_	12	punct	_	_
+6	bet	bet	CCONJ	CC	_	12	cc	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	manau	manyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+9	,	,	PUNCT	PUNCT	_	8	punct	_	_
+10	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+11	jokios	joks	DET	DT	Case=Gen|Gender=Fem|Number=Sing	12	det	_	_
+12	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+13	,	,	PUNCT	PUNCT	_	19	punct	_	_
+14	kad	kad	SCONJ	UH	_	19	mark	_	_
+15	tokią	toks	DET	DT	Case=Acc|Gender=Fem|Number=Sing	16	det	_	_
+16	plėtotę	plėtotė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+17	nemaža	nemažas	ADJ	JJ	_	18	amod	_	_
+18	dalimi	dalis	NOUN	NN	Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+19	lėmė	lemti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+20	mūsų	mūsų	DET	PRP$	_	22	det	_	_
+21	siaurakakčiai	siaurakaktis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	patriotai	patriotas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+23	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# newpar id = 157
+# sent_id = 157
+# text = Dabar, ko gero, daug sunkiau užgesinti priešiškumą, negu anuomet.
+1	Dabar	Dabar	ADV	RB	Degree=Pos	7	advmod	_	_
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	ko	ko	PART	UH	Degree=Pos	7	advmod	_	_
+4	gero	geras	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	fixed	_	_
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	daug	daug	ADV	NUM	Degree=Pos	9	nsubj	_	_
+7	sunkiau	sunkti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	užgesinti	užgesinti	VERB	VB	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+9	priešiškumą	priešiškumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	negu	negu	SCONJ	UH	_	12	case	_	_
+12	anuomet	anuomet	ADV	RB	Degree=Pos	9	obl	_	_
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# newpar id = 158
+# sent_id = 158
+# text = Vienintelis dalykas, kurį galiu rekomenduoti – nepilkime benzino į ugnį.
+1	Vienintelis	Vienintelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	dalykas	dalykas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	kurį	kuris	PRON	WPA	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	galiu	galėti	VERB	NN	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+6	rekomenduoti	rekomenduoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	–	–	PUNCT	PUNCT	_	5	punct	_	_
+8	nepilkime	pilti	VERB	VBC	Mood=Imp|Number=Plur|Person=1|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	0	root	_	_
+9	benzino	benzinas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	_
+10	į	į	ADP	UH	_	11	case	_	_
+11	ugnį	ugnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# newpar id = 159
+# sent_id = 159
+# text = Ne vienas mūsų politikas laiko lenkus ir kitas etnines mažumas nelojaliomis ex definitione, o jau jų bendruomenių vadovus – paprasčiausia penktąja kolona.
+1	Ne	Ne	PART	UH	Polarity=Neg	2	advmod	_	_
+2	vienas	vienas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	mūsų	mūsų	DET	PRP$	_	4	det	_	_
+4	politikas	politikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	laiko	laikyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	lenkus	lenkas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	ir	ir	CCONJ	CC	_	10	cc	_	_
+8	kitas	kitas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+9	etnines	etninis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	mažumas	mažumas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+11	nelojaliomis	nelojalus	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg	5	iobj	_	_
+12	ex	ex	ADP	UH	_	5	advmod	_	_
+13	definitione	definitione	X	X	_	12	flat	_	_
+14	,	,	PUNCT	PUNCT	_	19	punct	_	_
+15	o	o	CCONJ	CC	_	19	cc	_	_
+16	jau	jau	ADV	RB	Degree=Pos	19	advmod	_	_
+17	jų	jų	DET	PRP$	_	18	det	_	_
+18	bendruomenių	bendruomenė	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+19	vadovus	vadovas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+20	–	–	PUNCT	PUNCT	_	23	punct	_	_
+21	paprasčiausia	paprasčiausia	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	advmod	_	_
+22	penktąja	penktas	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	kolona	kolona	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	orphan	_	_
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 160
+# sent_id = 160
+# text = Net jeigu laikysimės tokio požiūrio – kuris man atrodo klaidingas, - valstybės interesas yra penktąją koloną ne didinti, o mažinti; ne stumti kitataučius nuo savęs, nuolat juos puldinėt, pabrėžti jų priešiškumą ir demaskuoti jų kėslus, o priešingai, juos prie savęs įvairiais protingais būdais – taip pat nuolaidomis – pritraukti.
+1	Net	Net	PART	UH	_	2	advmod	_	_
+2	jeigu	jeigu	SCONJ	UH	_	3	mark	_	_
+3	laikysimės	laikytis	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	_
+4	tokio	toks	DET	DT	Case=Gen|Gender=Masc|Number=Sing	5	det	_	_
+5	požiūrio	požiūris	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
+6	–	–	PUNCT	PUNCT	_	9	punct	_	_
+7	kuris	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	man	mes	PRON	PRP	Case=Acc|Number=Sing|Person=1	9	iobj	_	_
+9	atrodo	atrodyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	klaidingas	klaidingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	PUNCT	_	9	punct	_	_
+12	-	-	PUNCT	PUNCT	_	3	punct	_	_
+13	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+14	interesas	interesas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+15	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	penktąją	penktas	ADJ	ORD	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	koloną	kolona	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+18	ne	ne	PART	UH	Polarity=Neg	19	cc	_	_
+19	didinti	didinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	14	csubj	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21	o	o	CCONJ	CC	_	22	cc	_	_
+22	mažinti	mažinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	19	conj	_	_
+23	;	;	PUNCT	PUNCT	_	25	punct	_	_
+24	ne	ne	PART	UH	Polarity=Neg	25	cc	_	_
+25	stumti	stumti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	19	conj	_	_
+26	kitataučius	kitatautis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+27	nuo	nuo	ADP	UH	_	28	case	_	_
+28	savęs	savęs	PRON	PRP	Case=Gen	25	obl	_	_
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30	nuolat	nuolat	ADV	RB	Degree=Pos	32	advmod	_	_
+31	juos	jie	PRON	PRP	Case=Acc|Number=Plur|Person=3	32	obj	_	_
+32	puldinėt	puldinėti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=PartPad|Voice=Act	25	advcl	_	_
+33	,	,	PUNCT	PUNCT	_	34	punct	_	_
+34	pabrėžti	pabrėžti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	25	conj	_	_
+35	jų	jų	DET	PRP$	_	36	det	_	_
+36	priešiškumą	priešiškumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+37	ir	ir	CCONJ	CC	_	38	cc	_	_
+38	demaskuoti	demaskuoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	34	conj	_	_
+39	jų	jų	DET	PRP$	_	40	det	_	_
+40	kėslus	kėslas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	38	obj	_	_
+41	,	,	PUNCT	PUNCT	_	56	punct	_	_
+42	o	o	CCONJ	CC	_	56	cc	_	_
+43	priešingai	priešingai	ADP	UH	_	56	case	_	_
+44	,	,	PUNCT	PUNCT	_	43	punct	_	_
+45	juos	jie	PRON	PRP	Case=Acc|Number=Plur|Person=3	56	obj	_	_
+46	prie	prie	ADP	UH	_	47	case	_	_
+47	savęs	savęs	PRON	PRP	Case=Gen	56	obl	_	_
+48	įvairiais	įvairus	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	50	amod	_	_
+49	protingais	protingas	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	50	amod	_	_
+50	būdais	būdas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	56	iobj	_	_
+51	–	–	PUNCT	PUNCT	_	54	punct	_	_
+52	taip	taip	PART	UH	_	54	cc	_	_
+53	pat	pat	ADV	RB	Degree=Pos	52	fixed	_	_
+54	nuolaidomis	nuolaida	NOUN	NN	Case=Ins|Gender=Fem|Number=Plur	50	parataxis	_	_
+55	–	–	PUNCT	PUNCT	_	54	punct	_	_
+56	pritraukti	pritraukti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	25	conj	_	_
+57	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 161
+# sent_id = 161
+# text = Santykiuose su žydais nematyti nieko naujo.
+1	Santykiuose	santykis	NOUN	NN	Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+2	su	su	ADP	UH	_	3	case	_	_
+3	žydais	žydas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+4	nematyti	matyti	VERB	VB	Polarity=Neg|Reflex=No|VerbForm=Inf|Voice=Act	0	root	_	_
+5	nieko	niekas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	_
+6	naujo	naujas	ADJ	NN	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# newpar id = 162
+# sent_id = 162
+# text = Ir toliau pykstama ant Efraimo Zuroffo, bandoma pagrįsti „dvigubo genocido“ teorija, ir reikalaujama: „Nedrįskite mūsų vadinti žydšaudžių tauta“.
+1	Ir	Ir	CCONJ	CC	_	3	cc	_	_
+2	toliau	toli	ADV	RBR	Degree=Cmp	3	advmod	_	_
+3	pykstama	pykti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	ant	ant	ADP	UH	_	5	case	_	_
+5	Efraimo	Efraimas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+6	Zuroffo	Zuroffas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	5	flat	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	bandoma	bandyti	VERB	VBC	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+9	pagrįsti	pagrįsti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	„	„	PUNCT	PUNCT	_	12	punct	_	_
+11	dvigubo	dvigubas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	nmod	_	_
+12	genocido	genocidas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+13	“	“	PUNCT	PUNCT	_	12	punct	_	_
+14	teorija	teorija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16	ir	ir	CCONJ	CC	_	17	cc	_	_
+17	reikalaujama	reikalauti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	3	conj	_	_
+18	:	:	PUNCT	PUNCT	_	20	punct	_	_
+19	„	„	PUNCT	PUNCT	_	20	punct	_	_
+20	Nedrįskite	nedrįsti	VERB	VBC	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+21	mūsų	mes	PRON	PRP	Case=Acc	22	obj	_	_
+22	vadinti	vadinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	žydšaudžių	žydšaudys	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	amod	_	_
+24	tauta	tauta	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	iobj	_	_
+25	“	“	PUNCT	PUNCT	_	24	punct	_	_
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 163
+# sent_id = 163
+# text = Be abejonės, lietuviai nėra žydšaudžių tauta.
+1	Be	Be	ADP	UH	_	2	case	_	_
+2	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	lietuviai	lietuvis	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	žydšaudžių	žydšaudys	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	amod	_	_
+7	tauta	tauta	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# newpar id = 164
+# sent_id = 164
+# text = Bet, deja, pastarųjų metų praktika duoda pagrindo vadinti lietuvius žydšaudžių advokatų tauta.
+1	Bet	Bet	CCONJ	CC	_	8	cc	_	_
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	deja	deja	INTJ	UH	_	8	parataxis	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	pastarųjų	pastaras	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	metų	metai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+7	praktika	praktika	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	duoda	duoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	pagrindo	pagrindas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	_
+10	vadinti	vadinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	lietuvius	lietuvis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	10	obj	_	_
+12	žydšaudžių	žydšaudys	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	amod	_	_
+13	advokatų	advokatas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+14	tauta	tauta	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	iobj	_	_
+15	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# newpar id = 165
+# sent_id = 165
+# text = Kad ir ką manytum, apie Efraimą Zuroffą, jo teisybė, kada jis sako, jog lietuviai, skirtingai negu kroatai, nenuteisė nė vieno žydšaudžio.
+1	Kad	Kad	SCONJ	UH	_	4	mark	_	_
+2	ir	ir	CCONJ	CC	_	1	fixed	_	_
+3	ką	kas	PRON	WDT	Case=Acc	1	fixed	_	_
+4	manytum	manyti	VERB	VBC	Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	11	advcl	_	_
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	apie	apie	ADP	UH	_	7	case	_	_
+7	Efraimą	Efraimas	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	Zuroffą	Zuroffa	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	7	flat	_	_
+9	,	,	PUNCT	PUNCT	_	4	punct	_	_
+10	jo	jis	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	teisybė	teisybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	kada	kada	ADV	RB	Degree=Pos	15	advmod	_	_
+14	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	sako	sakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+16	,	,	PUNCT	PUNCT	_	24	punct	_	_
+17	jog	jog	SCONJ	UH	_	24	mark	_	_
+18	lietuviai	lietuvis	ADJ	JJL	Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	skirtingai	skirtingai	ADV	RB	Degree=Pos	24	parataxis	_	_
+21	negu	negu	SCONJ	UH	_	22	case	_	_
+22	kroatai	kroatas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	obl	_	_
+23	,	,	PUNCT	PUNCT	_	20	punct	_	_
+24	nenuteisė	nuteisti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+25	nė	nė	PART	UH	Polarity=Neg	27	amod	_	_
+26	vieno	vienas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	25	fixed	_	_
+27	žydšaudžio	žydšaudys	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	24	obj	_	_
+28	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# newpar id = 166
+# sent_id = 166
+# text = Priešingai, visuomenės ir teismų neartikuliuotas, bet aiškiai juntamas nusiteikimas buvo, kad visas tokias bylas pridera tyliai sabotuoti.
+1	Priešingai	Priešingai	ADV	RB	Degree=Pos	11	advmod	_	_
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	visuomenės	visuomenė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ir	ir	CCONJ	CC	_	5	cc	_	_
+5	teismų	teismas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+6	neartikuliuotas	artikuliuoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	,	,	PUNCT	PUNCT	_	11	punct	_	_
+8	bet	bet	CCONJ	CC	_	11	cc	_	_
+9	aiškiai	aiškiai	ADV	RB	Degree=Pos	11	advmod	_	_
+10	juntamas	justi	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	_	_
+11	nusiteikimas	nusiteikimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Reflex=Yes	6	conj	_	_
+12	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	,	,	PUNCT	PUNCT	_	18	punct	_	_
+14	kad	kad	SCONJ	UH	_	18	mark	_	_
+15	visas	visas	DET	DT	Case=Acc|Gender=Fem|Number=Plur	17	det	_	_
+16	tokias	toks	DET	DT	Case=Acc|Gender=Fem|Number=Plur	17	det	_	_
+17	bylas	byla	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+18	pridera	priderėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+19	tyliai	tyliai	ADV	RB	Degree=Pos	20	advmod	_	_
+20	sabotuoti	sabotuoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+21	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# newpar id = 167
+# sent_id = 167
+# text = Nesame pribrendę tam, kad suvoktume: neleistina teisinti ir remti nusikaltėlio tik todėl, kad jis etninis lietuvis (laikąs save patriotu), o jo aukos ir ieškovai – nelietuviai.
+1	Nesame	būti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	pribrendę	pribręsti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	1	iobj	_	_
+3	tam	tam	ADV	RB	Degree=Pos	1	advmod	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5	kad	kad	SCONJ	UH	_	6	mark	_	_
+6	suvoktume	suvokti	VERB	VBNL	Mood=Cnd|Number=Plur|Person=1|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Pass	3	advcl	_	_
+7	:	:	PUNCT	PUNCT	_	8	punct	_	_
+8	neleistina	leisti	VERB	PRED	Definite=Ind|Gender=Neut|Polarity=Neg|Reflex=No|VerbForm=Part|Voice=Necess	6	parataxis	_	_
+9	teisinti	teisinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	ir	ir	CCONJ	CC	_	11	cc	_	_
+11	remti	remti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	9	conj	_	_
+12	nusikaltėlio	nusikaltėlis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	_
+13	tik	tik	ADV	RB	Degree=Pos	14	advmod	_	_
+14	todėl	todėl	ADV	RB	Degree=Pos	9	advmod	_	_
+15	,	,	PUNCT	PUNCT	_	19	punct	_	_
+16	kad	kad	SCONJ	UH	_	19	mark	_	_
+17	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+18	etninis	etninis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	lietuvis	lietuvis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	acl	_	_
+20	(	(	PUNCT	PUNCT	_	21	punct	_	_
+21	laikąs	laikyti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|Reflex=Yes|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Act	19	parataxis	_	_
+22	save	savęs	PRON	PRP	Case=Acc	21	obj	_	_
+23	patriotu	patriotas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	21	iobj	_	_
+24	)	)	PUNCT	PUNCT	_	21	punct	_	_
+25	,	,	PUNCT	PUNCT	_	32	punct	_	_
+26	o	o	CCONJ	CC	_	32	cc	_	_
+27	jo	jis	DET	DT	_	28	det	_	_
+28	aukos	auka	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+29	ir	ir	CCONJ	CC	_	30	cc	_	_
+30	ieškovai	ieškovas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	appos	_	_
+31	–	–	PUNCT	PUNCT	_	32	punct	_	_
+32	nelietuviai	nelietuvis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg	19	conj	_	_
+33	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 168
+# sent_id = 168
+# text = Sakiau ir sakysiu, kad šioje srityje buvo padarytos dvi didelės klaidos, kurias anksčiau ar vėliau reikės ištaisyt.
+1	Sakiau	sakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ir	ir	CCONJ	CC	_	3	cc	_	_
+3	sakysiu	sakyti	VERB	NN	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	_
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5	kad	kad	SCONJ	UH	_	9	mark	_	_
+6	šioje	šis	DET	DT	Case=Loc|Definite=Ind|Gender=Fem|Number=Sing	7	det	_	_
+7	srityje	sritis	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+8	buvo	būti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	padarytos	padaryti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+10	dvi	du	NUM	CD	Case=Acc|Gender=Fem	12	nummod	_	_
+11	didelės	didelis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	klaidos	klaida	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nsubj	_	_
+13	,	,	PUNCT	PUNCT	_	18	punct	_	_
+14	kurias	kuris	PRON	WPA	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+15	anksčiau	anksčiau	ADV	RBR	Degree=Cmp	18	advmod	_	_
+16	ar	ar	CCONJ	CC	_	15	fixed	_	_
+17	vėliau	vėlai	ADV	RBR	Degree=Cmp	15	fixed	_	_
+18	reikės	reikėti	VERB	VBC	Mood=Ind|Person=3|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+19	ištaisyt	ištaisyti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=PartPad|Voice=Act	18	xcomp	_	_
+20	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# newpar id = 169
+# sent_id = 169
+# text = Pirmoji klaida liečia 1941 metų Laikinąją vyriausybę.
+1	Pirmoji	pirmas	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	klaida	klaida	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	liečia	liesti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	1941	1941	ADJ	ORD	_	5	amod	_	_
+5	metų	metai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+6	Laikinąją	laikinas	ADJ	JJL	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	vyriausybę	vyriausybė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 170
+# sent_id = 170
+# text = Būtina be jokių išlygų pareikšti, kad naujoji Lietuva kategoriškai neįjungia šios tradicijos į gerbtinų ir sektinų tradicijų skaičių.
+1	Būtina	būti	VERB	VBNL	Definite=Ind|Gender=Neut|Polarity=Pos|Reflex=No|VerbForm=Part|Voice=Necess	0	root	_	_
+2	be	be	ADP	UH	_	4	case	_	_
+3	jokių	joks	PRON	PRP	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	_
+4	išlygų	išlyga	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+5	pareikšti	pareikšti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+6	,	,	PUNCT	PUNCT	_	11	punct	_	_
+7	kad	kad	SCONJ	UH	_	11	mark	_	_
+8	naujoji	naujas	ADJ	JJL	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Lietuva	Lietuva	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	kategoriškai	kategoriškai	ADV	RB	Degree=Pos	11	advmod	_	_
+11	neįjungia	įjungti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+12	šios	šis	DET	PRP$	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	13	det	_	_
+13	tradicijos	tradicija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+14	į	į	ADP	UH	_	19	case	_	_
+15	gerbtinų	gerbti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|VerbForm=Part|Voice=Necess	18	amod	_	_
+16	ir	ir	CCONJ	CC	_	17	cc	_	_
+17	sektinų	sekti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|VerbForm=Part|Voice=Necess	15	conj	_	_
+18	tradicijų	tradicija	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+19	skaičių	skaičius	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 171
+# sent_id = 171
+# text = Laikinoji vyriausybė iš esmės nesiskiria nuo Tiso vyriausybės Slovakijoje ir Paveličiaus vyriausybės Kroatijoje, kurių nė vienas rimtas istorikas nelaiko teigiamu daiktu.
+1	Laikinoji	laikinas	ADJ	JJL	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	vyriausybė	vyriausybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	iš	iš	ADP	UH	_	5	advmod	_	_
+4	esmės	esmės	ADV	RB	Degree=Pos	3	fixed	_	_
+5	nesiskiria	skirtis	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	nuo	nuo	ADP	UH	_	8	case	_	_
+7	Tiso	Tisas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+8	vyriausybės	vyriausybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	Slovakijoje	Slovakija	PROPN	NNP	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+10	ir	ir	CCONJ	CC	_	12	cc	_	_
+11	Paveličiaus	Pavelikus	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+12	vyriausybės	vyriausybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	Kroatijoje	Kroatija	PROPN	NNP	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	PUNCT	_	20	punct	_	_
+15	kurių	kuris	PRON	WPA	Case=Gen|Gender=Masc|Number=Plur	20	obj	_	_
+16	nė	nė	PART	UH	Polarity=Neg	19	amod	_	_
+17	vienas	vienas	ADJ	ORD	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	fixed	_	_
+18	rimtas	rimtas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	istorikas	istorikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	nelaiko	laikyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+21	teigiamu	teigiamas	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	daiktu	daiktas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	20	iobj	_	_
+23	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 172
+# sent_id = 172
+# text = Vadiname jos narius patriotais – subjektyviai jie tokie ir buvo, - bet negalima gerbti patriotų, padariusių savo kraštui didžiulės žalos, kurios ligi šiol nepajėgiame išsrėbti.
+1	Vadiname	vadinti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	jos	jos	DET	DT	_	3	det	_	_
+3	narius	narys	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+4	patriotais	patriotas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	3	iobj	_	_
+5	–	–	PUNCT	PUNCT	_	8	punct	_	_
+6	subjektyviai	subjektyviai	ADV	RB	Degree=Pos	8	advmod	_	_
+7	jie	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+8	tokie	toks	PRON	DT	Case=Nom|Gender=Masc|Number=Plur	4	parataxis	_	_
+9	ir	ir	PART	UH	_	10	advmod	_	_
+10	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+11	,	,	PUNCT	PUNCT	_	8	punct	_	_
+12	-	-	PUNCT	PUNCT	_	14	punct	_	_
+13	bet	bet	CCONJ	CC	_	14	cc	_	_
+14	negalima	galėti	VERB	VBNL	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	1	conj	_	_
+15	gerbti	gerbti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	patriotų	patriotas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	15	obj	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	padariusių	padaryti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	16	acl	_	_
+19	savo	savo	DET	PRP$	_	20	det	_	_
+20	kraštui	kraštas	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	iobj	_	_
+21	didžiulės	didžiulis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	žalos	žala	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	obj	_	_
+23	,	,	PUNCT	PUNCT	_	27	punct	_	_
+24	kurios	kuris	PRON	WPA	Case=Gen|Gender=Fem|Number=Sing	28	obj	_	_
+25	ligi	ligi	ADP	UH	_	26	case	_	_
+26	šiol	šis	ADV	RB	Degree=Pos	27	obl	_	_
+27	nepajėgiame	pajėgti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+28	išsrėbti	išsrėbti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	.	.	PUNCT	PUNCT	_	28	punct	_	_
+
+# newpar id = 173
+# sent_id = 173
+# text = Juk jie pakenkė Lietuvos prestižui labiau negu kitas Lietuvos priešas.
+1	Juk	juk	PART	UH	_	3	parataxis	_	_
+2	jie	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+3	pakenkė	pakenkti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+5	prestižui	prestižas	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
+6	labiau	labai	ADV	RBR	Degree=Cmp	3	advmod	_	_
+7	negu	negu	SCONJ	UH	_	10	case	_	_
+8	kitas	kitas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+10	priešas	priešas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
+11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# newpar id = 174
+# sent_id = 174
+# text = Jei leistinas „alternatyvinės istorijos“ eksperimentas – įsivaizduokime, kad Lietuvą 1944 metas išvaduoja Vakarų sąjungininkai, ir į ją grįžta Stasys Lozoraitis, tuo metu nominalus valstybės galva.
+1	Jei	Jei	SCONJ	UH	_	9	mark	_	_
+2	leistinas	leisti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Part|Voice=Necess	9	advcl	_	_
+3	„	„	PUNCT	PUNCT	_	5	punct	_	_
+4	alternatyvinės	alternatyvinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	istorijos	istorija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+6	“	“	PUNCT	PUNCT	_	5	punct	_	_
+7	eksperimentas	eksperimentas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+8	–	–	PUNCT	PUNCT	_	2	punct	_	_
+9	įsivaizduokime	įsivaizduoti	VERB	VBC	Mood=Imp|Number=Plur|Person=1|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	0	root	_	_
+10	,	,	PUNCT	PUNCT	_	15	punct	_	_
+11	kad	kad	SCONJ	UH	_	15	mark	_	_
+12	Lietuvą	Lietuva	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+13	1944	1944	ADJ	ORD	_	14	amod	_	_
+14	metas	metas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
+15	išvaduoja	išvaduoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
+16	Vakarų	vakarai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+17	sąjungininkai	sąjungininkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	ir	ir	CCONJ	CC	_	22	cc	_	_
+20	į	į	ADP	UH	_	21	case	_	_
+21	ją	jis	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	22	obl	_	_
+22	grįžta	grįžti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+23	Stasys	Stasys	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+24	Lozoraitis	Lozoraitis	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	_
+25	,	,	PUNCT	PUNCT	_	30	punct	_	_
+26	tuo	tas	DET	DT	Case=Ins	27	mark	_	_
+27	metu	metas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	30	obl	_	_
+28	nominalus	nominalas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	amod	_	_
+29	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+30	galva	galva	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	appos	_	_
+31	.	.	PUNCT	PUNCT	_	30	punct	_	_
+
+# newpar id = 175
+# sent_id = 175
+# text = Be abejonės, tada būtų tekę (kad ir nenoromis) surengti Laikinosios vyriausybės procesą, kaip Prancūzijoje buvo surengtas Pétaine‘o procesas.
+1	Be	Be	ADP	UH	_	2	case	_	_
+2	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	tada	tada	ADV	RB	Degree=Pos	6	advmod	_	_
+5	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	tekę	tekti	VERB	VBC	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	(	(	PUNCT	PUNCT	_	10	punct	_	_
+8	kad	kad	SCONJ	UH	_	10	mark	_	_
+9	ir	ir	PART	UH	_	10	advmod	_	_
+10	nenoromis	nenoromis	ADV	RB	Degree=Pos|Polarity=Neg	6	advmod	_	_
+11	)	)	PUNCT	PUNCT	_	10	punct	_	_
+12	surengti	surengti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+13	Laikinosios	laikinas	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	vyriausybės	vyriausybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+15	procesą	procesas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	kaip	kaip	SCONJ	UH	_	20	mark	_	_
+18	Prancūzijoje	Prancūzija	PROPN	NNP	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+19	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	surengtas	surengti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	_
+21	Pétaine‘o	pétaine‘as	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+22	procesas	procesas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 176
+# sent_id = 176
+# text = Pétaine‘as irgi buvo patriotas, nusipelnęs Prancūzijai karo lauke, ir norėjo išsaugoti jos nepriklausomybę, nors ir sąjungos su Hitleriu kaina.
+1	Pétaine‘as	pétaine‘as	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	irgi	irgi	ADV	RB	Degree=Pos	4	advmod	_	_
+3	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	patriotas	patriotas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	nusipelnęs	nusipelnyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	4	acl	_	_
+7	Prancūzijai	Prancūzija	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+8	karo	karas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+9	lauke	laukas	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	ir	ir	CCONJ	CC	_	12	cc	_	_
+12	norėjo	norėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	išsaugoti	išsaugoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	jos	jos	DET	PRP$	_	15	det	_	_
+15	nepriklausomybę	nepriklausomybė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	13	obj	_	_
+16	,	,	PUNCT	PUNCT	_	22	punct	_	_
+17	nors	nors	SCONJ	UH	_	22	mark	_	_
+18	ir	ir	CCONJ	CC	_	17	fixed	_	_
+19	sąjungos	sąjunga	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+20	su	su	ADP	UH	_	21	case	_	_
+21	Hitleriu	Hitler	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	kaina	kaina	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	_
+23	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# newpar id = 177
+# sent_id = 177
+# text = Kai kurie Laikinosios vyriausybės nariai gali būti išteisinti, bet tikrai nė vienas jų nebūtų gavęs ordino ir nebūtų paskelbtas tautos patriarchu.
+1	Kai	Kai	ADV	RB	Degree=Pos	2	advmod	_	_
+2	kurie	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	_
+3	Laikinosios	laikinas	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	vyriausybės	vyriausybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+5	nariai	narys	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	gali	galėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	būti	būti	AUX	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	8	aux	_	_
+8	išteisinti	išteisinti	VERB	VB	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9	,	,	PUNCT	PUNCT	_	16	punct	_	_
+10	bet	bet	CCONJ	CC	_	16	cc	_	_
+11	tikrai	tikrai	ADV	RB	Degree=Pos	16	advmod	_	_
+12	nė	nė	PART	UH	Polarity=Neg	16	nummod:gov	_	_
+13	vienas	vienas	ADJ	ORD	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	fixed	_	_
+14	jų	jie	PRON	PRP	Case=Gen|Number=Plur|Person=3	16	nsubj	_	_
+15	nebūtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	gavęs	gauti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	6	conj	_	_
+17	ordino	ordinas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	16	obj	_	_
+18	ir	ir	CCONJ	CC	_	20	cc	_	_
+19	nebūtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	paskelbtas	paskelbti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	16	conj	_	_
+21	tautos	tauta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+22	patriarchu	patriarchas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	20	obj	_	_
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 178
+# sent_id = 178
+# text = Priminsiu, kad po karo Lozoraitis, o kurį laiką ir VLIK‘as nuo jų gana aiškiai atsiribojo.
+1	Priminsiu	priminti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	PUNCT	_	17	punct	_	_
+3	kad	kad	SCONJ	UH	_	17	mark	_	_
+4	po	po	ADP	UH	_	5	case	_	_
+5	karo	karas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+6	Lozoraitis	Lozoraitis	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	o	o	CCONJ	CC	_	12	cc	_	_
+9	kurį	kuris	PRON	WPA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	laiką	laikas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+11	ir	ir	DET	UH	_	12	advmod	_	_
+12	VLIK‘as	VLIK‘as	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+13	nuo	nuo	ADP	UH	_	14	case	_	_
+14	jų	jie	PRON	PRP	Case=Gen|Number=Plur|Person=3	17	obl	_	_
+15	gana	gana	ADV	RB	Degree=Pos	16	advmod	_	_
+16	aiškiai	aiškiai	ADV	RB	Degree=Pos	17	advmod	_	_
+17	atsiribojo	atsiriboti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 179
+# sent_id = 179
+# text = Antroji klaida – genocido sąvokos infliacija, nutrinanti skirtumus tarp holokausto ir kitų totalitarinių nusikaltimų (beje, tą infliaciją dar prieš atgaunant nepriklausomybę skatino mūsų emigrantai).
+1	Antroji	antras	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	klaida	klaida	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	–	–	PUNCT	PUNCT	_	6	punct	_	_
+4	genocido	genocidas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	sąvokos	sąvoka	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+6	infliacija	infliacija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	nutrinanti	nutrinti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	6	acl	_	_
+9	skirtumus	skirtumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	tarp	tarp	ADP	UH	_	11	case	_	_
+11	holokausto	holokaustas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	ir	ir	CCONJ	CC	_	15	cc	_	_
+13	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+14	totalitarinių	totalitarinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	nusikaltimų	nusikaltimas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	_
+16	(	(	PUNCT	PUNCT	_	25	punct	_	_
+17	beje	beje	PART	PARENTH	_	18	parataxis	_	_
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	tą	tas	DET	DT	Case=Acc|Gender=Fem|Number=Sing	20	det	_	_
+20	infliaciją	infliacija	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+21	dar	dar	ADV	RB	Degree=Pos	23	advmod	_	_
+22	prieš	prieš	ADP	UH	_	23	case	_	_
+23	atgaunant	atgauti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=PartPad|Voice=Act	25	obl	_	_
+24	nepriklausomybę	nepriklausomybė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	23	obj	_	_
+25	skatino	skatinti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	6	parataxis	_	_
+26	mūsų	mūsų	DET	PRP$	_	27	det	_	_
+27	emigrantai	emigrantas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+28	)	)	PUNCT	PUNCT	_	25	punct	_	_
+29	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 180
+# sent_id = 180
+# text = Vilniaus centre esantį muziejų derėtų vadinti ne genocido muziejumi, o pavyzdžiui, komunizmo nusikaltimų muziejumi.
+1	Vilniaus	Vilnius	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+2	centre	centras	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	esantį	būti	VERB	VBNL	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
+4	muziejų	muziejus	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_
+5	derėtų	derėti	VERB	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	0	root	_	_
+6	vadinti	vadinti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	ne	ne	PART	UH	Polarity=Neg	8	cc	_	_
+8	genocido	genocidas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+9	muziejumi	muziejus	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	6	iobj	_	_
+10	,	,	PUNCT	PUNCT	_	16	punct	_	_
+11	o	o	CCONJ	CC	_	16	cc	_	_
+12	pavyzdžiui	pavyzdžiui	ADV	RB	Degree=Pos	16	parataxis	_	_
+13	,	,	PUNCT	PUNCT	_	12	punct	_	_
+14	komunizmo	komunizmas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+15	nusikaltimų	nusikaltimas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+16	muziejumi	muziejus	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+17	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# newpar id = 181
+# sent_id = 181
+# text = Kitaip jis visada generuos įtampą ir trintį, ne tik prieštaraujančią sveikam protui, bet ir žalingą Lietuvos valstybės interesui..
+1	Kitaip	Kitaip	ADV	RB	Degree=Pos	4	advmod	_	_
+2	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	visada	visada	ADV	RB	Degree=Pos	4	advmod	_	_
+4	generuos	generuoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	įtampą	įtampa	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	ir	ir	CCONJ	CC	_	7	cc	_	_
+7	trintį	trintis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9	ne	ne	PART	UH	Polarity=Neg	11	cc	_	_
+10	tik	tik	ADV	RB	Degree=Pos	9	fixed	_	_
+11	prieštaraujančią	prieštarauti	VERB	VBNL	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+12	sveikam	sveikas	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	protui	protas	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	bet	bet	CCONJ	CC	_	17	cc	_	_
+16	ir	ir	CCONJ	CC	_	15	fixed	_	_
+17	žalingą	žalingas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
+18	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+19	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+20	interesui	interesas	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obj	_	_
+21	..	..	PUNCT	PUNCT	_	20	punct	_	_
+
+# newpar id = 182
+# sent_id = 182
+# text = Sudėtingiausias yra santykių su Rusija klausimas, nes šių dienų Rusija duoda pagrindo ja nepasitikėti.
+1	Sudėtingiausias	sudėtingas	ADJ	JJS	Case=Nom|Definite=Ind|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	_
+2	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	santykių	santykis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+4	su	su	ADP	UH	_	5	case	_	_
+5	Rusija	Rusija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+6	klausimas	klausimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	nes	nes	SCONJ	UH	_	12	mark	_	_
+9	šių	šis	DET	DT	_	10	det	_	_
+10	dienų	diena	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
+11	Rusija	Rusija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	duoda	duoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+13	pagrindo	pagrindas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	_
+14	ja	jis	PRON	PRP	Case=Ins|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
+15	nepasitikėti	pasitikėti	VERB	VB	Polarity=Neg|Reflex=No|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 183
+# sent_id = 183
+# text = Bet čia nereikia perlenkti lazdos, nedera užmiršti, kad reikalai gali pasisukti ir kitaip.
+1	Bet	Bet	CCONJ	CC	_	3	cc	_	_
+2	čia	čia	ADV	RB	Degree=Pos	3	advmod	_	_
+3	nereikia	reikėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	perlenkti	perlenkti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	lazdos	lazda	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	nedera	derėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	užmiršti	užmiršti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	,	,	PUNCT	PUNCT	_	12	punct	_	_
+10	kad	kad	SCONJ	UH	_	12	mark	_	_
+11	reikalai	reikalas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	gali	galėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+13	pasisukti	pasisukti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	ir	ir	PART	UH	_	15	advmod	_	_
+15	kitaip	kitaip	ADV	RB	Degree=Pos	13	advmod	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 184
+# sent_id = 184
+# text = Dešimtys mūsų politologų ir žurnalistų yra pavertę savo specialybe Rusijos demaskavimą (beje, ir Vilnius lenkų demaskavimą, ir „žydų pretenzijų“ demaskavimą).
+1	Dešimtys	dešimtis	NUM	CD	Case=Nom|Gender=Fem|Number=Plur	3	nummod:gov	_	_
+2	mūsų	mūsų	DET	PRP$	_	3	det	_	_
+3	politologų	politologas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	ir	ir	CCONJ	CC	_	5	cc	_	_
+5	žurnalistų	žurnalistas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+6	yra	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	pavertę	paversti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Pass	0	root	_	_
+8	savo	savo	DET	PRP$	_	9	det	_	_
+9	specialybe	specialybė	NOUN	NN	Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	_
+10	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+11	demaskavimą	demaskavimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+12	(	(	PUNCT	PUNCT	_	18	punct	_	_
+13	beje	beje	PART	PARENTH	_	18	parataxis	_	_
+14	,	,	PUNCT	PUNCT	_	13	punct	_	_
+15	ir	ir	CCONJ	CC	_	18	cc	_	_
+16	Vilnius	Vilnius	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	_
+17	lenkų	lenkas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+18	demaskavimą	demaskavimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	ir	ir	CCONJ	CC	_	25	cc	_	_
+21	„	„	PUNCT	PUNCT	_	22	punct	_	_
+22	žydų	žydas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+23	pretenzijų	pretenzija	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+24	“	“	PUNCT	PUNCT	_	23	punct	_	_
+25	demaskavimą	demaskavimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_
+26	)	)	PUNCT	PUNCT	_	25	punct	_	_
+27	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# newpar id = 185
+# sent_id = 185
+# text = Pasak jų peršamo mentaliteto, Rusijos interesai visada priešiški Lietuvos interesams, ir kitaip negali būti.
+1	Pasak	Pasak	ADP	UH	_	4	case	_	_
+2	jų	jų	PRON	PRP	Case=Gen	3	obl:agent	_	_
+3	peršamo	piršti	VERB	VBC	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	4	nmod	_	_
+4	mentaliteto	mentalitetas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	parataxis	_	_
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+7	interesai	interesas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	visada	visada	ADV	RB	Degree=Pos	9	advmod	_	_
+9	priešiški	priešiškas	ADJ	RB	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+10	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+11	interesams	interesas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obj	_	_
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	ir	ir	CCONJ	CC	_	15	cc	_	_
+14	kitaip	kitaip	ADV	RB	Degree=Pos	15	advmod	_	_
+15	negali	galėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+16	būti	būti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# newpar id = 186
+# sent_id = 186
+# text = Rusai jokiu būdu nėra stalinizmo aukos, o yra sąmoningi jo šalininkai ir tęsėjai (taip pat duodama suprasti, kad stalinizmas šimtą kartų blogesnis už nacizmą).
+1	Rusai	rusas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	jokiu	joks	DET	DT	Case=Ins|Gender=Masc|Number=Sing	3	det	_	_
+3	būdu	būdas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	stalinizmo	stalinizmas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+6	aukos	auka	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	o	o	CCONJ	CC	_	12	cc	_	_
+9	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+10	sąmoningi	sąmoningas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+11	jo	jo	PRON	PRP	_	12	det	_	_
+12	šalininkai	šalininkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+13	ir	ir	CCONJ	CC	_	14	cc	_	_
+14	tęsėjai	tęsėjas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+15	(	(	PUNCT	PUNCT	_	18	punct	_	_
+16	taip	taip	PART	UH	_	18	advmod	_	_
+17	pat	pat	PART	UH	_	16	fixed	_	_
+18	duodama	duoti	VERB	VBC	Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=PartPus|Voice=Act	6	parataxis	_	_
+19	suprasti	suprasti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	,	,	PUNCT	PUNCT	_	25	punct	_	_
+21	kad	kad	SCONJ	UH	_	25	mark	_	_
+22	stalinizmas	stalinizmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+23	šimtą	šimtas	NUM	CD	Case=Acc|Gender=Masc|Number=Sing	24	nummod:gov	_	_
+24	kartų	kartas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+25	blogesnis	blogas	ADJ	JJR	Case=Nom|Definite=Ind|Degree=Cmp|Gender=Masc|Number=Sing	19	ccomp	_	_
+26	už	už	ADP	UH	_	27	case	_	_
+27	nacizmą	nacizmas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+28	)	)	PUNCT	PUNCT	_	18	punct	_	_
+29	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 187
+# sent_id = 187
+# text = Bet kokie Rusijos veiksmai, sekant tuo požiūriu, turi piktų intencijų.
+1	Bet	Bet	CCONJ	CC	_	10	cc	_	_
+2	kokie	koks	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
+3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+4	veiksmai	veiksmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	sekant	sekti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=PartPad|Voice=Act	10	parataxis	_	_
+7	tuo	tuo	DET	DT	_	8	det	_	_
+8	požiūriu	požiūris	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	6	obj	_	_
+9	,	,	PUNCT	PUNCT	_	6	punct	_	_
+10	turi	turėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	piktų	piktas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	intencijų	intencija	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	obj	_	_
+13	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# newpar id = 188
+# sent_id = 188
+# text = Kiekvienas Rusijos priešas – net jeigu jis neatsakingas, nekompetentingas arba ne itin civilizuotas – automatiškai yra Lietuvos draugas.
+1	Kiekvienas	Kiekvienas	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+2	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+3	priešas	priešas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+4	–	–	PUNCT	PUNCT	_	8	punct	_	_
+5	net	net	PART	UH	_	8	advmod	_	_
+6	jeigu	jeigu	SCONJ	UH	_	8	mark	_	_
+7	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	neatsakingas	neatsakingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	3	parataxis	_	_
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	nekompetentingas	nekompetentingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Neg	8	conj	_	_
+11	arba	arba	CCONJ	CC	_	14	cc	_	_
+12	ne	ne	PART	UH	Polarity=Neg	13	advmod	_	_
+13	itin	itin	ADV	RB	Degree=Pos	14	advmod	_	_
+14	civilizuotas	civilizuoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+15	–	–	PUNCT	PUNCT	_	8	punct	_	_
+16	automatiškai	automatiškai	ADV	RB	Degree=Pos	19	advmod	_	_
+17	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	Lietuvos	Lietuva	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+19	draugas	draugas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+20	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# newpar id = 189
+# sent_id = 189
+# text = Jei Rusijai sekasi, tai baisu, jei nesiseka, tai didelė laimė; Rusijos klestėjimas, ekonominis ir kultūrinis atgimimas būtų baisiausia, kas gali ištikti jos kaimynus ir pasaulį.
+1	Jei	Jei	SCONJ	UH	_	3	mark	_	_
+2	Rusijai	Rusija	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	_
+3	sekasi	sektis	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	tai	tai	SCONJ	UH	_	6	mark	_	_
+6	baisu	baisas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	PUNCT	_	13	punct	_	_
+8	jei	jei	SCONJ	UH	_	9	mark	_	_
+9	nesiseka	sektis	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Inf|Voice=Act	13	advcl	_	_
+10	,	,	PUNCT	PUNCT	_	9	punct	_	_
+11	tai	tai	SCONJ	UH	_	13	mark	_	_
+12	didelė	didelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	laimė	laimė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+14	;	;	PUNCT	PUNCT	_	23	punct	_	_
+15	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+16	klestėjimas	klestėjimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18	ekonominis	ekonominis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+19	ir	ir	CCONJ	CC	_	20	cc	_	_
+20	kultūrinis	kultūrinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_
+21	atgimimas	atgimimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+22	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	baisiausia	baisus	ADJ	JJS	Case=Nom|Definite=Ind|Degree=Sup|Gender=Fem|Number=Sing	6	conj	_	_
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25	kas	kas	PRON	WDT	Case=Nom	26	nsubj	_	_
+26	gali	galėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl	_	_
+27	ištikti	ištikti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	jos	jos	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3	29	det	_	_
+29	kaimynus	kaimynas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+30	ir	ir	CCONJ	CC	_	31	cc	_	_
+31	pasaulį	pasaulis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	conj	_	_
+32	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 190
+# sent_id = 190
+# text = To nesupranta naivūs arba savanaudiški Vakarai, kurie baigia su Rusija susitarti, pasmerkdami mus nevisiškai aiškiam, bet be abejonės klaikiam likimui.
+1	To	tas	DET	DT	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	_
+2	nesupranta	suprasti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	naivūs	naivus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+4	arba	arba	CCONJ	CC	_	5	cc	_	_
+5	savanaudiški	savanaudiškas	ADJ	RB	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	_
+6	Vakarai	vakarai	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	kurie	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	baigia	baigti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	su	su	ADP	UH	_	11	case	_	_
+11	Rusija	Rusija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+12	susitarti	susitarti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	pasmerkdami	pasmerkti	VERB	VBG	Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|VerbForm=PartPus|Voice=Act	9	advcl	_	_
+15	mus	mes	PRON	PRP	Case=Acc|Number=Plur|Person=1	14	obj	_	_
+16	nevisiškai	nevisiškai	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	_	_
+17	aiškiam	aiškus	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	bet	bet	CCONJ	CC	_	22	cc	_	_
+20	be	be	ADP	UH	_	21	case	_	_
+21	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+22	klaikiam	klaikus	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_
+23	likimui	likimas	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	_
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# newpar id = 191
+# sent_id = 191
+# text = Visa tai primena karikatūra, kurią neseniai mačiau lenkų žurnale.
+1	Visa	visas	DET	DT	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	tai	tai	PRON	DT	_	3	nsubj	_	_
+3	primena	priminti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	karikatūra	karikatūra	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	kurią	kuris	PRON	WPA	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	neseniai	neseniai	ADV	RB	Degree=Pos|Polarity=Neg	8	advmod	_	_
+8	mačiau	matyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	lenkų	lenkas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	žurnale	žurnalas	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# newpar id = 192
+# sent_id = 192
+# text = Du sodiečiai sėdi ant potvynio apsemtų namų stogo.
+1	Du	du	NUM	CD	Case=Nom|Gender=Masc	2	nummod	_	_
+2	sodiečiai	sodietis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sėdi	sėdėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ant	ant	ADP	UH	_	8	case	_	_
+5	potvynio	potvynis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+6	apsemtų	apsemti	VERB	VBNL	Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+7	namų	namai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+8	stogo	stogas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# newpar id = 193
+# sent_id = 193
+# text = Vienas jų sako: „Vajėzau!
+1	Vienas	vienas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	jų	jų	DET	PRP$	_	3	obj	_	_
+3	sako	sakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	:	:	PUNCT	PUNCT	_	6	punct	_	_
+5	„	„	PUNCT	PUNCT	_	6	punct	_	_
+6	Vajėzau	vajėzau	INTJ	UH	_	3	parataxis	_	_
+7	!	!	PUNCT	PUNCT	_	6	punct	_	_
+
+# newpar id = 194
+# sent_id = 194
+# text = Ką tas Putinas dar prasimanys“.
+1	Ką	kas	PRON	WDT	Case=Acc	5	obj	_	_
+2	tas	tas	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	Putinas	Putinas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	dar	dar	PART	UH	_	5	advmod	_	_
+5	prasimanys	prasimanyti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	“	“	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 195
+# sent_id = 195
+# text = Mano prognozė būtų kitokia: ekonominės bei demografinės priežastys privers ir jau verčia Rusiją destalinizuotis, nors tame kelyje pasitaiko ir gali pasitaikyti nesimpatingų vingių.
+1	Mano	mano	DET	PRP$	_	2	det	_	_
+2	prognozė	prognozė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	kitokia	kitoks	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	:	:	PUNCT	PUNCT	_	10	punct	_	_
+6	ekonominės	ekonominis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg	9	amod	_	_
+7	bei	bei	CCONJ	CC	_	8	case	_	_
+8	demografinės	demografinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg	6	conj	_	_
+9	priežastys	priežastis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	privers	priversti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+11	ir	ir	CCONJ	CC	_	13	cc	_	_
+12	jau	jau	PART	UH	_	13	advmod	_	_
+13	verčia	versti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+14	Rusiją	Rusija	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	destalinizuotis	destalinizuotis	VERB	VB	Polarity=Pos|Reflex=Yes|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	nors	nors	SCONJ	UH	_	20	mark	_	_
+18	tame	tas	DET	DT	Case=Loc|Gender=Masc|Number=Sing	19	det	_	_
+19	kelyje	kelias	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+20	pasitaiko	pasitaikyti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+21	ir	ir	CCONJ	CC	_	22	cc	_	_
+22	gali	galėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+23	pasitaikyti	pasitaikyti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	nesimpatingų	nesimpatingas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	25	amod	_	_
+25	vingių	vingis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	20	nsubj	_	_
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# newpar id = 196
+# sent_id = 196
+# text = Galima ne be tam tikro pagrindo tikėtis Rusijai tokios išeities, kokią savo metu pasirinko Mustafos Kemalio Turkija.
+1	Galima	galėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2	ne	ne	PART	UH	Polarity=Neg	6	advmod	_	_
+3	be	be	ADP	UH	_	6	case	_	_
+4	tam	tam	DET	DT	Degree=Pos	6	det	_	_
+5	tikro	tikras	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	fixed	_	_
+6	pagrindo	pagrindas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+7	tikėtis	tikėtis	VERB	VB	Polarity=Pos|Reflex=Yes|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+8	Rusijai	Rusija	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	_
+9	tokios	toks	DET	DT	Case=Gen|Gender=Fem|Number=Sing	10	det	_	_
+10	išeities	išeitis	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	_
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	kokią	koks	PRON	WP	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+13	savo	savo	DET	PRP$	_	14	det	_	_
+14	metu	metas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+15	pasirinko	pasirinkti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+16	Mustafos	Mustafa	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+17	Kemalio	Kemalis	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	16	flat	_	_
+18	Turkija	Turkija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# newpar id = 197
+# sent_id = 197
+# text = Apskritai paėmus, turkai nebesvajoja apie imperiją ir niekam nėra mirtinai pavojingi – nei bulgarams, nei serbams, nei graikams, pagaliau netgi armėnams.
+1	Apskritai	Apskritai	ADV	RB	Degree=Pos	2	advmod	_	_
+2	paėmus	paimti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=PartPad|Voice=Act	5	parataxis	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	turkai	turkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	nebesvajoja	besvajoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	apie	apie	ADP	UH	_	7	case	_	_
+7	imperiją	imperija	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	ir	ir	CCONJ	CC	_	12	cc	_	_
+9	niekam	niekas	PRON	DT	Case=Dat	12	obj	_	_
+10	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+11	mirtinai	mirtinai	ADV	RB	Degree=Pos	12	advmod	_	_
+12	pavojingi	pavojingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_
+13	–	–	PUNCT	PUNCT	_	15	punct	_	_
+14	nei	nei	CCONJ	CC	Polarity=Neg	15	cc	_	_
+15	bulgarams	bulgaras	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	parataxis	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	nei	nei	CCONJ	CC	Polarity=Neg	18	cc	_	_
+18	serbams	serbas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	nei	nei	CCONJ	CC	Polarity=Neg	21	cc	_	_
+21	graikams	graikas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	_
+22	,	,	PUNCT	PUNCT	_	25	punct	_	_
+23	pagaliau	pagaliau	ADV	RB	Degree=Pos	25	advmod	_	_
+24	netgi	netgi	ADV	RB	Degree=Pos|Polarity=Neg	25	advmod	_	_
+25	armėnams	armėnas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	_
+26	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# newpar id = 198
+# sent_id = 198
+# text = Jie, beje, yra NATO nariai – drauge su graikais, su kuriais ne per seniausiai kovėsi ir ligi šiol nesutaria dėl Kipro.
+1	Jie	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	beje	beje	PART	PARENTH	_	7	parataxis	_	_
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	yra	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	NATO	NATO	PROPN	NNP	_	7	nmod	_	_
+7	nariai	narys	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+8	–	–	PUNCT	PUNCT	_	11	punct	_	_
+9	drauge	drauge	ADV	NN	Degree=Pos	11	advmod	_	_
+10	su	su	ADP	UH	_	11	case	_	_
+11	graikais	graikas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	7	parataxis	_	_
+12	,	,	PUNCT	PUNCT	_	18	punct	_	_
+13	su	su	ADP	UH	_	14	case	_	_
+14	kuriais	kuris	PRON	WPA	Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
+15	ne	ne	PART	UH	Polarity=Neg	18	advmod	_	_
+16	per	per	ADP	UH	_	17	case	_	_
+17	seniausiai	senai	ADV	RBS	Degree=Sup	18	obl	_	_
+18	kovėsi	kautis	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=Yes|Tense=PastSimp|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+19	ir	ir	CCONJ	CC	_	22	cc	_	_
+20	ligi	ligi	ADP	UH	_	21	case	_	_
+21	šiol	šis	ADV	RB	Degree=Pos	22	obl	_	_
+22	nesutaria	sutarti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+23	dėl	dėl	ADP	UH	_	24	case	_	_
+24	Kipro	Kipras	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+25	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
