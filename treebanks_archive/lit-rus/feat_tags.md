@@ -94,6 +94,18 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
 ||idjngt.|\*fixed_CONJ\*|CONJ,fixed||
 ||idPS|\*fixed_PS\*|PS,fixed||
 
+### References 
+1. http://donelaitis.vdu.lt/main.php?id=4&nr=7_1
+2. http://tekstynas.vdu.lt/page.xhtml?id=morphological-annotator
+3. https://glosbe.com/lt/en/pasiekti
+4. Вимер Б. (2009), Таксис в литовском языке.
+5. <a href="http://s3.amazonaws.com/academia.edu.documents/37084653/ALP__19.11.2014_full.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1487999675&Signature=UlXvHJJpC5wW3dwy85t%2BwZwR%2BzI%3D&response-content-disposition=inline%3B%20filename%3D37084653.pdf#page=157">Генюшене Э.Ш. (2009), Конвербы в литовском языке</a>
+6. <a href="http://cyberleninka.ru/article/n/nekanonicheskoe-padezhnoe-markirovanie-subekta-litovskih-prichastiy-tipologiya-i-diahroniya">Аркадьев, П. М. (2014), Неканоническое падежное маркирование субъекта литовских причастий: типология и диахрония.</a>
+7. https://en.wikipedia.org/wiki/Lithuanian_grammar
+8. https://en.wikipedia.org/wiki/Lithuanian_declension
+
+The tree view will be hopefully available at http://bionlp-www.utu.fi/dep_search/ and http://lindat.mff.cuni.cz/services/pmltq/#!/treebanks
+
 <br/> === Machine-readable metadata ====<br/>
 Documentation status: stub <br/>
 Data source: automatic <br/>
