@@ -38,3 +38,23 @@ VerbForm=Fin <br />
 VerbForm=Inf <br />
 Voice=Act <br />
 Voice=Mid <br />
+
+POS statistics: <br />
+
+|#|POS|
+|---|---|
+|121129|ADJ|
+|108318|ADP|
+|70175|ADV|
+|81750|CONJ|
+|50498|DET|
+|5554|H|
+|1590|INTJ|
+|314152|NOUN|
+|27588|NUM|
+|48046|PART|
+|78353|PRON|
+|284151|PUNCT|
+|17|SYM|
+|144492|VERB|
+|9477|X|
