@@ -2,8 +2,8 @@
 # text: ʡaˁli w-ak’-ib
 # gloss: Ali(nom) m-come.pfv-aor
 # text[eng]: ‘Ali came’.
-1	Гӏали	ГӀали	PROPN	_	Case=Abs|Gender=Masc|Number=Sing	_	_	_	Gloss=Ali(nom)|Transcript=ʡaˁli
-2	вакӏиб	_	_	_	Aspect=Perf|Gender=Masc|Tense=Aor	_	_	_	Gloss=m-come.pfv-aor|Transcript=w-ak’-ib
+1	Гӏали	ГӀали	PROPN	_	Case=Abs|Gender=Masc|Number=Sing	2	nsubj	_	Gloss=Ali(nom)|Transcript=ʡaˁli
+2	вакӏиб	_	VERB	_	Aspect=Perf|Gender=Masc|Tense=Aor	0	root	_	Gloss=m-come.pfv-aor|Transcript=w-ak’-ib
 
 # sent: (2) 
 # text: adaj-ni mašinka-li-ni muc’ur b-erč-ur
@@ -72,9 +72,9 @@
 # text: nab nu-wal w-ig-as
 # gloss: I(dat) I(abs)-emph m-love:pf-hab.1/2
 # text[eng]: ‘I love myself.’
-1	Наб	ну	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=I(dat)|Transcript=nab
-2	нувал	ну	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=I(abs)-emph|Transcript=nu-wal
-3	вигас	_	_	_	Aspect=Perf|Gender=Masc|Tense=Hab	_	_	_	Gloss=m-love:pf-hab.1/2|Transcript=w-ig-as
+1	Наб	ну	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=I(dat)|Transcript=nab
+2	нувал	ну	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	3	obj	_	Gloss=I(abs)-emph|Transcript=nu-wal
+3	вигас	_	VERB	_	Aspect=Perf|Gender=Masc|Tense=Hab	0	root	_	Gloss=m-love:pf-hab.1/2|Transcript=w-ig-as
 
 # sent: (10)
 # text: maħmudi-ni gʷa b-ilt'-uwe heš surat
