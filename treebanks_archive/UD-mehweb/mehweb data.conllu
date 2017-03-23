@@ -33,19 +33,19 @@
 # text: hanna caj-li b-ilc’-uwe le-w-re
 # gloss: now one-ATR N-fill.IPFV-CVB aux-M-PST
 # text[eng]: ‘And now he was filling (with water) another one (the second jerrican).’
-1	Гьанна	гьанна	ADV	_	_	_	_	_	Gloss=now|Transcript=hanna
-2	цайли	цай	NUM	_	Case=Nom|NumType=Card	_	_	_	Gloss=one-ATR|Transcript=caj-li
-3	билцӏувэ	_	_	_	Aspect=Impf|Gender=Neut|VerbForm=Conv	_	_	_	Gloss=N-fill.IPFV-CVB|Transcript=b-ilc’-uwe
-4	лэврэ	_	AUX	_	Gender=Masc|Tense=Past	_	_	_	Gloss=aux-M-PST|Transcript=le-w-re
+1	Гьанна	гьанна	ADV	_	_	3	advmod	_	Gloss=now|Transcript=hanna
+2	цайли	цай	NUM	_	Case=Nom|NumType=Card	3	obj(!nummod)	_	Gloss=one-ATR|Transcript=caj-li
+3	билцӏувэ	_	_	_	Aspect=Impf|Gender=Neut|VerbForm=Conv	0	root	_	Gloss=N-fill.IPFV-CVB|Transcript=b-ilc’-uwe
+4	лэврэ	_	AUX	_	Gender=Masc|Tense=Past	3	aux	_	Gloss=aux-M-PST|Transcript=le-w-re
 
 # sent: (6)
 # text: ħu w-aqnal duc’ ulqe
 # gloss: you.SG(NOM) M-often run M.LV.IPFV-IMP
 # text[eng]: 'Run more often!'
 1	Хӏу	хӏу	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=you.SG(NOM)|Transcript=ħu
-2	вахънал	_	_	_	Gender=Masc	_	_	_	Gloss=M-often|Transcript=w-aqnal
-3	дуцӏ	_	_	_	_	_	_	_	Gloss=run|Transcript=duc’
-4	улхъэ	ул	NOUN	_	Case=Abs|Number=Plur	_	_	_	Gloss=M.LV.IPFV-IMP|Transcript=ulqe
+2	вахънал	_	_	_	Gender=Masc	4	advmod	_	Gloss=M-often|Transcript=w-aqnal
+3	дуцӏ	_	_	_	_	4	compound	_	Gloss=run|Transcript=duc’
+4	улхъэ	ул	NOUN	_	Case=Abs|Number=Plur	0	root	_	Gloss=M.LV.IPFV-IMP|Transcript=ulqe
 
 # sent: (7)
 # text: abaj-ni urši kung b-ʡald-aq-ib aʔib
