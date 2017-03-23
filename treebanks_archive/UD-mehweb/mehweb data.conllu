@@ -1,0 +1,111 @@
+# sent: (1)
+# text: ʡaˁli w-ak’-ib
+# gloss: Ali(nom) m-come.pfv-aor
+# text[eng]: ‘Ali came’.
+1	Гӏали	ГӀали	PROPN	_	Case=Abs|Gender=Masc|Number=Sing	_	_	_	Gloss=Ali(nom)|Transcript=ʡaˁli
+2	вакӏиб	_	_	_	Aspect=Perf|Gender=Masc|Tense=Aor	_	_	_	Gloss=m-come.pfv-aor|Transcript=w-ak’-ib
+
+# sent: (2) 
+# text: adaj-ni mašinka-li-ni muc’ur b-erč-ur
+# gloss: father-erg hair.cutter-obl-erg beard(nom) n-cut.hair.pfv-aor
+# text[eng]: ‘The father cut his beard with a hair cutter’.
+1	Адайни	адай	NOUN	_	Case=Erg|Number=Sing	_	_	_	Gloss=father-erg|Transcript=adaj-ni
+2	машинкалини	машинка	NOUN	_	Case=Erg|Number=Sing	_	_	_	Gloss=hair.cutter-obl-erg|Transcript=mašinka-li-ni
+3	муцӏур	муцӏур	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=beard(nom)|Transcript=muc’ur
+4	бэрчур	_	_	_	Aspect=Perf|Gender=Neut|Tense=Aor	_	_	_	Gloss=n-cut.hair.pfv-aor|Transcript=b-erč-ur
+
+# sent: (4)
+# text: abaj hil-l-ix-i-le r-arg-i-ra, unza=r-arg-i-ra ʡaˁj-k’-i-le, hil-l-ix-i-le r-arg-i-ra abaj
+# gloss: mother PV-F-put.PFV-PST-CVB F-find.PFV-PST-1/2 door=ADD lock-LV-PST-CVB PV-F-put.PFV-PST-CVB F-find.PFV-PST-1/2 mother
+# text[eng]: ‘I found (my) mother already gone to bed - I discovered that, having locked the door, she lied down.’
+1	Абай	абай	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=mother|Transcript=abaj
+2	гьиллихьилэ	_	_	_	Aspect=Perf|Gender=Fem|Tense=Past|VerbForm=Conv	_	_	_	Gloss=PV-F-put.PFV-PST-CVB|Transcript=hil-l-ix-i-le
+3	раргира,	_	_	_	Aspect=Perf|Gender=Fem|Tense=Past	_	_	_	Gloss=F-find.PFV-PST-1/2|Transcript=r-arg-i-ra,
+4	,	,	PUNCT	_	_	_	punct	_	_
+5	унзараргира	_	_	_	_	_	_	_	Gloss=door=ADD|Transcript=unza=r-arg-i-ra
+6	гӏайкӏилэ,	_	_	_	Tense=Past|VerbForm=Conv	_	_	_	Gloss=lock-LV-PST-CVB|Transcript=ʡaˁj-k’-i-le,
+7	,	,	PUNCT	_	_	_	punct	_	_
+8	гьиллихьилэ	_	_	_	Aspect=Perf|Gender=Fem|Tense=Past|VerbForm=Conv	_	_	_	Gloss=PV-F-put.PFV-PST-CVB|Transcript=hil-l-ix-i-le
+9	раргира	_	_	_	Aspect=Perf|Gender=Fem|Tense=Past	_	_	_	Gloss=F-find.PFV-PST-1/2|Transcript=r-arg-i-ra
+10	абай	абай	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=mother|Transcript=abaj
+
+# sent: (5)
+# text: hanna caj-li b-ilc’-uwe le-w-re
+# gloss: now one-ATR N-fill.IPFV-CVB aux-M-PST
+# text[eng]: ‘And now he was filling (with water) another one (the second jerrican).’
+1	Гьанна	гьанна	ADV	_	_	_	_	_	Gloss=now|Transcript=hanna
+2	цайли	цай	NUM	_	Case=Nom|NumType=Card	_	_	_	Gloss=one-ATR|Transcript=caj-li
+3	билцӏувэ	_	_	_	Aspect=Impf|Gender=Neut|VerbForm=Conv	_	_	_	Gloss=N-fill.IPFV-CVB|Transcript=b-ilc’-uwe
+4	лэврэ	_	AUX	_	Gender=Masc|Tense=Past	_	_	_	Gloss=aux-M-PST|Transcript=le-w-re
+
+# sent: (6)
+# text: ħu w-aqnal duc’ ulqe
+# gloss: you.SG(NOM) M-often run M.LV.IPFV-IMP
+# text[eng]: 'Run more often!'
+1	Хӏу	хӏу	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=you.SG(NOM)|Transcript=ħu
+2	вахънал	_	_	_	Gender=Masc	_	_	_	Gloss=M-often|Transcript=w-aqnal
+3	дуцӏ	_	_	_	_	_	_	_	Gloss=run|Transcript=duc’
+4	улхъэ	ул	NOUN	_	Case=Abs|Number=Plur	_	_	_	Gloss=M.LV.IPFV-IMP|Transcript=ulqe
+
+# sent: (7)
+# text: abaj-ni urši kung b-ʡald-aq-ib aʔib
+# gloss: mother.OBL-ERG boy.ABL book.ABL N-hide.PFV-CAUS-AOR drive.PFV-AOR
+# text[eng]: ‘Mother made her son hide a book.’
+1	Абайни	абай	NOUN	_	Case=Erg|Number=Sing	_	_	_	Gloss=mother.OBL-ERG|Transcript=abaj-ni
+2	урши	урши	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=boy.ABL|Transcript=urši
+3	кунг	кунг	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=book.ABL|Transcript=kung
+4	бгӏалдахъиб	_	_	_	Aspect=Perf|Gender=Neut|Tense=Aor	_	_	_	Gloss=N-hide.PFV-CAUS-AOR|Transcript=b-ʡald-aq-ib
+5	аъиб	_	_	_	Aspect=Perf|Tense=Aor	_	_	_	Gloss=drive.PFV-AOR|Transcript=aʔib
+
+# sent: (8)
+# text: ʡali-ze b-alh-an abaj iz-uwe le-r-deš.
+# gloss: Ali-inter n-know:ipf-hab mother(abs) be.sick:ipf-conv cop-f-nmlz
+# text[eng]: ‘Ali knows that mother is sick.’
+1	Гӏализэ	_	_	_	_	_	_	_	Gloss=Ali-inter|Transcript=ʡali-ze
+2	балгьан	_	_	_	Gender=Neut	_	_	_	Gloss=n-know:ipf-hab|Transcript=b-alh-an
+3	абай	абай	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=mother(abs)|Transcript=abaj
+4	изувэ	_	_	_	VerbForm=Conv	_	_	_	Gloss=be.sick:ipf-conv|Transcript=iz-uwe
+5	лэрдэш.	_	_	_	Gender=Fem	_	_	_	Gloss=cop-f-nmlz|Transcript=le-r-deš.
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# sent: (9)
+# text: nab nu-wal w-ig-as
+# gloss: I(dat) I(abs)-emph m-love:pf-hab.1/2
+# text[eng]: ‘I love myself.’
+1	Наб	ну	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=I(dat)|Transcript=nab
+2	нувал	ну	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=I(abs)-emph|Transcript=nu-wal
+3	вигас	_	_	_	Aspect=Perf|Gender=Masc|Tense=Hab	_	_	_	Gloss=m-love:pf-hab.1/2|Transcript=w-ig-as
+
+# sent: (10)
+# text: maħmudi-ni gʷa b-ilt'-uwe heš surat
+# gloss: Mahmud-erg asrt n-take.out.ipfv-cvb.ifv that picture
+# text[eng]: ‘It was Mahmud who is drawing that picture.’
+1	Махӏмудини	Махӏмуд	PROPN	_	Case=Erg|Gender=Masc|Number=Sing	_	_	_	Gloss=Mahmud-erg|Transcript=maħmudi-ni
+2	гва	гва	PART	_	_	_	_	_	Gloss=asrt|Transcript=gʷa
+3	билтӏувэ	_	_	_	Aspect=Impf|Gender=Neut|VerbForm=Conv	_	_	_	Gloss=n-take.out.ipfv-cvb.ifv|Transcript=b-ilt'-uwe
+4	гьэш	гьэш	DET	_	PronType=Dem	_	_	_	Gloss=that|Transcript=heš
+5	сурат	_	_	_	_	_	_	_	Gloss=picture|Transcript=surat
+
+# sent: (11)
+# text: nu-ni ču-s kung gib-i ulqe b-aˤq'-un uškuj-ħe
+# gloss: 1sg-erg self.pl.obl-dat book give.pfv-atr child.pl hpl-go:pfv-aor school-in(lat)
+# text[eng]: ‘The childreni to whomi I gave a book went to school’.
+1	Нуни	ну	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1sg-erg|Transcript=nu-ni
+2	чус	чу	PRON	_	Case=Dat|Number=Plur|PronType=Rsm	_	_	_	Gloss=self.pl.obl-dat|Transcript=ču-s
+3	кунг	кунг	NOUN	_	Case=Abs|Number=Sing	_	_	_	Gloss=book|Transcript=kung
+4	гиби	_	_	_	Aspect=Perf|VerbForm=Part	_	_	_	Gloss=give.pfv-atr|Transcript=gib-i
+5	улхъэ	ул	NOUN	_	Case=Abs|Number=Plur	_	_	_	Gloss=child.pl|Transcript=ulqe
+6	бакъун	_	_	_	Aspect=Perf|Tense=Aor	_	_	_	Gloss=hpl-go:pfv-aor|Transcript=b-aˤq'-un
+7	ушкуйхӏэ	_	_	_	_	_	_	_	Gloss=school-in(lat)|Transcript=uškuj-ħe
+
+# sent: (12)
+# text: ali-ze b-ah-ur rasuj-ze-la sune-s premia b-ak’-ri
+# gloss: ali-inter(lat) n-know:pfv-aor rasul-inter-el self.obl-dat money n-get:pfv-nmlz
+# text[eng]: ‘Alii found out from Rasul that hei got money’.
+1	Ализэ	_	_	_	_	_	_	_	Gloss=ali-inter(lat)|Transcript=ali-ze
+2	багьур	_	_	_	Aspect=Perf|Gender=Neut|Tense=Aor	_	_	_	Gloss=n-know:pfv-aor|Transcript=b-ah-ur
+3	расуйзэла	_	_	_	_	_	_	_	Gloss=rasul-inter-el|Transcript=rasuj-ze-la
+4	сунэс	_	_	_	Case=Dat	_	_	_	Gloss=self.obl-dat|Transcript=sune-s
+5	прэмиа	_	_	_	_	_	_	_	Gloss=money|Transcript=premia
+6	бакӏри	_	_	_	Aspect=Perf|Gender=Neut|VerbForm=Ger	_	_	_	Gloss=n-get:pfv-nmlz|Transcript=b-ak’-ri
+
