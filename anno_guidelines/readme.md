@@ -1,0 +1,33 @@
+# Manual annotation of the parallel data
+
+* Step 1. Retrieval of relevant data from the parallel corpus files.  
+* Step 2. Data preprocessing and encoding.  
+* Step 3. Dependency annotation (using UDpipe).  
+* Step 4. Data post-processing.  
+* Step 5. 1-4 with parallel data (Russian data) and word-by-word alignment.  
+* Step 6. Editing POS tags, lemmata and grammatical information.  
+* Step 7. Editing syntactic relations.  
+
+## Step 1. Retrieval of relevant data from the parallel corpus files.  
+The RNC parallel corpus data have the following xml representation. We can collect data for each language using the following commands. 
+In Linux/MacOS Terminal:
+```
+cat *.xml | grep 'lang="be"' > output.txt
+```
+
+Using Windows PowerShell:
+```
+
+```
+
+
+
+
+
+## Step 2. Data preprocessing and encoding.  
+## Step 3. Dependency annotation (using UDpipe).  
+## Step 4. Data post-processing.  
+## Step 5. 1-4 with parallel data (Russian data) and word-by-word alignment.  
+## Step 6. Editing POS tags, lemmata and grammatical information.  
+## Step 7. Editing syntactic relations.  
+
