@@ -40,6 +40,15 @@ Replace:
 
 ```
 
+### Full stops split
+```
+# Find:
+^(\d+\t[^\t.]+)\.
+#Replace
+\1\3\n\t\2
+```
+
+
 ## Step 3. Dependency annotation (using UDpipe).  
 **UPpipe** online service is available [here](https://maryszmary.github.io/ud-annotatrix/standalone/annotator.html). Experienced users can also download and run UDpipe from a command line as described [here](http://wiki.apertium.org/wiki/UDPipe).
 
