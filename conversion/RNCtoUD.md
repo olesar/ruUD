@@ -4,7 +4,7 @@ Created: 11 Jan 2017
 
 ## Parts of speech (XPOS)
 
-|Status|RNC tag|XPOS tag|description(RUS)|description(ENG)|
+|Status|RNC tag|UPOS tag|description(RUS)|description(ENG)|
 |---|---|---|---|---|
 ||S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|
 |+|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика»|proper noun|
@@ -32,7 +32,7 @@ Created: 11 Jan 2017
 
 ## Grammatical features (FEAT)
 
-|Status|RNC tag|XPOS tag|description(RUS)|description(ENG)|
+|Status|RNC tag|FEAT feature|description(RUS)|description(ENG)|
 |---|---|---|---|---|
 ||m|Gender=Masc|мужской род (_работник_, _стол_)|masculine gender|
 ||f|Gender=Fem|женский род (_работница_, _табуретка_)|feminine gender|
