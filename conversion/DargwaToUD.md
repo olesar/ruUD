@@ -8,7 +8,7 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 1 | (M)INTER | (masculine)localization INTER | Case=Inter!NounClass=Masc | VERB |  | case? |  |
 | 1 | (M)LV:IPF | (masculine)light verb:imperfective | Aspect=Imp!NounClass=Masc | VERB |  | VERB |  |
 | 3 | \<torment\> | torment | _ | X |  | X |  |
-| 3 | 2SG | Number=Sing!Person=1 |  | VERB |  | person,number |  |
+| 3 | 2SG |  | Number=Sing!Person=1 | VERB |  | person,number |  |
 | 5 | ABSTR | abstractum | Case=Abstr | NOUN | *language-specific | case |  |
 | 6 | AD | adessive | Case=Ade | NOUN!PROPN!DET |  | case | локализация ʻобласть, типично ассоциируемая с объектом’ |
 | 80 | ADD | additive particle | Addit=Add | VERB | ?*language-specific | PART | аддитивная частица |
@@ -16,7 +16,7 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 56 | ADV | adverb | _ | ADV |  | ADV | наречие; адвербиальный падеж |
 | 4 | ALL | allative; allocutive? | Case=All | ADV | ?pos | case | аллокутивная частица |
 | 14 | ANTE | anterior (localization) | Case=Anter/Preverb=Anter | VERB!NOUN | ?? | case? | локализация ʻпередʼ |
-| 4 | ANTR | preverb ANTERIOR ('before') | Preverb=Anter | VERB | *language-specific | case? |  |
+| 4 | ANTR | anterior converb ('before') | VerbForm=ConvAnt | VERB | *language-specific | VERB |  |
 | 9 | ASC | associative plural | Number=Asc | NOUN!PROPN | *language-specific | number |  |
 | 1 | ASC(GEN) | associative plural (Genitive) | Case=Gen!Number=Asc | NOUN!PROPN |  | number,case |  |
 | 76 | ATR | attributive marker | Attr=Yes | ADJ |  | conversion | атрибутивный показатель |
@@ -31,7 +31,7 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 18 | COP:NEG | copula:negative | Polarity=Neg | VERB |  | VERB |  |
 | 17 | COP:NEG:PST | copula:negative:past | Polarity=Neg!Tense=Past | VERB |  | VERB |  |
 | 60 | COP:PST | copula:past | Tense=Past | VERB |  | VERB |  |
-| 1 | CSL | causal | Addit=Causal | VERB | ?Case=Cau | case |  |
+| 1 | CSL | causal, converb of reason | VerbForm=ConvCaus | VERB |  | VERB |  |
 | 119 | DEM.A | demonstrative:near addressee | PronType=DemA | DET | *language-specific | demonstrative |  |
 | 90 | DEM.D | demonstrative:distal/distant? | PronType=DemD | DET | *language-specific | demonstrative |  |
 | 1 | DEM.D+LOC |  | Case=Loc!PronType=DemD | DET |  | demonstrative |  |
@@ -55,7 +55,7 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 1 | HPL(ESS) |  | Case=Ess!NounClass=HumPlur | VERB | *language-specific | class |  |
 | 3 | HPL(ESS)+HPL |  | Case=Ess!NounClass=HumPlur | VERB | *language-specific | class |  |
 | 1 | IAM | aspect ('already') | Aspect=Iam | VERB | *language-specific | aspect |  |
-| 1 | IMM | imminent? immediate tense | Tense=Imm | VERB | *language-specific | tense |  |
+| 1 | IMM | immediate future | Tense=FutImm | VERB | *language-specific | tense |  |
 | 11 | IMP | imperative | Mood=Imp | VERB |  | mood | императив |
 | 11 | IN | localization IN | Case=Ine | VERB!NOUN |  | case? | локализация ʻвнутри’ (внутри некоторого вместилища) |
 | 21 | INDEF | indefinite pronoun | PronType=Ind | PRON |  | PRON | неопределенное местоимение |
@@ -93,7 +93,7 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 1 | PROH.ITR | prohibitive.intransitive | Mood=Proh!Transit=No | VERB | ? | mood |  |
 | 2 | PROH.TR | prohibitive.transitive | Mood=Proh!Transit=Yes | VERB | ? | mood |  |
 | 271 | PST | past | Tense=Past | VERB |  | tense | прошедшее время |
-| 6 | PSTR | posterior converb | Preverb=Poster | VERB | ?*language-specific | preverb |  |
+| 6 | PSTR | posterior converb | VerbForm=ConvPost | VERB | ?*language-specific | preverb |  |
 | 14 | PTCL | particle | _ | PART |  | PART |  |
 | 19 | Q | question | Addit=Que | VERB | ?*language-specific | PART |  |
 | 2 | RQ | rhetoric question | Addit=Rhet | VERB | ?*language-specific |  | риторический вопрос |
@@ -102,8 +102,8 @@ This table is based on the Corpus of Chirag Dargwa tagset (Ganenkov, Dmitry. 201
 | 22 | SUB | localization SUB | Case=Sub | VERB | ? | case? | локализация ʻпод’ |
 | 1 | SUP | superlative | Case=Sup | NOUN!PROPN!DET | ? | case |  |
 | 56 | SUPER | localization SUPER | Case=Sup | NOUN!PROPN!PRON!DET!VERB | ? | case? | локализация ʻна’ |
-| 31 | TEMP | temporal | Case=Tem | VERB!DET | ?? | case?? |  |
-| 7 | TERM | terminative (specifies a limit) | Case=Ter | VERB!PRON | ?? | case?? |  |
+| 31 | TEMP | temporal converb | VerbForm=ConvTemp!Case=Tem | VERB!DET | ?? | VERB!case?? |  |
+| 7 | TERM | terminative converb (specifies a limit) | VerbForm=ConvTerm!Case=Ter | VERB!PRON | ?? | VERB!case?? |  |
 | 16 | TOPONYM | toponym | _ | PROPN |  | PROPN |  |
 | 16 | UP | preverb UP | Preverb=Up | VERB | *language-specific | preverb | преверб ʻвверх’; показатель направления вверх |
 | 9 | VRF | verificative | Addit=Vrf | VERB |  | PART |  |
