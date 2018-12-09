@@ -4,8 +4,8 @@ UD_Russian-SynTagRus (v.2.0, morphology with manual correction)  Created: 11 Jan
 
 ## Parts of speech (XPOS)
 
-|XPOS|description|FREQ|
-|---|---|---|---:|
+|XPOS|UPOS|description|FREQ|  
+|----|----|-----------|---:|
 |ADJ|JJ|\_|62|
 ||JJH|Case=Gen\|Degree=Pos\|Gender=Fem\|Number=Sing\|Variant=Short|2|
 |||Degree=Pos\|Gender=Fem\|Number=Sing\|Variant=Brev|698|
