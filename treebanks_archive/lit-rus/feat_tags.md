@@ -1,8 +1,9 @@
+NB! Lithuanian pages moved to [UD_Lithuanian wiki](https://github.com/olesar/UD_Lithuanian/wiki). Last update: Feb 2019.
+
 # Lithuanian treebank
 
-Annotated manually using the Morphological Annotator by CCL, Vytautas Magnus University (http://tekstynas.vdu.lt/).
+Lithuanian UD (https://github.com/UniversalDependencies/UD_Lithuanian-HSE/tree/dev) is annotated manually using the Morphological Annotator by CCL, Vytautas Magnus University (http://tekstynas.vdu.lt/).
 A pilot version which includes news and an essay by Tomas Venclova is available here.
-
 
 ### Grammatical features
 |Lithuanian term|KLC tag|UD FEAT|RNC tag|English term|
@@ -104,7 +105,12 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
 7. https://en.wikipedia.org/wiki/Lithuanian_grammar
 8. https://en.wikipedia.org/wiki/Lithuanian_declension
 
-The tree view will be hopefully available at http://bionlp-www.utu.fi/dep_search/ and http://lindat.mff.cuni.cz/services/pmltq/#!/treebanks
+### Searching the treebank
+The tree view is available at: 
+* http://match.grew.fr/?corpus=UD_Lithuanian-HSE@2.3&custom=5c532589679b7
+* http://bionlp-www.utu.fi/dep_search/ 
+* http://lindat.mff.cuni.cz/services/pmltq/#!/treebanks
+* https://lindat.mff.cuni.cz/services/kontext/corpora/corplist
 
 <br/> === Machine-readable metadata ====<br/>
 Documentation status: stub <br/>
