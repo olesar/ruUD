@@ -1,34 +1,42 @@
 # Russian National Corpus tagset (main corpus): conversion table to UD 2.0
 
-Created: 11 Jan 2017
+Created: 01 Nov 2020  Edited: 03 Feb 2021
 
-## Parts of speech (XPOS)
+## Universal parts of speech (UPOS)
 
-|Status|RNC tag|UPOS tag|description(RUS)|description(ENG)|
-|---|---|---|---|---|
-||S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|
-|+|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика»|proper noun|
-|-|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются)|proper noun (initial letter)|
-||A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|
-||NUM|NUM|числительное (_четыре_, _4_, _много_)|numeral|
-|-|ANUM|ADJ|числительное-прилагательное (_седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM)|ordinal numeral|
-||V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
-|+|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
-|-|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/blob/master/praedic_list.md)|predicative|
-|-|PRAEDICPRO|VERB|местоимение-предикатив (_некого_, _нечего_)|predicative pronoun|
-||ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
-|-|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
-|\*|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|
-|\*|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/blob/master/det_list.md)|adjectival pronoun/determiner|
-|-|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
-||PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
-||CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
-|+|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/blob/master/conj_list.md)|coordinating conjunction|
-||PART|PART|частица (_бы_, _же_, _пусть_)|particle|
-||INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
-||NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
-|+||SYM|символ (_%_, _$_)|symbol|
-|+||PUNCT|знак препинания|punctuation mark|
+|Status|UDext|RNC|UD|description(RUS)|description(ENG)|
+|---|---|---|---|---|---|
+|~|NOUN|S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|
+|+|PROPN|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика» НКРЯ|proper noun|
+|-|PROPN|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются в НКРЯ, Abbr=Yes в UDext)|proper noun (initial letter)|
+|=|ADJ|A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|
+|~|NUM|NUM|NUM|числительное (_четыре_, _4_, _много_)|numeral|
+|!|ANUM|ANUM|ADJ|числительное-прилагательное (_седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM в UD)|ordinal numeral|
+|~|VERB|V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
+|+|AUX|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
+|!|PRED|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/blob/master/praedic_list.md)|predicative|
+|!|PREDPRO|PRAEDICPRO|VERB|местоимение-предикатив (_некого_, _нечего_)|predicative pronoun|
+|=|ADV|ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
+|!|PARENTH|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
+|=|PRON|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|
+|=|DET|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/blob/master/det_list.md)|adjectival pronoun/determiner|
+|!|ADVPRO|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
+|=|ADP|PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
+|~|SCONJ|CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
+|+|CCONJ|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/blob/master/conj_list.md)|coordinating conjunction|
+|=|PART|PART|PART|частица (_бы_, _же_, _пусть_)|particle|
+|=|INTJ|INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
+|=|X|NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
+|+|SYM||SYM|символ (_%_, _$_)|symbol|
+|+|PUNCT||PUNCT|знак препинания|punctuation mark|
+
+Легенда:  
+ = точное соответствие (NB отдельные лексические несоответствия)  
+ ~ дефолтное соответствие: классы в целом совпадают, с точностью до выделения новых частеречных подклассов и точечных лексических несоответствий  
+ \+ добавление подкласса в базовом UD  
+ ! добавление подкласса в UDext  
+ \- нет соответствия в UD   
+
 
 ## Grammatical features (FEAT)
 
