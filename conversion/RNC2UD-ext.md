@@ -104,23 +104,25 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |\*|Poss=Yes||Poss=Yes|притяжательное (_мой_, _свой_)|possessive (pronoun)|
 |\*|NumType=Card||NumType=Card|количественное числительное (_два_,_21_)|cardinal numeral|
 |\*|NumType=Sets||NumType=Sets|собирательное числительное (_двое_, _пятеро_)|collective numeral|
-||NumType=Frac||NumType=Frac|доля (_пол_, _1/5_)|fraction|
+|\*|NumType=Frac||NumType=Frac|доля (_пол_, _1/5_)|fraction|
 ||NumType=Ord||NumType=Ord|порядковое числительное (_второй_, _2-ой_)|ordinal numeral|
-|!|NounType=Giv|persn|NounType=Giv|личное имя (_Иван_, _Дарья_, _Леопольд_, _Эстер_, _Гомер_, _Маугли_)|name of a person: first, given name|
-|!|NounType=Patrn|patrn|NounType=Patrn|отчество (_Иванович_, _Павловна_)|patronymic name|
-|!|NounType=Sur|famn|NounType=Sur|фамилия (_Николаев_, _Волконская_, _Гумбольдт_)|family name, second name |
-|\+|NounType=Prs|persn|NounType=Prs|другие имена лиц (_Жирик_, _ЕБН_, _ВИЛ_)|other name of a person|
-|!|NounType=Zoo|zoon|NounType=Zoo|кличка животного (_Шарик_, _Дочка_)|zoonym|
-|!|NounType=Geo|topon|NounType=Geo|топоним (_Москва_, _Полянка_)|toponym|
-|\*|NounType=Com| |NounType=Com|название организации (_МТС_, _Зенит_)|name of a company|
-|\*|NounType=Pro| |NounType=Pro|название продукции (_Звезда_, _Бирюса_)|toponym|
-|\*|NounType=Oth| |NounType=Oth|другие имена собственные (_Оскар_, _ЕГЭ_)|other personal names|
+|=|NameType=Giv|persn|NameType=Giv|личное имя (_Иван_, _Дарья_, _Леопольд_, _Эстер_, _Гомер_, _Маугли_)|name of a person: first, given name|
+|=|NameType=Patrn|patrn|NameType=Patrn|отчество (_Иванович_, _Павловна_)|patronymic name|
+|=|NameType=Sur|famn|NameType=Sur|фамилия (_Николаев_, _Волконская_, _Гумбольдт_)|family name, second name |
+|\+|NameType=Prs|persn|NameType=Prs|другие имена лиц (_Жирик_, _ЕБН_, _ВИЛ_)|other name of a person|
+|=|NameType=Zoo|zoon|NameType=Zoo|кличка животного (_Шарик_, _Дочка_)|zoonym|
+|=|NameType=Geo|topon|NameType=Geo|топоним (_Москва_, _Полянка_)|toponym|
+|\*|NameType=Com| |NameType=Com|название организации (_МТС_, _Зенит_)|name of a company|
+|\*|NameType=Pro| |NameType=Pro|название продукции (_Звезда_, _Бирюса_)|toponym|
+|\*|NameType=Oth| |NameType=Oth|другие имена собственные (_Оскар_, _ЕГЭ_)|other personal names|
 |!|Indecl=Yes|0|Indecl=Yes|несклоняемое (_шоссе_, _Седых_)|indeclinable|
 |!|Anom=Yes|anom|Anom=Yes|аномальная форма (различного рода морфологические аномалии, возможные у устаревших или просторечных нелитературных форм (_три дни_ при нормативном _три дня_, _ляжь_ при нормативном _ляг_))|grammatically anomalous form|
 |=|Abbr=Yes|abbr|Abbr=Yes|сокращение (сокращенная запись (_тов._, _гг._, _ч._). В поле «Лемма» сокращение (кроме инициалов) раскрывается, указывается грамматическая форма, соответствующая контексту. Специально отметим, что акронимы вроде _ООН_, _вуз_ и усеченные слова вроде _зав_, _зам_, записываемые без точки и не раскрываемые при чтении, не получают пометы abbr и трактуются как обычные слова (склоняемые или несклоняемые))|abbreviation|
 |=|Typo=Yes|distort|Typo=Yes|искаженная форма (орфографическое и/или фонетическое искажение слова, часто передающее различные особенности произношения (_дэвушка_, _това’ищи_, _про-хо-ди_, _низнаю_))|distorted form|
 |\*|Foreign=Yes||Foreign=Yes|неосвоенное слово (часто у X или если затруднительно определить грамматические признаки)|foreign|
 |=|NumForm=Digit|ciph|NumForm=Digit|цифровая запись (запись числительного, числительного-прилагательного или прилагательного (полностью или частично) при помощи цифр (_73_, _LXXIII_, _73-й_, _22-летний_). Для этих словоформ в поле «Лемма» также употребляется цифровая запись; число и падеж указываются только в тех случаях, когда выписано окончание (типа _14-му_))|digital|
+|\*|NumForm=Word||NumForm=Word|буквенная запись числительного, числительного-прилагательного (_первому_)|word|
+|\*|NumForm=Roman||NumForm=Roman|запись числительного, числительного-прилагательного латинскими буквами (_V-IX_)|roman letters|
 ||(NumForm=Combo)|ciph||комбинированная запись (_73-ий_, _22-летний_)|digital|
 
 Universal guidelines: https://universaldependencies.org/u/feat/index.html  
