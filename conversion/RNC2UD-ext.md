@@ -4,31 +4,31 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 
 ## Universal parts of speech (UPOS)
 
-|Status|UDext|RNC|UD|description(RUS)|description(ENG)|
+|Status|UDext|RNC|UD|description(RUS)|description(ENG)|AUT Aranea|MulTEXT|
 |---|---|---|---|---|---|
-|~|NOUN|S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|
-|+|PROPN|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика» НКРЯ|proper noun|
-|-|PROPN|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются в НКРЯ, Abbr=Yes в UDext)|proper noun (initial letter)|
-|=|ADJ|A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|
-|~|NUM|NUM|NUM|числительное (_четыре_, _4_, _много_)|numeral|
-|!|ANUM|ANUM|ADJ|числительное-прилагательное (_седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM в UD)|ordinal numeral|
-|~|VERB|V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|
-|+|AUX|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|
+|~|NOUN|S|NOUN|существительное (_яблоня_, _лошадь_, _корпус_, _вечность_)|noun|Nn||
+|+|PROPN|S|PROPN|+ существительное - имя собственное|(_Иван_, _Москва_, _СССР_); определяется по пометам persn, patrn, famn, zoon и в большинстве случаев abbr в поле «Грамматика» НКРЯ|proper noun|Nn||
+|-|PROPN|INIT|PROPN|инициал (запись вида «заглавная буква с точкой» (_М._, _Р._). В поле «Лемма» инициал не раскрывается; грамматические признаки не указываются в НКРЯ, Abbr=Yes в UDext)|proper noun (initial letter)|Nn||
+|=|ADJ|A|ADJ|прилагательное (_коричневый_, _таинственный_, _морской_)|adjective|Aj||
+|~|NUM|NUM|NUM|числительное (_четыре_, _4_, _много_)|numeral|Nm||
+|!|ANUM|ANUM|ADJ|числительное-прилагательное (_седьмой_, _восьмидесятый_); NB за исключением _один_ (размечается как NUM в UD)|ordinal numeral|Aj||
+|~|VERB|V|VERB|глагол (_пользоваться_, _обрабатывать_)|verb|Vb||
+|+|AUX|V|AUX|вспомогательный глагол _быть_ (выполняющий функции грамматического показателя)|auxiliary|Vb||
 |!|PRED|PRAEDIC|VERB|предикатив (_жаль_, _хорошо_, _пора_), см. [список](https://github.com/olesar/ruUD/blob/master/praedic_list.md)|predicative|
 |!|PREDPRO|PRAEDICPRO|VERB|местоимение-предикатив (_некого_, _нечего_)|predicative pronoun|
 |=|ADV|ADV|ADV|наречие (_сгоряча_, _очень_)|adverb|
-|!|PARENTH|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|
-|=|PRON|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|
-|=|DET|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/blob/master/det_list.md)|adjectival pronoun/determiner|
-|!|ADVPRO|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|
-|=|ADP|PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|
-|~|SCONJ|CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|
-|+|CCONJ|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/blob/master/conj_list.md)|coordinating conjunction|
-|=|PART|PART|PART|частица (_бы_, _же_, _пусть_)|particle|
-|=|INTJ|INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|
-|=|X|NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |
-|+|SYM||SYM|символ (_%_, _$_)|symbol|
-|+|PUNCT||PUNCT|знак препинания|punctuation mark|
+|!|PARENTH|PARENTH|ADV|вводное слово (_кстати_, _по-моему_)|parenthetically used discoursive markers|Av||
+|=|PRON|SPRO|PRON|местоимение-существительное (_она_, _что_), см. [список](https://github.com/olesar/ruUD/blob/master/pron_list.md)|pronoun (as noun)|Pn||
+|=|DET|APRO|DET|местоимение-прилагательное (_этот_, _твой_); NB за исключением _который_ (размечается как PRON), см. [список](https://github.com/olesar/ruUD/blob/master/det_list.md)|adjectival pronoun/determiner|Dt||
+|!|ADVPRO|ADVPRO|ADV||местоименное наречие (_где_, _вот_)	adverbial pronoun|Av||
+|=|ADP|PR|ADP|предлог (_под_, _напротив_)|preposition/adposition|Pp||
+|~|SCONJ|CONJ|SCONJ|союз (_что_, _чтобы_); при конвертации по умолчанию подчинительный|subordinating conjunction|Cj||
+|+|CCONJ|CONJ|CCONJ|+ сочинительный союз (_и_, _но_), см. [список](https://github.com/olesar/ruUD/blob/master/conj_list.md)|coordinating conjunction|Cj||
+|=|PART|PART|PART|частица (_бы_, _же_, _пусть_)|particle|Pt||
+|=|INTJ|INTJ|INTJ|междометие (_увы_, _батюшки_)|interjection|Ij||
+|=|X|NONLEX|X|не-слова (_шшетт_, _bolo_)|foreign and non-words |Yx||
+|+|SYM||SYM|символ (_%_, _$_)|symbol|Sy||
+|+|PUNCT||PUNCT|знак препинания|punctuation mark|Zz||
 
 Легенда:  
  = точное соответствие (NB отдельные лексические несоответствия)  
