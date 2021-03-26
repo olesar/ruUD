@@ -92,7 +92,7 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |=|Person=2|2p|Person=2|второе лицо (_украшаешь_)|second person|4:2|
 |=|Person=3|3p|Person=3|третье лицо (_украшает_)|third person|4:3|
 |\*|Polarity=Yes||Polarity=Yes|отрицательная частица, глагол и т.д.|negative polarity|
-|\*|PronType=Pers||PronType=Pers|личное/притяжательное местоимение (_я_, _мой_), также ставится у возвратных|personal pronoun|1:p|
+|\*|PronType=Prs||PronType=Pers|личное/притяжательное местоимение (_я_, _мой_), также ставится у возвратных|personal pronoun|1:p|
 |\*|PronType=Dem||PronType=Dem|указательное местоимение (_этот_, _такой_)|demonstrative pronoun|1:d|
 |\*|PronType=Tot||PronType=Tot|кванторное местоимение (_все_, _весь_, _каждый_, _любой_)|total (collective) pronoun|1:n|
 |\*|PronType=Int||PronType=Int|вопросительное местоимение (_кто_, _чей_)|interrogative pronoun|1:q|
