@@ -125,7 +125,7 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |=|NumForm=Digit|ciph|NumForm=Digit|цифровая запись (запись числительного, числительного-прилагательного или прилагательного (полностью или частично) при помощи цифр (_73_, _LXXIII_, _73-й_, _22-летний_). Для этих словоформ в поле «Лемма» также употребляется цифровая запись; число и падеж указываются только в тех случаях, когда выписано окончание (типа _14-му_))|digital|5:d|
 |\*|NumForm=Word||NumForm=Word|буквенная запись числительного, числительного-прилагательного (_первому_)|word|5:l|
 |\*|NumForm=Roman||NumForm=Roman|запись числительного, числительного-прилагательного латинскими буквами (_V-IX_)|roman letters|5:r|
-||(NumForm=Combo)|ciph||комбинированная запись (_73-ий_, _22-летний_)|digital|
+||(NumForm=Combi)|ciph||комбинированная запись (_73-ий_, _22-летний_)|digital|
 
 For MulTEXT-East v4,  see https://www.sketchengine.eu/russian-tagset/. Features such as `2:m` means the `2nd` position of the value `m` in the positional MorphoSyntacticDescripttion (MSD): positions of Animacy, Case, Gender, and Number are given for nouns; positions of VerbForm, Aspect, Tense, Voice, Person - for verbs, positions of Possessiveness, Degree, Variant - for adjectives, PronType and Reflex - for pronouns, NumType=for numerals.
 
