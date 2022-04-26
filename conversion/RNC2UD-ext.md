@@ -109,7 +109,7 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |\*|NumType=Frac||NumType=Frac|доля (_пол_, _1/5_)|fraction||
 ||NumType=Ord||NumType=Ord|порядковое числительное (_второй_, _2-ой_)|ordinal numeral|1:o|
 |=|NameType=Giv|persn|NameType=Giv|личное имя (_Иван_, _Дарья_, _Леопольд_, _Эстер_, _Гомер_, _Маугли_)|name of a person: first, given name|
-|=|NameType=Patrn|patrn|NameType=Patrn|отчество (_Иванович_, _Павловна_)|patronymic name|
+|=|NameType=Pat|patrn|NameType=Pat|отчество (_Иванович_, _Павловна_)|patronymic name|
 |=|NameType=Sur|famn|NameType=Sur|фамилия (_Николаев_, _Волконская_, _Гумбольдт_)|family name, second name |
 |\+|NameType=Prs|persn|NameType=Prs|другие имена лиц (_Жирик_, _ЕБН_, _ВИЛ_)|other name of a person|
 |=|NameType=Zoo|zoon|NameType=Zoo|кличка животного (_Шарик_, _Дочка_)|zoonym|
@@ -117,7 +117,7 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |\*|NameType=Com| |NameType=Com|название организации (_МТС_, _Зенит_)|name of a company|
 |\*|NameType=Pro| |NameType=Pro|название продукции (_Звезда_, _Бирюса_)|toponym|
 |\*|NameType=Oth| |NameType=Oth|другие имена собственные (_Оскар_, _ЕГЭ_)|other personal names|
-|!|Indecl=Yes|0|Indecl=Yes|несклоняемое (_шоссе_, _Седых_)|indeclinable|
+|!|InflClass=Ind|0|InflClass=Ind|несклоняемое (_шоссе_, _Седых_)|indeclinable|
 |!|Anom=Yes|anom|Anom=Yes|аномальная форма (различного рода морфологические аномалии, возможные у устаревших или просторечных нелитературных форм (_три дни_ при нормативном _три дня_, _ляжь_ при нормативном _ляг_))|grammatically anomalous form|
 |=|Abbr=Yes|abbr|Abbr=Yes|сокращение (сокращенная запись (_тов._, _гг._, _ч._). В поле «Лемма» сокращение (кроме инициалов) раскрывается, указывается грамматическая форма, соответствующая контексту. Специально отметим, что акронимы вроде _ООН_, _вуз_ и усеченные слова вроде _зав_, _зам_, записываемые без точки и не раскрываемые при чтении, не получают пометы abbr и трактуются как обычные слова (склоняемые или несклоняемые))|abbreviation|
 |=|Typo=Yes|distort|Typo=Yes|искаженная форма (орфографическое и/или фонетическое искажение слова, часто передающее различные особенности произношения (_дэвушка_, _това’ищи_, _про-хо-ди_, _низнаю_))|distorted form|
@@ -125,7 +125,7 @@ Created: 01 Nov 2020  Edited: 03 Feb 2021
 |=|NumForm=Digit|ciph|NumForm=Digit|цифровая запись (запись числительного, числительного-прилагательного или прилагательного (полностью или частично) при помощи цифр (_73_, _LXXIII_, _73-й_, _22-летний_). Для этих словоформ в поле «Лемма» также употребляется цифровая запись; число и падеж указываются только в тех случаях, когда выписано окончание (типа _14-му_))|digital|5:d|
 |\*|NumForm=Word||NumForm=Word|буквенная запись числительного, числительного-прилагательного (_первому_)|word|5:l|
 |\*|NumForm=Roman||NumForm=Roman|запись числительного, числительного-прилагательного латинскими буквами (_V-IX_)|roman letters|5:r|
-||(NumForm=Combi)|ciph||комбинированная запись (_73-ий_, _22-летний_)|digital|
+||NumForm=Combi|ciph||комбинированная запись (_73-ий_, _22-летний_)|digital|
 
 For MulTEXT-East v4,  see https://www.sketchengine.eu/russian-tagset/. Features such as `2:m` means the `2nd` position of the value `m` in the positional MorphoSyntacticDescripttion (MSD): positions of Animacy, Case, Gender, and Number are given for nouns; positions of VerbForm, Aspect, Tense, Voice, Person - for verbs, positions of Possessiveness, Degree, Variant - for adjectives, PronType and Reflex - for pronouns, NumType=for numerals.
 
