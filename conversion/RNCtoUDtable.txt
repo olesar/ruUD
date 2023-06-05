@@ -42,15 +42,15 @@ acc2	Case=Nom
 loc2	Case=Loc
 adnum	Case=Gen
 brev	Variant=Short
-plen	
+plen	Variant=Long
 	Degree=Pos
 comp	Degree=Cmp
 comp2	Degree=Cmp
 supr	Degree=Sup
 pf	Aspect=Perf
 ipf	Aspect=Imp
-intr	
-tran	
+intr	Transit=Intr
+tran	Transit=Tran
 act	Voice=Act
 pass	Voice=Pass
 med	Voice=Mid
@@ -67,12 +67,33 @@ fut	Tense=Fut
 1p	Person=1
 2p	Person=2
 3p	Person=3
-persn	
-patrn	
-famn	
-zoon	
-0	
-anom	
-distort	
-ciph	
-abbr	
+persn	NameType=Giv
+patrn	NameType=Pat
+famn	NameType=Sur
+zoon	NameType=Zoo 
+	NameType=Com
+	NameType=Pro
+	NameType=Nat
+	NameType=Evn
+	NameType=Oth
+0	InflClass=Ind
+anom	Anom=Yes
+distort	Typo=Yes
+abbr	Abbr=Yes
+ciph	NumForm=Digit
+	NumForm=Word
+	NumForm=Roman
+	NumForm=Cyril
+	NumForm=Combi
+	NumType=Card
+	NumType=Ord
+	NumType=Sets
+	PronType=Prs
+	PronType=Int
+	PronType=Rel
+	PronType=Tot
+	PronType=Dem
+	PronType=Neg
+	PronType=Rcp
+	Poss=Yes
+refl	Reflex=Yes
