@@ -19,7 +19,7 @@
 11	кирпичной	кирпичный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 12	стеной	стена	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 13	и	и	CONJ	_
-14	барной	барный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+14	барной	барный	ADJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing
 15	стойкой	стойка	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 16	вместо	вместо	ADP	_
 17	подоконника	подоконник	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -43,16 +43,16 @@
 6	:	:	PUNCT	_
 7	плита	плита	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 8	,	,	PUNCT	_
-9	холодильник	холодильник	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+9	холодильник	холодильник	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 10	и	и	CONJ	_
 11	посудомоечная	посудомоечный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 12	машина	машина	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 13	,	,	PUNCT	_
 14	микроволновая	микроволновый	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
-15	печь	печь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+15	печь	печь	VERB	VerbForm=Inf
 16	,	,	PUNCT	_
 17	кроме_того	кроме_того	H	_
-18	пол	пол	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+18	пол	пол	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 19	на	на	ADP	_
 20	кухне	кухня	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 21	с	с	ADP	_
@@ -76,7 +76,7 @@
 1	Мы	мы	PRON	Case=Nom|Number=Plur|Person=1
 2	изменяем	изменять	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	себя	себя	PRON	Case=Acc
-4	в_основном	в_основном	H	_
+4	в_основном	в_основном	ADV	Degree=Pos
 5	по	по	ADP	_
 6	одной	один	NUM	Case=Dat|Gender=Fem
 7	из	из	ADP	_
@@ -106,8 +106,8 @@
 
 1	Отдельное	отдельный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 2	спасибо	спасибо	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
-3	Наталье	Наталья	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
-4	Зиминой	Зимина	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
+3	Наталье	наталья	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
+4	Зиминой	зиминой	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 5	за	за	ADP	_
 6	подробное	подробный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
 7	описание	описание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
@@ -118,7 +118,7 @@
 1	Единственный	единственный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 2	сквер	сквер	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	в	в	ADP	_
-4	Саяногорске	Саяногорск	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+4	Саяногорске	саяногорск	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 5	получил	получить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 6	имя	имя	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 7	первого	первый	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
@@ -131,7 +131,7 @@
 4	любой	любой	DET	Case=Acc|Gender=Masc|Number=Sing
 5	корабль	корабль	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	за	за	ADP	_
-7	20	20	NUM	Form=Digit
+7	20	20	NUM	Form=Digit|	
 8	любых	любой	DET	Case=Gen|Number=Plur
 9	коллекций	коллекция	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 10	,	,	PUNCT	_
@@ -157,17 +157,17 @@
 7	порой	порой	ADV	Degree=Pos
 8	извергаются	извергаться	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 9	,	,	PUNCT	_
-10	пока	пока	ADV	Degree=Pos
+10	пока	пока	CONJ	_
 11	молчит	молчать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 12	женщина	женщина	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 13	...	...	PUNCT	_
 
 1	Теннисисты	теннисист	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
-2	Хакасии	Хакасия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+2	Хакасии	хакасия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 3	стали	стать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 4	победителями	победитель	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur
 5	чемпионата	чемпионат	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
-6	России	Россия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+6	России	россия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 
 1	Мне	я	PRON	Case=Dat|Number=Sing|Person=1
 2	часто	часто	ADV	Degree=Pos
@@ -184,19 +184,19 @@
 13	девочка	девочка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 14	...	...	PUNCT	_
 
-1	Конверт	конверт	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+1	Конверт	конверт	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 2	на	на	ADP	_
 3	выписку	выписка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 4	и	и	CONJ	_
 5	прогулку	прогулка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 6	для	для	ADP	_
 7	малыша	малыш	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
-8	0-3	0-3	NUM	Form=Digit
+8	0-3	0-3	PUNCT	_
 9	месяца	месяц	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
 
-1	Больше	много	ADV	Degree=Cmp
-2	всего	всё	PRON	Case=Gen|Gender=Neut|Number=Sing
+1	Больше	больше	ADV	Degree=Cmp
+2	всего	всего	PART	_
 3	в	в	ADP	_
 4	жизни	жизнь	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 5	ненавижу	ненавидеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -210,8 +210,8 @@
 2	живого	живой	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
 3	общения	общение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 4	,	,	PUNCT	_
-5	порождённая	порождённый	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
-6	в_основном	в_основном	H	_
+5	порожденная	порожденный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+6	в_основном	в_основном	ADV	Degree=Pos
 7	индивидуальной	индивидуальный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 8	психологической	психологический	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 9	изоляцией	изоляция	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
@@ -237,7 +237,7 @@
 29	.	.	PUNCT	_
 30	"	"	PUNCT	_
 
-1	Короче	короче	H	_
+1	Короче	коротко	ADV	Degree=Cmp
 2	:	:	PUNCT	_
 3	столько	столько	NUM	Case=Nom
 4	-	-	PUNCT	_
@@ -248,7 +248,7 @@
 9	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 10	,	,	PUNCT	_
 11	"	"	PUNCT	_
-12	остальное	остальной	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+12	остальное	остальной	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
 13	"	"	PUNCT	_
 14	я	я	PRON	Case=Nom|Number=Sing|Person=1
 15	как	как	CONJ	_
@@ -260,7 +260,7 @@
 21	только	только	ADV	Degree=Pos
 22	первое	первый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 23	,	,	PUNCT	_
-24	то	то	CONJ	_
+24	то	тот	CONJ	_
 25	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
 26	—	—	PUNCT	_
 27	привет	привет	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
@@ -272,7 +272,7 @@
 2	живого	живой	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
 3	общения	общение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 4	плодит	плодить	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-5	сущности	сущность	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+5	сущности	сущность	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
 6	,	,	PUNCT	_
 7	но	но	CONJ	_
 8	признаться	признаться	VERB	VerbForm=Inf
@@ -291,7 +291,7 @@
 3	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	бы	бы	PART	_
 5	очень	очень	ADV	Degree=Pos
-6	стыдно	стыдно	ADV	Degree=Pos
+6	стыдно	стыдный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 7	.	.	PUNCT	_
 
 1	У	у	ADP	_
@@ -308,9 +308,9 @@
 5	на	на	ADP	_
 6	спицах	спица	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
 7	"	"	PUNCT	_
-8	плюс	плюс	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+8	плюс	плюс	CONJ	_
 9	к	к	ADP	_
-10	этому	этот	DET	Case=Dat|Gender=Masc|Number=Sing
+10	этому	это	PRON	Case=Dat|Gender=Neut|Number=Sing
 11	"	"	PUNCT	_
 12	Мастер-класс	мастер-класс	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 13	по	по	ADP	_
@@ -334,7 +334,7 @@
 1	не	не	PART	_
 2	понимаю	понимать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
-4	как	как	CONJ	_
+4	как	как	ADV	Degree=Pos
 5	можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 6	ничего	ничто	PRON	Case=Gen|Gender=Neut|Number=Sing
 7	не	не	PART	_
@@ -370,10 +370,10 @@
 1	разве	разве	PART	_
 2	можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 3	разлюбить	разлюбить	VERB	VerbForm=Inf
-4	того	то	PRON	Case=Gen|Gender=Neut|Number=Sing
+4	того	то	PRON	Case=Acc|Gender=Masc|Number=Sing
 5	,	,	PUNCT	_
 6	к	к	ADP	_
-7	которому	который	DET	Case=Dat|Gender=Masc|Number=Sing
+7	которому	который	DET	Case=Dat|Gender=Neut|Number=Sing
 8	у	у	ADP	_
 9	тебя	ты	PRON	Case=Gen|Number=Sing|Person=2
 10	были	быть	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
@@ -390,12 +390,12 @@
 21	любишь	любить	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 22	.	.	PUNCT	_
 
-1	объясните	объяснить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
+1	объясните	объяснить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	мне	я	PRON	Case=Dat|Number=Sing|Person=1
 3	,	,	PUNCT	_
-4	как	как	ADV	Degree=Pos
+4	как	как	CONJ	_
 5	после	после	ADP	_
-6	всего	всё	PRON	Case=Gen|Gender=Neut|Number=Sing|Person=3
+6	всего	весь	DET	Case=Gen|Gender=Neut|Number=Sing
 7	этого	это	PRON	Case=Gen|Gender=Neut|Number=Sing
 8	,	,	PUNCT	_
 9	можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
@@ -418,7 +418,7 @@
 1	Иногда	иногда	ADV	Degree=Pos
 2	этот	этот	DET	Case=Nom|Gender=Masc|Number=Sing
 3	мир	мир	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-4	отстой	отстой	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+4	отстой	отстоять	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 5	,	,	PUNCT	_
 6	так_что	так_что	CONJ	_
 7	я	я	PRON	Case=Nom|Number=Sing|Person=1
@@ -434,11 +434,11 @@
 5	каждого	каждый	DET	Case=Gen|Gender=Masc|Number=Sing
 6	:	:	PUNCT	_
 
-1	Начиная	начиная	ADP	_
+1	Начиная	начинать	VERB	Tense=Notpast|VerbForm=Conv|Voice=Act
 2	с	с	ADP	_
 3	малого	малый	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
-4	все	весь	DET	Case=Nom|Gender=Neut|Number=Sing
-5	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
+4	все	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+5	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
 6	перерастает	перерастать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	в	в	ADP	_
 8	большее	больший	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
@@ -460,9 +460,9 @@
 8	камни	камень	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 9	,	,	PUNCT	_
 10	и	и	CONJ	_
-11	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
-12	самое	самый	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
-13	грустное	грустный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+11	что	что	CONJ	_
+12	самое	сам	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+13	грустное	грустный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 14	ведь	ведь	PART	_
 15	находят	находить	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 16	.	.	PUNCT	_
@@ -480,8 +480,8 @@
 1	Выскажусь	высказаться	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Mid
 2	искаженными	искаженный	ADJ	Case=Ins|Degree=Pos|Number=Plur
 3	словами	слово	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur
-4	одного	один	NUM	Case=Gen|Gender=Masc
-5	автора	автор	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+4	одного	один	NUM	Case=Acc|Gender=Masc
+5	автора	автор	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 7	которого	который	DET	Case=Acc|Gender=Masc|Number=Sing
 8	часто	часто	ADV	Degree=Pos
@@ -501,7 +501,7 @@
 2	пора	пора	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 3	ли	ли	PART	_
 4	просыпаться	просыпаться	VERB	VerbForm=Inf
-5	господа	господь	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
+5	господа	господь	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 6	?	?	PUNCT	_
 
 1	В	в	ADP	_
@@ -512,9 +512,9 @@
 6	,	,	PUNCT	_
 7	ШАПКА	шапка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 8	,	,	PUNCT	_
-9	ВАРЕЖКИ	варежка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+9	ВАРЕЖКИ	варежка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 10	,	,	PUNCT	_
-11	ПИНЕТКИ	пинетка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+11	ПИНЕТКИ	пинетка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 12	,	,	PUNCT	_
 13	СЛЮНЯВЧИК	слюнявчик	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 
@@ -554,15 +554,15 @@
 19	маленький	маленький	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 20	!	!	PUNCT	_
 
-1	мечты	мечта	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+1	мечты	мечта	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 2	же	же	PART	_
-3	сильных	сильный	ADJ	Case=Gen|Degree=Pos|Number=Plur
+3	сильных	сильный	ADJ	Case=Acc|Degree=Pos|Number=Plur
 4	—	—	PUNCT	_
 5	формируют	формировать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	действительность	действительность	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 7	.	.	PUNCT	_
 
-1	20	20	NUM	Form=Digit
+1	20	20	NUM	Form=Digit|	
 2	открыток	открытка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 3	о	о	ADP	_
 4	непостижимой	непостижимый	ADJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
@@ -585,7 +585,7 @@
 14	самих	сам	ADJ	Case=Acc|Degree=Pos|Number=Plur
 15	себя	себя	PRON	Case=Acc
 16	,	,	PUNCT	_
-17	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+17	что	что	CONJ	_
 18	уж	уж	PART	_
 19	говорить	говорить	VERB	VerbForm=Inf
 20	об	об	ADP	_
@@ -593,10 +593,10 @@
 22	части	часть	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 
 1	В	в	ADP	_
-2	ПУТИ	путь	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+2	ПУТИ	путь	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 3	,	,	PUNCT	_
 4	ПРИЕДЕТ	приехать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-5	31	31	NUM	Form=Digit
+5	31	31	NUM	Form=Digit|	
 6	АПРЕЛЯ	апрель	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 
 1	МОЖНО	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
@@ -627,7 +627,7 @@
 3	понимании	понимание	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 4	того	то	PRON	Case=Gen|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
-6	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+6	что	что	CONJ	_
 7	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	на	на	ADP	_
 9	свете	свет	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
@@ -638,7 +638,7 @@
 4	и	и	CONJ	_
 5	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 6	за	за	ADP	_
-7	всех	все	PRON	Case=Acc|Number=Plur
+7	всех	весь	DET	Case=Acc|Number=Plur
 8	в	в	ADP	_
 9	ответе	ответ	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
@@ -677,7 +677,7 @@
 7	,	,	PUNCT	_
 8	борись	бороться	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid
 9	за	за	ADP	_
-10	большую	большой	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
+10	большую	больший	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
 11	правду	правда	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 12	,	,	PUNCT	_
 13	за	за	ADP	_
@@ -704,7 +704,7 @@
 2	могу	мочь	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	вам	вы	PRON	Case=Dat|Number=Plur|Person=2
 4	создать	создать	VERB	VerbForm=Inf
-5	счастье	счастье	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+5	счастье	счастие	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 
 1	помню	помнить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	и	и	CONJ	_
@@ -719,7 +719,7 @@
 4	и	и	CONJ	_
 5	почувствуй	почувствовать	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 6	себя	себя	PRON	Case=Acc
-7	слизнем	слизень	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+7	слизнем	слизень	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 
 1	У	у	ADP	_
 2	меня	я	PRON	Case=Gen|Number=Sing|Person=1
@@ -748,7 +748,7 @@
 6	!	!	PUNCT	_
 
 1	!	!	PUNCT	_
-2	Спешите	спешить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
+2	Спешите	спешить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	записаться	записаться	VERB	VerbForm=Inf
 4	на	на	ADP	_
 5	Май	май	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
@@ -771,7 +771,7 @@
 2	Нет	нет	PART	_
 3	,	,	PUNCT	_
 4	у	у	ADP	_
-5	неё	он	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3
+5	нее	он	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3
 6	парень	парень	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 7	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	.	.	PUNCT	_
@@ -780,19 +780,19 @@
 2	Ну	ну	INTJ	_
 3	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 4	подожди	подождать	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
-5	ещё	ещё	ADV	Degree=Pos
+5	еще	еще	ADV	Degree=Pos
 6	,	,	PUNCT	_
 7	у	у	ADP	_
-8	неё	он	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3
-9	и	и	PART	_
-10	дети	ребёнок	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
+8	нее	он	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3
+9	и	и	CONJ	_
+10	дети	ребенок	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 11	будут	быть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 12	.	.	PUNCT	_
 
 1	На	на	ADP	_
 2	твоих	твой	DET	Case=Loc|Number=Plur
 3	ладонях	ладонь	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
-4	всё	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+4	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 5	начертано	начертанный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 6	о	о	ADP	_
 7	нас	мы	PRON	Case=Loc|Number=Plur|Person=1
@@ -808,9 +808,9 @@
 8	раз	раз	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 9	.	.	PUNCT	_
 
-1	Всё	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+1	Все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 2	,	,	PUNCT	_
-3	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+3	что	что	CONJ	_
 4	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 5	захочешь	захотеть	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	,	,	PUNCT	_
@@ -823,7 +823,7 @@
 2	тебя	ты	PRON	Case=Acc|Number=Sing|Person=2
 3	нашла	найти	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	и	и	CONJ	_
-5	больше	много	ADV	Degree=Cmp
+5	больше	больше	ADV	Degree=Cmp
 6	никому	никто	PRON	Case=Dat|Gender=Masc|Number=Sing
 7	не	не	PART	_
 8	отдам	отдать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -858,7 +858,7 @@
 5	него	он	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3
 6	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 7	кинул	кинуть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-8	камень	камень	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+8	камень	камень	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 9	,	,	PUNCT	_
 
 1	Но	но	CONJ	_
@@ -873,7 +873,7 @@
 2	ведь	ведь	PART	_
 3	когда-то	когда-то	ADV	Degree=Pos
 4	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
-5	холеный	холёный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+5	холеный	холеный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 6	был	быть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 7	и	и	PART	_
 8	сытый	сытый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
@@ -882,7 +882,7 @@
 2	кот	кот	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	,	,	PUNCT	_
 4	как	как	CONJ	_
-5	многие	многие	DET	Case=Nom|Number=Plur
+5	многие	многий	ADJ	Case=Nom|Degree=Pos|Number=Plur
 6	вокруг	вокруг	ADV	Degree=Pos
 7	.	.	PUNCT	_
 
@@ -904,7 +904,7 @@
 3	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 4	был	быть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 5	ему	он	PRON	Case=Dat|Gender=Masc|Number=Sing|Person=3
-6	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+6	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 7	и	и	CONJ	_
 8	друг	друг	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 9	.	.	PUNCT	_
@@ -929,7 +929,7 @@
 4	прийти	прийти	VERB	VerbForm=Inf
 5	в	в	ADP	_
 6	любой	любой	DET	Case=Acc|Gender=Masc|Number=Sing
-7	тяжелый	тяжёлый	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+7	тяжелый	тяжелый	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
 8	час	час	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 9	.	.	PUNCT	_
 
@@ -941,7 +941,7 @@
 6	,	,	PUNCT	_
 7	без	без	ADP	_
 8	крыши	крыша	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-9	и	и	CONJ	_
+9	и	и	PART	_
 10	без	без	ADP	_
 11	крошки	крошка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 12	,	,	PUNCT	_
@@ -965,8 +965,8 @@
 1	И	и	CONJ	_
 2	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 3	лишь	лишь	PART	_
-4	чудом	чудом	ADV	Degree=Pos
-5	жив	живой	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
+4	чудом	чудо	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
+5	жив	живой	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 6	,	,	PUNCT	_
 7	побитый	побитый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 8	и	и	CONJ	_
@@ -977,7 +977,7 @@
 2	,	,	PUNCT	_
 3	знаете	знать	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
-5	порой	порыть	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
+5	порой	порой	ADV	Degree=Pos
 6	,	,	PUNCT	_
 7	безлунными	безлунный	ADJ	Case=Ins|Degree=Pos|Number=Plur
 8	ночами	ночь	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
@@ -991,7 +991,7 @@
 7	мыслях	мысль	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
 8	сам	сам	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 9	не	не	PART	_
-10	свой	свой	DET	Case=Nom|Gender=Masc|Number=Sing
+10	свой	свой	DET	Case=Acc|Gender=Masc|Number=Sing
 11	.	.	PUNCT	_
 
 1	Что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
@@ -1002,9 +1002,9 @@
 6	?	?	PUNCT	_
 
 1	Хоть	хоть	PART	_
-2	мир	мир	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-3	такой	такой	DET	Case=Nom|Gender=Masc|Number=Sing
-4	большой	большой	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+2	мир	мир	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+3	такой	такой	DET	Case=Gen|Gender=Fem|Number=Sing
+4	большой	большой	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 5	,	,	PUNCT	_
 6	а	а	CONJ	_
 7	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
@@ -1018,14 +1018,14 @@
 3	о	о	ADP	_
 4	том	то	PRON	Case=Loc|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
-6	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+6	что	что	CONJ	_
 7	,	,	PUNCT	_
 8	если	если	CONJ	_
 9	б	б	PART	_
 10	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 11	можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 
-1	То	то	PRON	Case=Acc|Gender=Neut|Number=Sing
+1	То	тот	CONJ	_
 2	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 3	все	весь	DET	Case=Acc|Number=Plur
 4	девять	девять	NUM	Case=Acc
@@ -1034,11 +1034,11 @@
 7	отдал	отдать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 8	.	.	PUNCT	_
 
-1	Костюмы	костюм	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+1	Костюмы	костюм	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 2	—	—	PUNCT	_
-3	2	2	NUM	Form=Digit
+3	2	2	NUM	Form=Digit|	
 4	и	и	CONJ	_
-5	3	3	NUM	Form=Digit
+5	3	3	NUM	Form=Digit|	
 6	фото	фото	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 7	в	в	ADP	_
 8	живую	живой	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
@@ -1076,13 +1076,13 @@
 
 1	Один	один	NUM	Case=Nom|Gender=Masc
 2	,	,	PUNCT	_
-3	любимый	любимый	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+3	любимый	любимый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
 5	родной	родной	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 7	но	но	CONJ	_
 8	хоть	хоть	PART	_
-9	и	и	CONJ	_
+9	и	и	PART	_
 10	не	не	PART	_
 11	твой	твой	DET	Case=Nom|Gender=Masc|Number=Sing
 12	.	.	PUNCT	_
@@ -1135,7 +1135,7 @@
 
 1	Порадуй	порадовать	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 2	своих	свой	DET	Case=Acc|Number=Plur
-3	детей	ребёнок	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
+3	детей	ребенок	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
 4	и	и	CONJ	_
 5	внуков	внук	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
 6	!	!	PUNCT	_
@@ -1149,7 +1149,7 @@
 7	!	!	PUNCT	_
 
 1	Кроме	кроме	ADP	_
-2	того	то	PRON	Case=Gen|Gender=Neut|Number=Sing
+2	того	тот	DET	Case=Gen|Gender=Masc|Number=Sing
 3	раза	раз	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
 5	когда	когда	CONJ	_
@@ -1169,20 +1169,20 @@
 3	с	с	ADP	_
 4	тобою	ты	PRON	Case=Ins|Number=Sing|Person=2
 5	обещает	обещать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-6	тепло	тепло	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+6	тепло	тепло	ADV	Case=Gen|Gender=Neut|Number=Sing
 7	.	.	PUNCT	_
 
 1	я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	быть	быть	VERB	VerbForm=Inf
 3	хочу	хотеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	твоим	твой	DET	Case=Dat|Number=Plur
-5	любимым	любимая	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur
+5	любимым	любимый	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
 6	.	.	PUNCT	_
 
 1	Твоя	твой	DET	Case=Nom|Gender=Fem|Number=Sing
 2	любовь	любовь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
-3	всё	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
-4	что	что	CONJ	_
+3	все	весь	DET	Case=Nom|Gender=Neut|Number=Sing
+4	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
 5	мне	я	PRON	Case=Dat|Number=Sing|Person=1
 6	надо	надо	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 7	.	.	PUNCT	_
@@ -1195,17 +1195,17 @@
 6	прости	простить	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 
 1	Ведь	ведь	PART	_
-2	каждый	каждый	DET	Case=Nom|Gender=Masc|Number=Sing
-3	раз	раз	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+2	каждый	каждый	DET	Case=Acc|Gender=Masc|Number=Sing
+3	раз	раз	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 4	—	—	PUNCT	_
-5	убийство	убийство	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
-6	это	этот	DET	Case=Nom|Gender=Neut|Number=Sing
+5	убийство	убийство	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+6	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
 7	.	.	PUNCT	_
 
-1	Так	так	PART	_
+1	Так	так	ADV	Degree=Pos
 2	неужели	неужели	PART	_
 3	жалости	жалость	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-4	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+4	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 5	в	в	ADP	_
 6	сердце	сердце	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 7	?	?	PUNCT	_
@@ -1213,7 +1213,7 @@
 1	Не	не	PART	_
 2	верю	верить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	в	в	ADP	_
-4	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
+4	это	этот	DET	Case=Acc|Gender=Neut|Number=Sing
 5	я	я	PRON	Case=Nom|Number=Sing|Person=1
 6	,	,	PUNCT	_
 7	прости	простить	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
@@ -1222,8 +1222,8 @@
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	знаю	знать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
-4	светлее	светлый	ADJ	Degree=Cmp
-5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+4	светлее	светло	ADV	Degree=Cmp
+5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 6	тебя	ты	PRON	Case=Gen|Number=Sing|Person=2
 7	!	!	PUNCT	_
 
@@ -1246,7 +1246,7 @@
 7	в	в	ADP	_
 8	тебе	ты	PRON	Case=Loc|Number=Sing|Person=2
 
-1	Все	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+1	Все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 2	вечно	вечно	ADV	Degree=Pos
 3	ведет	вести	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	к	к	ADP	_
@@ -1254,7 +1254,7 @@
 6	черте	черта	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
 7	...	...	PUNCT	_
 
-1	И	и	PART	_
+1	И	и	CONJ	_
 2	буду	быть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	по	по	ADP	_
 4	пятам	пята	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
@@ -1317,11 +1317,11 @@
 6	.	.	PUNCT	_
 
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
-2	покажу	показать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
+2	покажу	покадить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	тебе	ты	PRON	Case=Dat|Number=Sing|Person=2
 4	,	,	PUNCT	_
 5	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
-6	есть	быть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
+6	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 
 1	Не	не	PART	_
 2	только	только	ADV	Degree=Pos
@@ -1333,7 +1333,7 @@
 1	Не	не	PART	_
 2	только	только	ADV	Degree=Pos
 3	лишь	лишь	PART	_
-4	жестокости	жестокость	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+4	жестокости	жестокость	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 5	огонь	огонь	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 
@@ -1341,13 +1341,13 @@
 2	и	и	PART	_
 3	ласковой	ласковый	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 4	воды	вода	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-5	покой	покой	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+5	покой	покой	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	.	.	PUNCT	_
 
 1	Не	не	PART	_
 2	нужно	нужный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 3	гнаться	гнаться	VERB	VerbForm=Inf
-4	так	так	PART	_
+4	так	так	ADV	Degree=Pos
 5	за	за	ADP	_
 6	силой	сила	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 7	.	.	PUNCT	_
@@ -1381,8 +1381,8 @@
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	знаю	знать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
-4	светлее	светлый	ADJ	Degree=Cmp
-5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+4	светлее	светло	ADV	Degree=Cmp
+5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 6	тебя	ты	PRON	Case=Gen|Number=Sing|Person=2
 7	!	!	PUNCT	_
 
@@ -1405,7 +1405,7 @@
 7	в	в	ADP	_
 8	тебе	ты	PRON	Case=Loc|Number=Sing|Person=2
 
-1	Все	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+1	Все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 2	вечно	вечно	ADV	Degree=Pos
 3	ведет	вести	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	к	к	ADP	_
@@ -1431,7 +1431,7 @@
 
 1	А	а	CONJ	_
 2	коль	коль	CONJ	_
-3	ненужной	ненужный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+3	ненужной	ненужный	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 4	стану	стать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	—	—	PUNCT	_
 6	отними	отнять	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
@@ -1446,7 +1446,7 @@
 7	тогда	тогда	ADV	Degree=Pos
 8	,	,	PUNCT	_
 
-1	Когда	когда	ADV	Degree=Pos
+1	Когда	когда	CONJ	_
 2	вернется	вернуться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 3	тот	тот	DET	Case=Nom|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
@@ -1467,21 +1467,21 @@
 1	Сияет	сиять	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	ясною	ясный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 3	тропой	тропа	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
-4	мой	мой	DET	Case=Nom|Gender=Masc|Number=Sing
-5	путь	путь	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+4	мой	мой	DET	Case=Acc|Gender=Masc|Number=Sing
+5	путь	путь	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 
 1	Где	где	ADV	Degree=Pos
 2	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
-3	один	один	NUM	Case=Nom|Gender=Masc
+3	один	один	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 4	лишь	лишь	PART	_
 5	цель	цель	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 
 1	Где	где	ADV	Degree=Pos
 2	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 3	—	—	PUNCT	_
-4	жизни	жизнь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+4	жизни	жизнь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 5	моей	мой	DET	Case=Gen|Gender=Fem|Number=Sing
-6	суть	быть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
+6	суть	суть	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 7	.	.	PUNCT	_
 
 1	Или	или	CONJ	_
@@ -1519,7 +1519,7 @@
 
 1	У	у	ADP	_
 2	меня	я	PRON	Case=Gen|Number=Sing|Person=1
-3	3	3	NUM	Form=Digit
+3	3	3	NUM	Form=Digit|	
 4	разных	разный	ADJ	Case=Gen|Degree=Pos|Number=Plur
 5	личности	личность	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing
 6	:	:	PUNCT	_
@@ -1549,7 +1549,7 @@
 4	где	где	ADV	Degree=Pos
 5	я	я	PRON	Case=Nom|Number=Sing|Person=1
 6	ненавижу	ненавидеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
-7	всех	все	PRON	Case=Acc|Number=Plur
+7	всех	весь	DET	Case=Acc|Number=Plur
 8	и	и	CONJ	_
 9	каждая	каждый	DET	Case=Nom|Gender=Fem|Number=Sing
 10	малейшая	малейший	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
@@ -1557,7 +1557,7 @@
 12	раздражает	раздражать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 13	меня	я	PRON	Case=Acc|Number=Sing|Person=1
 
-1	Самое	самый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+1	Самое	сам	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 2	идеальное	идеальный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 3	женское	женский	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 4	состояние	состояние	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
@@ -1567,11 +1567,11 @@
 8	фонаря	фонарь	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 9	—	—	PUNCT	_
 10	"	"	PUNCT	_
-11	светло	светлый	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+11	светло	светло	ADV	Degree=Pos
 12	,	,	PUNCT	_
-13	тепло	тёплый	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+13	тепло	тепло	ADV	Degree=Pos
 14	,	,	PUNCT	_
-15	сказочно	сказочный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+15	сказочно	сказочно	ADV	Degree=Pos
 16	!	!	PUNCT	_
 
 1	Голосовые	голосовой	ADJ	Case=Nom|Degree=Pos|Number=Plur
@@ -1589,11 +1589,11 @@
 1	По	по	ADP	_
 2	любому	любой	DET	Case=Dat|Gender=Masc|Number=Sing
 3	поводу	повод	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
-4	и	и	CONJ	_
+4	и	и	PART	_
 5	без	без	ADP	_
 6	!	!	PUNCT	_
 
-1	4	4	NUM	Form=Digit
+1	4	4	NUM	Form=Digit|	
 2	совета	совет	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 3	для	для	ADP	_
 4	поднятия	поднятие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
@@ -1641,12 +1641,12 @@
 2	,	,	PUNCT	_
 3	смех	смех	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	и	и	CONJ	_
-5	хорошее	хороший	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
-6	настроение	настроение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+5	хорошее	хороший	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+6	настроение	настроение	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 7	!	!	PUNCT	_
 
 1	Мама	мама	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
-2	Максима	Максим	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+2	Максима	максим	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 3	сегодня	сегодня	ADV	Degree=Pos
 4	буквально	буквально	ADV	Degree=Pos
 5	удивила	удивить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -1667,11 +1667,11 @@
 1	Не	не	PART	_
 2	смотрю	смотреть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	на	на	ADP	_
-4	все	всё	PRON	Case=Acc|Gender=Neut|Number=Sing
+4	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 5	,	,	PUNCT	_
 6	я	я	PRON	Case=Nom|Number=Sing|Person=1
-7	все	всё	ADV	Degree=Pos
-8	еще	ещё	ADV	Degree=Pos
+7	все	все	ADV	Degree=Pos
+8	еще	еще	ADV	Degree=Pos
 9	надеюсь	надеяться	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Mid
 10	,	,	PUNCT	_
 11	что	что	CONJ	_
@@ -1688,8 +1688,8 @@
 3	любите	любить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	а	а	CONJ	_
-6	вас	вы	PRON	Case=Acc|Number=Plur|Person=2
-7	нет	нет	PART	_
+6	вас	вы	PRON	Case=Gen|Number=Plur|Person=2
+7	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 8	—	—	PUNCT	_
 9	отпустите	отпустить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
 10	.	.	PUNCT	_
@@ -1700,7 +1700,7 @@
 4	,	,	PUNCT	_
 5	а	а	CONJ	_
 6	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
-7	нет	нет	PART	_
+7	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 8	—	—	PUNCT	_
 9	оцените	оценить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	и	и	CONJ	_
@@ -1711,14 +1711,14 @@
 2	радоваться	радоваться	VERB	VerbForm=Inf
 3	тому	то	PRON	Case=Dat|Gender=Neut|Number=Sing
 4	,	,	PUNCT	_
-5	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+5	что	что	CONJ	_
 6	подарила	подарить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 7	тебе	ты	PRON	Case=Dat|Number=Sing|Person=2
 8	природа	природа	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 9	!	!	PUNCT	_
 
 1	Была	быть	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-2	организованна	организованный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
+2	организованна	организованна	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 3	концертная	концертный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 4	программа	программа	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 5	и	и	CONJ	_
@@ -1735,7 +1735,7 @@
 7	же	же	PART	_
 8	,	,	PUNCT	_
 9	что	что	CONJ	_
-10	и	и	CONJ	_
+10	и	и	PART	_
 11	я	я	PRON	Case=Nom|Number=Sing|Person=1
 12	,	,	PUNCT	_
 
@@ -1743,38 +1743,38 @@
 2	тот	тот	DET	Case=Acc|Gender=Masc|Number=Sing
 3	самый	самый	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
 4	миг	миг	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
-5	когда	когда	ADV	Degree=Pos
-6	стрелки	стрелка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+5	когда	когда	CONJ	_
+6	стрелки	стрелка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 7	по	по	ADP	_
 8	нулям	нуль	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur
 9	,	,	PUNCT	_
 
 1	Но	но	CONJ	_
-2	первым	первый	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
+2	первым	первый	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
 3	январским	январский	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
 4	утром	утро	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 5	нас	мы	PRON	Case=Acc|Number=Plur|Person=1
 6	заберут	забрать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	друг	друг	NOUN	Case=Nom|Gender=Masc|Number=Sing
 8	у	у	ADP	_
-9	друга	друг	NOUN	Case=Gen|Gender=Masc|Number=Sing
+9	друга	друг	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 10	,	,	PUNCT	_
 
 1	Сегодня	сегодня	ADV	Degree=Pos
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	проснулся	проснуться	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
 4	утром	утро	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
-5	рано	рано	ADV	Degree=Pos
+5	рано	рано	ADV	Case=Gen|Gender=Neut|Number=Sing
 6	...	...	PUNCT	_
 
 1	Он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
-2	жалобы	жалоба	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+2	жалобы	жалоба	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 3	и	и	CONJ	_
-4	просьбы	просьба	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+4	просьбы	просьба	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 5	почитал	почитать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 6	...	...	PUNCT	_
 
-1	И	и	PART	_
+1	И	и	CONJ	_
 2	людям	человек	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
 3	из	из	ADP	_
 4	кувшина	кувшин	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -1788,14 +1788,14 @@
 5	Чуда	чудо	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 6	не	не	PART	_
 7	у	у	ADP	_
-8	всех	все	PRON	Case=Gen|Number=Plur
+8	всех	весь	DET	Case=Gen|Number=Plur
 9	.	.	PUNCT	_
 
-1	То	то	PRON	Case=Acc|Gender=Neut|Number=Sing
+1	То	тот	CONJ	_
 2	завистью	зависть	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 3	,	,	PUNCT	_
 4	враждой	вражда	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
-5	подпёрта	подпёртый	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
+5	подперта	подперт	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 6	дверца	дверца	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 7	...	...	PUNCT	_
 
@@ -1803,7 +1803,7 @@
 2	у	у	ADP	_
 3	кого-то	кто-то	PRON	Case=Gen|Gender=Masc|Number=Sing
 4	до	до	ADP	_
-5	краёв	край	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
+5	краев	край	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 6	разлита	разлитый	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 
 1	Печаль	печаль	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
@@ -1815,7 +1815,7 @@
 7	.	.	PUNCT	_
 
 1	И	и	CONJ	_
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	жалел	жалеть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	что	что	CONJ	_
@@ -1824,17 +1824,17 @@
 8	скрыто	скрытый	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 9	...	...	PUNCT	_
 
-1	Любви	любовь	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+1	Любви	любовь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 2	хотел	хотеть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 3	налить	налить	VERB	VerbForm=Inf
 4	,	,	PUNCT	_
-5	да	да	PART	_
+5	да	да	CONJ	_
 6	вот	вот	PART	_
 7	куда	куда	ADV	Degree=Pos
 8	?	?	PUNCT	_
 
 1	И	и	CONJ	_
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	грустил	грустить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	что	что	CONJ	_
@@ -1842,9 +1842,9 @@
 7	не	не	PART	_
 8	умеют	уметь	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 
-1	Сердца	сердце	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
-2	и	и	CONJ	_
-3	души	душа	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+1	Сердца	сердце	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+2	и	и	PART	_
+3	души	душа	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 4	чистить	чистить	VERB	VerbForm=Inf
 5	от	от	ADP	_
 6	обид	обида	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
@@ -1865,7 +1865,7 @@
 6	...	...	PUNCT	_
 
 1	Но	но	CONJ	_
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	ходил	ходить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	смотрел	смотреть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -1874,9 +1874,9 @@
 8	,	,	PUNCT	_
 
 1	Им	он	PRON	Case=Dat|Number=Plur|Person=3
-2	счастье	счастье	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+2	счастье	счастие	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 3	в	в	ADP	_
-4	сердце	сердце	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+4	сердце	сердце	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 5	бережно	бережно	ADV	Degree=Pos
 6	вливал	вливать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 7	...	...	PUNCT	_
@@ -1891,8 +1891,8 @@
 
 1	Забыв	забыть	VERB	Tense=Past|VerbForm=Conv|Voice=Act
 2	в	в	ADP	_
-3	самих	сам	ADJ	Case=Loc|Degree=Pos|Number=Plur
-4	себе	себя	PRON	Case=Loc
+3	самих	сам	ADJ	Case=Acc|Degree=Pos|Number=Plur
+4	себе	себя	PRON	Case=Dat
 5	вину	вина	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 6	искать	искать	VERB	VerbForm=Inf
 7	...	...	PUNCT	_
@@ -1908,17 +1908,17 @@
 9	,	,	PUNCT	_
 
 1	То	тот	DET	Case=Acc|Gender=Neut|Number=Sing
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	бы	бы	PART	_
 4	мог	мочь	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 5	не	не	PART	_
 6	каплей	капля	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
-7	счастье	счастье	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+7	счастье	счастие	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 8	мерить	мерить	VERB	VerbForm=Inf
 9	,	,	PUNCT	_
 
-1	Кувшин	кувшин	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
-2	волшебный	волшебный	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+1	Кувшин	кувшин	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+2	волшебный	волшебный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 3	мог	мочь	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	бы	бы	PART	_
 5	весь	весь	DET	Case=Nom|Gender=Masc|Number=Sing
@@ -1926,7 +1926,7 @@
 7	...	...	PUNCT	_
 
 1	Сегодня	сегодня	ADV	Degree=Pos
-2	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	проснулся	проснуться	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
 4	на	на	ADP	_
 5	рассвете	рассвет	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
@@ -1953,7 +1953,7 @@
 2	Благодарю	благодарить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	тебя	ты	PRON	Case=Acc|Number=Sing|Person=2
 4	за	за	ADP	_
-5	все	всё	PRON	Case=Acc|Gender=Neut|Number=Sing
+5	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 6	,	,	PUNCT	_
 7	мой	мой	DET	Case=Nom|Gender=Masc|Number=Sing
 8	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
@@ -1965,7 +1965,7 @@
 1	Один	один	NUM	Case=Nom|Gender=Masc
 2	из	из	ADP	_
 3	примеров	пример	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
-4	как	как	ADV	Degree=Pos
+4	как	как	CONJ	_
 5	здравый	здравый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 6	смысл	смысл	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 7	помогает	помогать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -1991,7 +1991,7 @@
 14	друзей	друг	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
 15	,	,	PUNCT	_
 16	ни	ни	CONJ	_
-17	врагов	враг	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
+17	врагов	враг	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 18	и	и	CONJ	_
 19	даже	даже	PART	_
 20	не	не	PART	_
@@ -2017,8 +2017,8 @@
 11	выживание	выживание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 12	.	.	PUNCT	_
 
-1	Каждый	каждый	DET	Case=Nom|Gender=Masc|Number=Sing
-2	день	день	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+1	Каждый	каждый	DET	Case=Acc|Gender=Masc|Number=Sing
+2	день	день	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 3	наполнен	наполненный	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 4	беспокойством	беспокойство	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
@@ -2030,7 +2030,7 @@
 
 1	Ум	ум	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 2	озабочен	озабоченный	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
-3	основными	основной	ADJ	Case=Ins|Degree=Pos|Number=Plur
+3	основными	основный	ADJ	Case=Ins|Degree=Pos|Number=Plur
 4	вопросами	вопрос	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur
 5	жизни	жизнь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 6	.	.	PUNCT	_
@@ -2045,8 +2045,8 @@
 1	Огромное	огромный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 2	количество	количество	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 3	людей	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
-4	всё	всё	ADV	Degree=Pos
-5	еще	ещё	ADV	Degree=Pos
+4	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+5	еще	еще	ADV	Degree=Pos
 6	ежедневно	ежедневно	ADV	Degree=Pos
 7	продолжают	продолжать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	беспокоиться	беспокоиться	VERB	VerbForm=Inf
@@ -2054,8 +2054,8 @@
 10	этом	это	PRON	Case=Loc|Gender=Neut|Number=Sing
 11	.	.	PUNCT	_
 
-1	Каждый	каждый	DET	Case=Acc|Gender=Masc|Number=Sing
-2	месяц	месяц	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+1	Каждый	каждый	DET	Case=Nom|Gender=Masc|Number=Sing
+2	месяц	месяц	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	,	,	PUNCT	_
 4	лишь	лишь	PART	_
 5	по	по	ADP	_
@@ -2063,7 +2063,7 @@
 7	недоедания	недоедание	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 8	,	,	PUNCT	_
 9	умирают	умирать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-10	тысячи	тысяча	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+10	тысячи	тысяча	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 11	людей	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 12	.	.	PUNCT	_
 
@@ -2075,8 +2075,8 @@
 6	в	в	ADP	_
 7	своей	свой	DET	Case=Loc|Gender=Fem|Number=Sing
 8	жизни	жизнь	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
-9	самым	самый	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
-10	необходимым	необходимый	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
+9	самым	самый	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
+10	необходимым	необходимый	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
 11	для	для	ADP	_
 12	выживания	выживание	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 13	,	,	PUNCT	_
@@ -2091,7 +2091,7 @@
 22	обеспечить	обеспечить	VERB	VerbForm=Inf
 23	себя	себя	PRON	Case=Acc
 24	чем-то	что-то	PRON	Case=Ins|Gender=Neut|Number=Sing
-25	большим	больший	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
+25	большим	большой	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
 26	—	—	PUNCT	_
 27	чтобы	чтобы	CONJ	_
 28	была	быть	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -2110,7 +2110,7 @@
 41	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 42	лучше	хороший	ADJ	Degree=Cmp
 43	,	,	PUNCT	_
-44	чем	что	PRON	Case=Loc|Gender=Neut|Number=Sing
+44	чем	чем	CONJ	_
 45	вчера	вчера	ADV	Degree=Pos
 46	.	.	PUNCT	_
 
@@ -2148,7 +2148,7 @@
 3	количество	количество	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 4	людей	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 5	имеют	иметь	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-6	всё	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+6	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 7	,	,	PUNCT	_
 8	чего	что	PRON	Case=Gen|Gender=Neut|Number=Sing
 9	они	он	PRON	Case=Nom|Number=Plur|Person=3
@@ -2159,7 +2159,7 @@
 14	,	,	PUNCT	_
 15	фактически	фактически	ADV	Degree=Pos
 16	,	,	PUNCT	_
-17	всё	весь	DET	Case=Nom|Gender=Neut|Number=Sing
+17	все	весь	DET	Case=Nom|Gender=Neut|Number=Sing
 18	,	,	PUNCT	_
 19	за	за	ADP	_
 20	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
@@ -2175,13 +2175,13 @@
 3	то	то	PRON	Case=Nom|Gender=Neut|Number=Sing
 4	,	,	PUNCT	_
 5	что	что	CONJ	_
-6	многие	многие	DET	Case=Nom|Number=Plur
+6	многие	многий	ADJ	Case=Nom|Degree=Pos|Number=Plur
 7	из	из	ADP	_
 8	этой	этот	DET	Case=Gen|Gender=Fem|Number=Sing
 9	последней	последний	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 10	группы	группа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-11	всё	всё	ADV	Degree=Pos
-12	еще	ещё	ADV	Degree=Pos
+11	все	все	ADV	Degree=Pos
+12	еще	еще	ADV	Degree=Pos
 13	хотят	хотеть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 14	чего-то	что-то	PRON	Case=Gen|Gender=Neut|Number=Sing
 15	большего	больший	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
@@ -2190,13 +2190,13 @@
 1	Их	их	DET	_
 2	умы	ум	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 3	озабочены	озабоченный	ADJ	Degree=Pos|Number=Plur|Variant=Short
-4	тем	то	PRON	Case=Ins|Gender=Neut|Number=Sing
+4	тем	тот	DET	Case=Dat|Number=Plur
 5	,	,	PUNCT	_
-6	как	как	ADV	Degree=Pos
+6	как	как	CONJ	_
 7	удержать	удержать	VERB	VerbForm=Inf
 8	то	то	PRON	Case=Acc|Gender=Neut|Number=Sing
 9	,	,	PUNCT	_
-10	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+10	что	что	CONJ	_
 11	они	он	PRON	Case=Nom|Number=Plur|Person=3
 12	приобрели	приобрести	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 13	,	,	PUNCT	_
@@ -2214,9 +2214,9 @@
 6	групп	группа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 7	,	,	PUNCT	_
 8	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-9	еще	ещё	ADV	Degree=Pos
-10	и	и	PART	_
-11	четвертая	четвёртый	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
+9	еще	еще	ADV	Degree=Pos
+10	и	и	CONJ	_
+11	четвертая	четвертый	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 12	.	.	PUNCT	_
 
 1	Эта	этот	DET	Case=Nom|Gender=Fem|Number=Sing
@@ -2250,12 +2250,12 @@
 6	жизнь	жизнь	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 7	,	,	PUNCT	_
 8	как	как	CONJ	_
-9	встречу	встреча	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+9	встречу	встретить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	с	с	ADP	_
 11	духовным	духовный	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
 12	,	,	PUNCT	_
 13	как	как	CONJ	_
-14	путешествие	путешествие	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+14	путешествие	путешествие	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 15	души	душа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 16	.	.	PUNCT	_
 
@@ -2287,10 +2287,10 @@
 3	связана	связанный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 4	с	с	ADP	_
 5	поисками	поиск	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur
-6	Бога	Бог	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+6	Бога	бог	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 7	,	,	PUNCT	_
 8	реализацией	реализация	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
-9	Себя	себя	PRON	Case=Gen
+9	Себя	себя	PRON	Case=Acc
 10	,	,	PUNCT	_
 11	выражением	выражение	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 12	истины	истина	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
@@ -2323,7 +2323,7 @@
 11	(	(	PUNCT	_
 12	а	а	CONJ	_
 13	не	не	PART	_
-14	обучения	обучение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+14	обучения	обучение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
 15	,	,	PUNCT	_
 16	)	)	PUNCT	_
 17	Бытия	бытие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
@@ -2340,7 +2340,7 @@
 4	устремления	устремление	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
 6	приложения	приложение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
-7	усилий	усилие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+7	усилий	усилье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
 8	,	,	PUNCT	_
 9	поиска	поиск	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 10	,	,	PUNCT	_
@@ -2365,7 +2365,7 @@
 10	также	также	ADV	Degree=Pos
 11	,	,	PUNCT	_
 12	меняется	меняться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
-13	и	и	PART	_
+13	и	и	CONJ	_
 14	тот	тот	DET	Case=Nom|Gender=Masc|Number=Sing
 15	,	,	PUNCT	_
 16	кто	кто	PRON	Case=Nom|Number=Sing
@@ -2385,7 +2385,7 @@
 10	делает	делать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 11	,	,	PUNCT	_
 12	становится	становиться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
-13	тем	тот	DET	Case=Ins|Gender=Masc|Number=Sing
+13	тем	тем	CONJ	_
 14	,	,	PUNCT	_
 15	кто	кто	PRON	Case=Nom|Number=Sing
 16	просто	просто	ADV	Degree=Pos
@@ -2393,19 +2393,19 @@
 18	.	.	PUNCT	_
 
 1	Если	если	CONJ	_
-2	раньше	раньше	ADV	Degree=Pos
-3	основными	основной	ADJ	Case=Ins|Degree=Pos|Number=Plur
+2	раньше	рано	ADV	Degree=Cmp
+3	основными	основный	ADJ	Case=Ins|Degree=Pos|Number=Plur
 4	заботами	забота	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
 5	были	быть	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 6	заботы	забота	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 7	тела	тело	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 8	,	,	PUNCT	_
-9	то	то	CONJ	_
+9	то	тот	CONJ	_
 10	теперь	теперь	ADV	Degree=Pos
-11	заботы	забота	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+11	заботы	забота	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 12	—	—	PUNCT	_
 13	это	это	PART	_
-14	в_основном	в_основном	H	_
+14	в_основном	в_основном	ADV	Degree=Pos
 15	заботы	забота	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 16	души	душа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 17	.	.	PUNCT	_
@@ -2415,7 +2415,7 @@
 3	жизни	жизнь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 4	,	,	PUNCT	_
 5	как	как	CONJ	_
-6	и	и	CONJ	_
+6	и	и	PART	_
 7	сама	сам	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 8	жизнь	жизнь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 9	.	.	PUNCT	_
@@ -2429,9 +2429,9 @@
 7	,	,	PUNCT	_
 8	а	а	CONJ	_
 9	с	с	ADP	_
-10	ним	он	PRON	Case=Ins|Gender=Neut|Number=Sing|Person=3
+10	ним	он	PRON	Case=Ins|Gender=Masc|Number=Sing|Person=3
 11	исчезла	исчезнуть	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-12	и	и	PART	_
+12	и	и	CONJ	_
 13	потребность	потребность	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 14	сильно	сильно	ADV	Degree=Pos
 15	желать	желать	VERB	VerbForm=Inf
@@ -2451,10 +2451,10 @@
 3	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	больше	большой	ADJ	Degree=Cmp
 5	измеряться	измеряться	VERB	VerbForm=Inf
-6	тем	то	PRON	Case=Ins|Gender=Neut|Number=Sing
+6	тем	тем	CONJ	_
 7	,	,	PUNCT	_
-8	сколько	сколько	NUM	_
-9	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+8	сколько	сколько	NUM	Case=Acc
+9	человек	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 10	накопил	накопить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 11	.	.	PUNCT	_
 
@@ -2465,16 +2465,16 @@
 5	восприниматься	восприниматься	VERB	VerbForm=Inf
 6	,	,	PUNCT	_
 7	как	как	CONJ	_
-8	то	то	PRON	Case=Nom|Gender=Neut|Number=Sing
+8	то	тот	CONJ	_
 9	,	,	PUNCT	_
-10	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+10	что	что	CONJ	_
 11	принадлежит	принадлежать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 12	всем	весь	DET	Case=Dat|Number=Plur
 13	людям	человек	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
 14	мира	мир	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 15	.	.	PUNCT	_
 
-1	Все	всё	PRON	Case=Nom|Number=Plur|Person=3
+1	Все	все	PRON	Case=Nom|Number=Plur|Person=3
 2	захотят	захотеть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
 4	чтобы	чтобы	CONJ	_
@@ -2493,7 +2493,7 @@
 1	И	и	CONJ	_
 2	вдруг	вдруг	ADV	Degree=Pos
 3	,	,	PUNCT	_
-4	веселый	весёлый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+4	веселый	веселый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 5	и	и	CONJ	_
 6	могучий	могучий	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 7	,	,	PUNCT	_
@@ -2553,7 +2553,7 @@
 9	...	...	PUNCT	_
 
 1	и	и	CONJ	_
-2	когда	когда	ADV	Degree=Pos
+2	когда	когда	CONJ	_
 3	я	я	PRON	Case=Nom|Number=Sing|Person=1
 4	тебе	ты	PRON	Case=Dat|Number=Sing|Person=2
 5	буду	быть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -2588,7 +2588,7 @@
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	грущу	грустить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	и	и	CONJ	_
-4	все	всё	ADV	Degree=Pos
+4	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 5	жду	ждать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	ответа	ответ	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 7	.	.	PUNCT	_
@@ -2597,12 +2597,12 @@
 2	этом	этот	DET	Case=Loc|Gender=Masc|Number=Sing
 3	мире	мир	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 4	—	—	PUNCT	_
-5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
-6	расстояний	расстояние	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+5	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+6	расстояний	расстоянье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
 7	,	,	PUNCT	_
 8	—	—	PUNCT	_
 
-1	Все	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+1	Все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 2	зависит	зависеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	от	от	ADP	_
 4	наших	наш	DET	Case=Gen|Number=Plur
@@ -2643,13 +2643,13 @@
 4	,	,	PUNCT	_
 5	в	в	ADP	_
 6	сказки	сказка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
-7	земные	земной	ADJ	Case=Nom|Degree=Pos|Number=Plur
+7	земные	земной	ADJ	Case=Acc|Degree=Pos|Number=Plur
 8	...	...	PUNCT	_
 
 1	А	а	CONJ	_
 2	пока	пока	ADV	Degree=Pos
 3	я	я	PRON	Case=Nom|Number=Sing|Person=1
-4	целую	целовать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
+4	целую	целый	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
 5	строчками	строчка	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
 6	,	,	PUNCT	_
 
@@ -2666,13 +2666,13 @@
 5	как	как	ADV	Degree=Pos
 6	относиться	относиться	VERB	VerbForm=Inf
 7	а	а	CONJ	_
-8	этому	этот	DET	Case=Dat|Gender=Masc|Number=Sing
+8	этому	это	PRON	Case=Dat|Gender=Neut|Number=Sing
 9	.	.	PUNCT	_
 
 1	оказывается	оказываться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 2	,	,	PUNCT	_
 3	что	что	CONJ	_
-4	все	всё	PRON	Case=Nom|Number=Plur|Person=3
+4	все	все	PRON	Case=Nom|Number=Plur|Person=3
 5	допускают	допускать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	ошибки	ошибка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 7	там	там	ADV	Degree=Pos
@@ -2687,22 +2687,22 @@
 7	узнавало	узнавать	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 8	минимум	минимум	ADV	Degree=Pos
 9	человек	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
-10	5	5	NUM	Form=Digit
+10	5	5	NUM	Form=Digit|	
 11	в	в	ADP	_
 12	первые	первый	ADJ	Case=Acc|Degree=Pos|Number=Plur
-13	10	10	NUM	Form=Digit
+13	10	10	NUM	Form=Digit|	
 14	минут	минута	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 15	,	,	PUNCT	_
 16	спустя	спустя	ADP	_
-17	еще	ещё	ADV	Degree=Pos
-18	10	10	NUM	Form=Digit
+17	еще	еще	ADV	Degree=Pos
+18	10	10	NUM	Form=Digit|	
 19	,	,	PUNCT	_
-20	еще	ещё	ADV	Degree=Pos
-21	5	5	NUM	Form=Digit
+20	еще	еще	ADV	Degree=Pos
+21	5	5	NUM	Form=Digit|	
 22	,	,	PUNCT	_
 23	потом	потом	ADV	Degree=Pos
 24	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
-25	20	20	NUM	Form=Digit
+25	20	20	NUM	Form=Digit|	
 26	знало	знать	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 27	,	,	PUNCT	_
 28	что	что	CONJ	_
@@ -2718,7 +2718,7 @@
 4	активную	активный	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
 5	экспансию	экспансия	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 6	в	в	ADP	_
-7	любых	любой	DET	Case=Loc|Gender=Masc|Number=Sing
+7	любых	любой	DET	Case=Loc|Number=Plur
 8	местах	место	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur
 9	,	,	PUNCT	_
 10	где	где	ADV	Degree=Pos
@@ -2742,11 +2742,11 @@
 
 1	Завел	завести	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 2	здесь	здесь	ADV	Degree=Pos
-3	связи	связь	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+3	связи	связь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 4	с	с	ADP	_
 5	товарищами	товарищ	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur
 6	,	,	PUNCT	_
-7	которые	который	DET	Case=Nom|Number=Plur
+7	которые	который	DET	Case=Acc|Number=Plur
 8	от	от	ADP	_
 9	налогов	налог	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 10	помогают	помогать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -2762,7 +2762,7 @@
 7	три	три	NUM	Case=Acc
 8	дебетовых	дебетовый	ADJ	Case=Gen|Degree=Pos|Number=Plur
 9	карты	карта	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-10	сбера	Сбер	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+10	сбера	сбер	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 11	.	.	PUNCT	_
 
 1	Потом	потом	ADV	Degree=Pos
@@ -2770,7 +2770,7 @@
 3	через	через	ADP	_
 4	них	он	PRON	Case=Acc|Number=Plur|Person=3
 5	будут	быть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-6	деньги	деньги	NOUN	Animacy=Inan|Case=Acc|Number=Plur
+6	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Number=Plur
 7	отмывать	отмывать	VERB	VerbForm=Inf
 8	.	.	PUNCT	_
 
@@ -2780,23 +2780,23 @@
 4	не	не	PART	_
 5	наркотики	наркотик	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 6	,	,	PUNCT	_
-7	а_именно	а_именно	PART	_
+7	а_именно	а_именно	CONJ	_
 8	уход	уход	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 9	от	от	ADP	_
 10	налогов	налог	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 11	.	.	PUNCT	_
 
-1	Да	да	PART	_
+1	Да	да	CONJ	_
 2	,	,	PUNCT	_
 3	даже	даже	PART	_
 4	если	если	CONJ	_
 5	наркотики	наркотик	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
-6	и	и	PART	_
+6	и	и	CONJ	_
 7	их	он	PRON	Case=Acc|Number=Plur|Person=3
 8	там	там	ADV	Degree=Pos
 9	заберут	забрать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	,	,	PUNCT	_
-11	то	то	CONJ	_
+11	то	тот	CONJ	_
 12	мне	я	PRON	Case=Dat|Number=Sing|Person=1
 13	просто	просто	ADV	Degree=Pos
 14	туда	туда	ADV	Degree=Pos
@@ -2811,7 +2811,7 @@
 2	них	он	PRON	Case=Gen|Number=Plur|Person=3
 3	офис	офис	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	в	в	ADP	_
-5	бизнес	бизнес	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+5	бизнес	бизнес	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	центре	центр	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 7	.	.	PUNCT	_
 
@@ -2836,10 +2836,10 @@
 1	Они	он	PRON	Case=Nom|Number=Plur|Person=3
 2	дали	дать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 3	предоплату	предоплата	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
-4	1000	1000	NUM	Form=Digit
+4	1000	1000	NUM	Form=Digit|	
 5	и	и	CONJ	_
-6	еще	ещё	ADV	Degree=Pos
-7	3750	3750	NUM	Form=Digit
+6	еще	еще	ADV	Degree=Pos
+7	3750	3750	NUM	Form=Digit|	
 8	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 9	,	,	PUNCT	_
 10	когда	когда	CONJ	_
@@ -2853,10 +2853,10 @@
 
 1	Можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 2	потом	потом	ADV	Degree=Pos
-3	еще	ещё	ADV	Degree=Pos
+3	еще	еще	ADV	Degree=Pos
 4	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	позаниматься	позаниматься	VERB	VerbForm=Inf
-6	этим	это	PRON	Case=Ins|Gender=Neut|Number=Sing
+6	этим	этот	DET	Case=Ins|Gender=Neut|Number=Sing
 7	,	,	PUNCT	_
 8	если	если	CONJ	_
 9	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -2917,13 +2917,13 @@
 5	мы	мы	PRON	Case=Nom|Number=Plur|Person=1
 6	придумаем	придумать	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	что-то	что-то	PRON	Case=Acc|Gender=Neut|Number=Sing
-8	еще	ещё	ADV	Degree=Pos
+8	еще	еще	ADV	Degree=Pos
 9	более	более	ADV	Degree=Cmp
-10	элегантное	элегантный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+10	элегантное	элегантный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 11	,	,	PUNCT	_
 12	чем	чем	CONJ	_
-13	этот	этот	DET	Case=Acc|Gender=Masc|Number=Sing
-14	финт	финт	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+13	этот	этот	DET	Case=Nom|Gender=Masc|Number=Sing
+14	финт	финт	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 15	с	с	ADP	_
 16	картами	карта	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
 17	.	.	PUNCT	_
@@ -2940,22 +2940,22 @@
 10	и	и	CONJ	_
 11	записал	записать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 12	их	их	DET	_
-13	данные	данные	NOUN	Animacy=Inan|Case=Acc|Number=Plur
+13	данные	данные	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 14	.	.	PUNCT	_
 
-1	Имя	имя	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+1	Имя	имя	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 2	одного	один	NUM	Case=Gen|Gender=Masc
 3	узнал	узнать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	приметы	примета	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 6	запомнил	запомнить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 7	,	,	PUNCT	_
-8	адрес	адрес	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+8	адрес	адрес	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 9	офиса	офис	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
 
 1	А	а	CONJ	_
-2	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+2	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
 3	для	для	ADP	_
 4	вас	вы	PRON	Case=Gen|Number=Plur|Person=2
 5	настоящее	настоящий	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
@@ -2967,21 +2967,21 @@
 3	Невском	невский	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
 4	проспекте	проспект	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 5	или	или	CONJ	_
-6	счет	счёт	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+6	счет	счет	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 7	в	в	ADP	_
 8	большом	большой	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
 9	банке	банк	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 10	?	?	PUNCT	_
 
 1	У	у	ADP	_
-2	всех	все	PRON	Case=Gen|Number=Plur
+2	всех	весь	DET	Case=Gen|Number=Plur
 3	свое	свой	DET	Case=Nom|Gender=Neut|Number=Sing
 4	счастье	счастье	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
 6	а	а	CONJ	_
 7	мое	мой	DET	Case=Nom|Gender=Neut|Number=Sing
 8	счастье	счастье	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
-9	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
+9	это	это	PART	_
 10	улыбки	улыбка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 11	дорогих	дорогой	ADJ	Case=Gen|Degree=Pos|Number=Plur
 12	людей	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
@@ -3003,7 +3003,7 @@
 1	С	с	ADP	_
 2	вами	вы	PRON	Case=Ins|Number=Plur|Person=2
 3	всегда	всегда	ADV	Degree=Pos
-4	тепло	тепло	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+4	тепло	теплый	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 5	(	(	PUNCT	_
 6	даже	даже	PART	_
 7	ночью	ночь	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
@@ -3016,13 +3016,13 @@
 14	)	)	PUNCT	_
 
 1	"	"	PUNCT	_
-2	Известия	Известия	NOUN	Animacy=Inan|Case=Nom|Number=Plur
+2	Известия	известие	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
 3	"	"	PUNCT	_
 4	узнали	узнать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 5	о	о	ADP	_
 6	возрождении	возрождение	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 7	"	"	PUNCT	_
-8	Запорожца	запорожец	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+8	Запорожца	запорожец	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 9	"	"	PUNCT	_
 
 1	"	"	PUNCT	_
@@ -3060,7 +3060,7 @@
 15	...	...	PUNCT	_
 
 1	В	в	ADP	_
-2	Робинзоне	Робинзон	NOUN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing
+2	Робинзоне	робинзон	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 3	бесплатно	бесплатно	ADV	Degree=Pos
 4	раздают	раздавать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	второй	второй	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
@@ -3076,7 +3076,7 @@
 7	точки	точка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 8	,	,	PUNCT	_
 9	Где	где	ADV	Degree=Pos
-10	нету	нету	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+10	нету	нету	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 11	запятых	запятая	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 12	,	,	PUNCT	_
 13	где	где	ADV	Degree=Pos
@@ -3097,7 +3097,7 @@
 4	будущем	будущее	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
 6	как	как	CONJ	_
-7	всё	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+7	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 8	стало	стать	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 9	проясняться	проясняться	VERB	VerbForm=Inf
 10	.	.	PUNCT	_
@@ -3110,7 +3110,7 @@
 6	цели	цель	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 7	,	,	PUNCT	_
 8	решила	решить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-9	чего	что	PRON	Case=Gen|Gender=Neut|Number=Sing
+9	чего	чего	ADV	Degree=Pos
 10	я	я	PRON	Case=Nom|Number=Sing|Person=1
 11	хочу	хотеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 12	получить	получить	VERB	VerbForm=Inf
@@ -3136,7 +3136,7 @@
 1	Мне	я	PRON	Case=Dat|Number=Sing|Person=1
 2	даже	даже	PART	_
 3	не	не	PART	_
-4	столько	столько	NUM	_
+4	столько	столько	NUM	Case=Acc
 5	нужна	нужный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 6	вся	весь	DET	Case=Nom|Gender=Fem|Number=Sing
 7	эта	этот	DET	Case=Nom|Gender=Fem|Number=Sing
@@ -3156,10 +3156,10 @@
 21	окружают	окружать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 22	готовы	готовый	ADJ	Degree=Pos|Number=Plur|Variant=Short
 23	на	на	ADP	_
-24	всё	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+24	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 25	ради	ради	ADP	_
 26	моего	мой	DET	Case=Gen|Gender=Neut|Number=Sing
-27	счастья	счастье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+27	счастья	счастие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 28	.	.	PUNCT	_
 
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
@@ -3171,14 +3171,14 @@
 7	,	,	PUNCT	_
 8	готова	готовый	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 9	на	на	ADP	_
-10	всё	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+10	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 11	ради	ради	ADP	_
 12	них	он	PRON	Case=Gen|Number=Plur|Person=3
 13	.	.	PUNCT	_
 
 1	У	у	ADP	_
 2	нас	мы	PRON	Case=Gen|Number=Plur|Person=1
-3	всё	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+3	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 4	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	хорошо	хороший	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 6	!	!	PUNCT	_
@@ -3206,10 +3206,10 @@
 3	знаете	знать	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	ли	ли	PART	_
 5	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
-6	географию	география	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
-7	России	Россия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+6	географию	география	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
+7	России	россия	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 8	/	/	PUNCT	_
-9	Путешествия	путешествие	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+9	Путешествия	путешествие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 10	/	/	PUNCT	_
 11	Моя	мой	DET	Case=Nom|Gender=Fem|Number=Sing
 12	Планета	планета	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
@@ -3237,9 +3237,9 @@
 13	противовес	противовес	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 14	палкам	палка	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
 15	для	для	ADP	_
-16	селфи	селфи	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+16	селфи	селфи	PUNCT	_
 17	,	,	PUNCT	_
-18	хэштегам	хэштег	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur
+18	хэштегам	хэштега	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur
 19	и	и	CONJ	_
 20	фоткам	фотка	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
 21	еды	еда	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
@@ -3257,10 +3257,10 @@
 10	имя	имя	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 11	художника	художник	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 12	,	,	PUNCT	_
-13	произведение	произведение	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+13	произведение	произведение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 14	которого	который	DET	Case=Gen|Gender=Masc|Number=Sing
 15	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
-16	должен	должный	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
+16	должен	должен	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 17	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 18	разместить	разместить	VERB	VerbForm=Inf
 19	на	на	ADP	_
@@ -3273,12 +3273,12 @@
 
 1	Мне	я	PRON	Case=Dat|Number=Sing|Person=1
 2	достался	достаться	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
-3	Константин	Константин	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
-4	Сомов	Сомов	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+3	Константин	константин	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+4	Сомов	сом	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 5	"	"	PUNCT	_
 6	Дама	дама	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 7	в	в	ADP	_
-8	голубом	голубой	ADJ	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing
+8	голубом	голубой	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
 9	"	"	PUNCT	_
 
 1	Она	он	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3
@@ -3298,14 +3298,14 @@
 15	но	но	CONJ	_
 16	душа	душа	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 17	требовала	требовать	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-18	колбасы	колбаса	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+18	колбасы	колбаса	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 19	.	.	PUNCT	_
 
 1	Сегодня	сегодня	ADV	Degree=Pos
 2	в	в	ADP	_
-3	Мюзик-холл	мюзик-холл	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+3	Мюзик-холл	мюзик-холл	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 4	—	—	PUNCT	_
-5	приятности	приятность	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+5	приятности	приятность	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 6	от	от	ADP	_
 7	Шеф-повара	шеф-повар	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 8	!	!	PUNCT	_
@@ -3329,7 +3329,7 @@
 1	Чтобы	чтобы	CONJ	_
 2	пульс	пульс	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	твой	твой	DET	Case=Nom|Gender=Masc|Number=Sing
-4	зашкалил	зашкалить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
+4	зашкалил	зашкалил	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 5	за	за	ADP	_
 6	сто	сто	NUM	Case=Acc
 7	,	,	PUNCT	_
@@ -3352,7 +3352,7 @@
 8	вредная	вредный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 9	,	,	PUNCT	_
 
-1	Что	что	CONJ	_
+1	Что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
 2	ревнива	ревнивый	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 3	я	я	PRON	Case=Nom|Number=Sing|Person=1
 4	за	за	ADP	_
@@ -3363,7 +3363,7 @@
 2	таких	такой	DET	Case=Gen|Number=Plur
 3	поискать	поискать	VERB	VerbForm=Inf
 4	бы	бы	PART	_
-5	ещё	ещё	ADV	Degree=Pos
+5	еще	еще	ADV	Degree=Pos
 6	,	,	PUNCT	_
 
 1	Что	что	CONJ	_
@@ -3385,7 +3385,7 @@
 
 1	Чтоб	чтоб	CONJ	_
 2	не	не	PART	_
-3	страстной	страстный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+3	страстной	страстной	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 4	была	быть	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 5	,	,	PUNCT	_
 6	не	не	PART	_
@@ -3398,12 +3398,12 @@
 4	с	с	ADP	_
 5	восторгом	восторг	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 6	бы	бы	PART	_
-7	твой	твой	DET	Case=Acc|Gender=Masc|Number=Sing
+7	твой	твой	DET	Case=Nom|Gender=Masc|Number=Sing
 8	.	.	PUNCT	_
 
 1	Вьют	вить	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-2	облака	облако	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
-3	себя	себя	PRON	Case=Acc
+2	облака	облако	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
+3	себя	себя	PRON	Case=Gen
 4	из	из	ADP	_
 5	синевы	синева	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 6	,	,	PUNCT	_
@@ -3420,7 +3420,7 @@
 3	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	сказано	сказанный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 5	,	,	PUNCT	_
-6	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+6	что	что	CONJ	_
 7	от	от	ADP	_
 8	простых	простой	ADJ	Case=Gen|Degree=Pos|Number=Plur
 9	частей	часть	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
@@ -3446,19 +3446,19 @@
 9	день	день	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 10	,	,	PUNCT	_
 
-1	Все	всё	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+1	Все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 2	обратится	обратиться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 3	вновь	вновь	ADV	Degree=Pos
 4	к	к	ADP	_
 5	своим	свой	DET	Case=Dat|Number=Plur
-6	пределам	предел	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur
+6	пределам	предел	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur
 7	,	,	PUNCT	_
 
 1	И	и	CONJ	_
 2	поплывет	поплыть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	над	над	ADP	_
 4	миром	мир	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
-5	опустелым	опустелый	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
+5	опустелым	опустелый	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
 
 1	А	а	CONJ	_
 2	тех	тот	DET	Case=Acc|Number=Plur
@@ -3479,15 +3479,15 @@
 2	можно	можно	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 3	пойти	пойти	VERB	VerbForm=Inf
 4	в	в	ADP	_
-5	Сочи	Сочи	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+5	Сочи	сочи	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 6	?	?	PUNCT	_
 
 1	предвкушала	предвкушать	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 2	эти	этот	DET	Case=Acc|Number=Plur
 3	выходные	выходной	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 4	,	,	PUNCT	_
-5	то	то	CONJ	_
-6	что	что	CONJ	_
+5	то	тот	CONJ	_
+6	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
 7	уеду	уехать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	из	из	ADP	_
 9	города	город	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -3499,8 +3499,8 @@
 15	чтоб	чтоб	CONJ	_
 16	свершать	свершать	VERB	VerbForm=Inf
 17	свою	свой	DET	Case=Acc|Gender=Fem|Number=Sing
-18	другие	другой	DET	Case=Nom|Number=Plur
-19	желания	желание	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+18	другие	другой	DET	Case=Acc|Number=Plur
+19	желания	желание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 20	.	.	PUNCT	_
 
 1	и	и	CONJ	_
@@ -3509,20 +3509,20 @@
 4	что	что	CONJ	_
 5	буду	быть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	на	на	ADP	_
-7	следующей	следующая	ADJ	Degree=Pos|Case=Dat|Gender=Fem|Number=Sing
-8	неделе	неделя	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+7	следующей	следующий	ADJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
+8	неделе	неделя	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 9	летать	летать	VERB	VerbForm=Inf
 10	на	на	ADP	_
 11	параплане	параплан	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 12	...	...	PUNCT	_
 13	далее	далеко	ADV	Degree=Cmp
 14	пошли	пойти	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
-15	мечты	мечта	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+15	мечты	мечта	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 16	,	,	PUNCT	_
 17	на	на	ADP	_
 18	которые	который	DET	Case=Acc|Number=Plur
 19	я	я	PRON	Case=Nom|Number=Sing|Person=1
-20	еще	ещё	ADV	Degree=Pos
+20	еще	еще	ADV	Degree=Pos
 21	не	не	PART	_
 22	установила	установить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 23	дату	дата	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
@@ -3533,7 +3533,7 @@
 28	уже	уже	ADV	Degree=Pos
 29	долетела	долететь	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 30	до	до	ADP	_
-31	Венеры	Венера	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+31	Венеры	венера	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 
 1	и	и	CONJ	_
 2	только	только	ADV	Degree=Pos
@@ -3552,7 +3552,7 @@
 15	уже	уже	ADV	Degree=Pos
 16	не	не	PART	_
 17	на	на	ADP	_
-18	Венере	Венера	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+18	Венере	венера	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 19	,	,	PUNCT	_
 20	а	а	CONJ	_
 21	лежу	лежать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -3571,7 +3571,7 @@
 9	диспетчера	диспетчер	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
 
-1	Нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+1	Нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 2	времени	время	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 3	...	...	PUNCT	_
 4	и	и	CONJ	_
@@ -3583,10 +3583,10 @@
 3	в	в	ADP	_
 4	дни	день	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 5	...	...	PUNCT	_
-6	когда	когда	CONJ	_
+6	когда	когда	ADV	Degree=Pos
 7	не	не	PART	_
 
-1	И	и	PART	_
+1	И	и	CONJ	_
 2	идеален	идеальный	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 3	...	...	PUNCT	_
 4	с	с	ADP	_
@@ -3607,13 +3607,13 @@
 3	...	...	PUNCT	_
 4	кредитка	кредитка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 5	и	и	CONJ	_
-6	права	право	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+6	права	право	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 7	...	...	PUNCT	_
 
 1	В	в	ADP	_
 2	комнате	комната	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
-3	2	2	NUM	Form=Digit
-4	кровати	кровать	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+3	2	2	NUM	Form=Digit|	
+4	кровати	кровать	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 5	,	,	PUNCT	_
 6	стенка	стенка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 7	,	,	PUNCT	_
@@ -3632,7 +3632,7 @@
 4	ответить	ответить	VERB	VerbForm=Inf
 5	-	-	PUNCT	_
 6	пишите	писать	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
-7	смс	смс	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
+7	смс	смс	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 8	или	или	CONJ	_
 9	в	в	ADP	_
 10	личку	личка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
@@ -3662,14 +3662,14 @@
 22	каждую	каждый	DET	Case=Acc|Gender=Fem|Number=Sing
 23	секунду	секунда	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 24	,	,	PUNCT	_
-25	каждый	каждый	DET	Case=Acc|Gender=Masc|Number=Sing
+25	каждый	каждый	DET	Case=Nom|Gender=Masc|Number=Sing
 26	миг	миг	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 27	.	.	PUNCT	_
 
 1	...	...	PUNCT	_
 2	и	и	CONJ	_
 3	я	я	PRON	Case=Nom|Number=Sing|Person=1
-4	больше	много	ADV	Degree=Cmp
+4	больше	больше	ADV	Degree=Cmp
 5	не	не	PART	_
 6	переживаю	переживать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	,	,	PUNCT	_
@@ -3707,7 +3707,7 @@
 
 1	Он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 2	подводил	подводить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-3	её	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
+3	ее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
 4	к	к	ADP	_
 5	машине	машина	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
 6	и	и	CONJ	_
@@ -3718,7 +3718,7 @@
 1	Думаю	думать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	так	так	ADV	Degree=Pos
 3	же	же	PART	_
-4	должно	должный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+4	должно	должен	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 5	обращаться	обращаться	VERB	VerbForm=Inf
 6	с	с	ADP	_
 7	кобелями	кобель	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur
@@ -3768,7 +3768,7 @@
 8	плохо	плохо	ADV	Degree=Pos
 9	живешь	жить	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	.	.	PUNCT	_
-11	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+11	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 12	услышит	услышать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 13	твои	твой	DET	Case=Acc|Number=Plur
 14	слова	слово	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
@@ -3789,14 +3789,14 @@
 29	.	.	PUNCT	_
 30	.	.	PUNCT	_
 31	"	"	PUNCT	_
-32	И	и	PART	_
+32	И	и	CONJ	_
 33	даст	дать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 34	тебе	ты	PRON	Case=Dat|Number=Sing|Person=2
 35	судьбу	судьба	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 36	во	во	ADP	_
 37	много	много	ADV	Degree=Pos
 38	раз	раз	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
-39	худшую	худший	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
+39	худшую	худшая	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
 40	...	...	PUNCT	_
 41	Чтобы	чтобы	CONJ	_
 42	не	не	PART	_
@@ -3813,7 +3813,7 @@
 53	.	.	PUNCT	_
 54	"	"	PUNCT	_
 55	Тогда	тогда	ADV	Degree=Pos
-56	Бог	Бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+56	Бог	бог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 57	скажет	сказать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 58	—	—	PUNCT	_
 59	:	:	PUNCT	_
@@ -3848,25 +3848,25 @@
 6	спину	спина	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 7	.	.	PUNCT	_
 
-1	5	5	NUM	Form=Digit
+1	5	5	NUM	Form=Digit|	
 2	лет	год	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 3	как	как	CONJ	_
 4	фамилию	фамилия	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 5	сменила	сменить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 6	и	и	CONJ	_
-7	8	8	NUM	Form=Digit
+7	8	8	NUM	Form=Digit|	
 8	лет	год	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 9	вместе	вместе	ADV	Degree=Pos
 10	!	!	PUNCT	_
 
 1	В	в	ADP	_
-2	России	Россия	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+2	России	россия	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 3	создадут	создать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	кроссовер	кроссовер	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 5	в	в	ADP	_
 6	стиле	стиль	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 7	"	"	PUNCT	_
-8	Запорожца	запорожец	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+8	Запорожца	запорожец	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 9	"	"	PUNCT	_
 
 1	Любимый	любимый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
@@ -3901,7 +3901,7 @@
 5	иль	иль	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 6	ветер	ветер	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 7	,	,	PUNCT	_
-8	иль	иль	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+8	иль	иль	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 9	град	град	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 10	...	...	PUNCT	_
 
@@ -3916,8 +3916,8 @@
 1	Они	он	PRON	Case=Nom|Number=Plur|Person=3
 2	незаметны	незаметный	ADJ	Degree=Pos|Number=Plur|Variant=Short
 3	и	и	CONJ	_
-4	все	весь	DET	Case=Acc
-5	нипочем	нипочём	ADV	Degree=Pos
+4	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+5	нипочем	нипочем	ADV	Degree=Pos
 6	,	,	PUNCT	_
 
 1	Все	весь	DET	Case=Nom|Number=Plur
@@ -3926,7 +3926,7 @@
 4	печали	печаль	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 5	теперь	теперь	ADV	Degree=Pos
 6	не	не	PART	_
-7	причем	причём	ADV	Degree=Pos
+7	причем	причем	ADV	Degree=Pos
 8	.	.	PUNCT	_
 
 1	Не	не	PART	_
@@ -3938,7 +3938,7 @@
 7	надо	надо	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 8	—	—	PUNCT	_
 9	"	"	PUNCT	_
-10	Вперед	вперёд	ADV	Degree=Pos
+10	Вперед	вперед	ADV	Degree=Pos
 11	.	.	PUNCT	_
 12	!	!	PUNCT	_
 13	"	"	PUNCT	_
@@ -3951,7 +3951,7 @@
 6	.	.	PUNCT	_
 
 1	И	и	CONJ	_
-2	слезы	слеза	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+2	слезы	слеза	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 3	утрет	утереть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	и	и	CONJ	_
@@ -3964,12 +3964,12 @@
 3	—	—	PUNCT	_
 4	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
 5	нужно	нужный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
-6	еще	ещё	ADV	Degree=Pos
+6	еще	еще	ADV	Degree=Pos
 7	...	...	PUNCT	_
 
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	тот	тот	DET	Case=Nom|Gender=Masc|Number=Sing
-3	тип	тип	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+3	тип	тип	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	девушек	девушка	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur
 5	,	,	PUNCT	_
 6	которые	который	DET	Case=Nom|Number=Plur
@@ -3990,10 +3990,10 @@
 21	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
 22	можете	мочь	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 23	увидеть	увидеть	VERB	VerbForm=Inf
-24	меня	Мень	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
+24	меня	я	PRON	Case=Acc|Number=Sing|Person=1
 25	настоящую	настоящий	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing
 26	,	,	PUNCT	_
-27	только	только	ADV	Degree=Pos
+27	только	только	CONJ	_
 28	если	если	CONJ	_
 29	мы	мы	PRON	Case=Nom|Number=Plur|Person=1
 30	близки	близкий	ADJ	Degree=Pos|Number=Plur|Variant=Short
@@ -4027,7 +4027,7 @@
 13	люди	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 14	ставят	ставить	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 15	мне	я	PRON	Case=Dat|Number=Sing|Person=1
-16	подножки	подножка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
+16	подножки	подножка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 17	.	.	PUNCT	_
 
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
@@ -4054,12 +4054,12 @@
 6	слушает	слушать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	о	о	ADP	_
 8	проблемах	проблема	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
-9	других	другой	DET	Case=Acc|Number=Plur
-10	людей	человек	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
+9	других	другой	DET	Case=Gen|Number=Plur
+10	людей	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 11	.	.	PUNCT	_
 
 1	Мне	я	PRON	Case=Dat|Number=Sing|Person=1
-2	больше	много	ADV	Degree=Cmp
+2	больше	больше	ADV	Degree=Cmp
 3	нравится	нравиться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 4	думать	думать	VERB	VerbForm=Inf
 5	,	,	PUNCT	_
@@ -4087,17 +4087,17 @@
 5	показательна	показательный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 6	,	,	PUNCT	_
 
-1	и	и	PART	_
+1	и	и	CONJ	_
 2	не	не	PART	_
 3	стесняясь	стесняться	VERB	Tense=Notpast|VerbForm=Conv|Voice=Mid
-4	дураком	дурак	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+4	дураком	дурак	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 5	прослыть	прослыть	VERB	VerbForm=Inf
 6	,	,	PUNCT	_
 
 1	поэт	поэт	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 2	сказал	сказать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
-4	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+4	что	что	CONJ	_
 5	для	для	ADP	_
 6	мужчин	мужчина	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 7	желательно	желательный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
@@ -4112,14 +4112,14 @@
 
 1	и	и	CONJ	_
 2	без	без	ADP	_
-3	налета	налёт	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+3	налета	налет	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 4	умственных	умственный	ADJ	Case=Gen|Degree=Pos|Number=Plur
 5	глубин	глубина	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 
 1	скажу	сказать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	:	:	PUNCT	_
-3	чем	чем	CONJ	_
-4	меньше	мало	ADV	Degree=Cmp
+3	чем	что	PRON	Case=Ins|Gender=Neut|Number=Sing
+4	меньше	меньше	ADV	Degree=Pos
 5	женщину	женщина	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
 6	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
 7	любите	любить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -4129,7 +4129,7 @@
 2	в	в	ADP	_
 3	гости	гость	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 4	с	с	ADP	_
-5	семьёй	семья	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
+5	семьей	семья	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 6	!	!	PUNCT	_
 
 1	на	на	ADP	_
@@ -4140,14 +4140,14 @@
 6	,	,	PUNCT	_
 7	от	от	ADP	_
 8	вас	вы	PRON	Case=Gen|Number=Plur|Person=2
-9	помощь	помощь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+9	помощь	помощь	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 10	в	в	ADP	_
 11	огороде	огород	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 12	!	!	PUNCT	_
 
 1	На	на	ADP	_
 2	выходных	выходной	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur
-3	еду	ехать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
+3	еду	еда	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 4	на	на	ADP	_
 5	склад	склад	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	.	.	PUNCT	_
@@ -4161,9 +4161,9 @@
 
 1	Спасибо	спасибо	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 2	огромное	огромный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
-3	Насте	Настя	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
+3	Насте	наст	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 4	и	и	CONJ	_
-5	Алене	Алёна	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing
+5	Алене	алена	NOUN	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing
 6	за	за	ADP	_
 7	подготовку	подготовка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 8	и	и	CONJ	_
@@ -4172,14 +4172,14 @@
 11	выставке	выставка	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 12	!	!	PUNCT	_
 
-1	Бесплатный	бесплатный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
-2	вай-фай	вай-фай	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+1	Бесплатный	бесплатный	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+2	вай-фай	вай-фай	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 3	,	,	PUNCT	_
-4	комнатные	комнатный	ADJ	Case=Nom|Degree=Pos|Number=Plur
-5	растения	растение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+4	комнатные	комнатный	ADJ	Case=Acc|Degree=Pos|Number=Plur
+5	растения	растение	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 6	и	и	CONJ	_
-7	умные	умный	ADJ	Case=Nom|Degree=Pos|Number=Plur
-8	лица	лицо	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+7	умные	умный	ADJ	Case=Acc|Degree=Pos|Number=Plur
+8	лица	лицо	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 9	школьников	школьник	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 10	.	.	PUNCT	_
 
@@ -4222,12 +4222,12 @@
 
 1	В	в	ADP	_
 2	наличии	наличие	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
-3	42-46	42-46	NUM	Form=Digit
+3	42-46	42-46	NUM	NumForm=Digit|	
 4	,	,	PUNCT	_
 5	на	на	ADP	_
 6	мал	малый	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 7	рост	рост	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-8	1000	1000	NUM	Form=Digit
+8	1000	1000	NUM	Form=Digit|	
 
 1	Будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	мастер	мастер	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
@@ -4284,7 +4284,7 @@
 5	влияют	влиять	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	на	на	ADP	_
 7	человека	человек	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
-8	и	и	PART	_
+8	и	и	CONJ	_
 9	на	на	ADP	_
 10	окружающего	окружающий	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
 11	мира	мир	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -4305,7 +4305,7 @@
 1	-	-	PUNCT	_
 2	в	в	ADP	_
 3	перерыве	перерыв	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
-4	чаепитие	чаепитие	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+4	чаепитие	чаепитие	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 5	китайского	китайский	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
 6	чая	чай	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 
@@ -4321,7 +4321,7 @@
 1	Делюсь	делиться	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Mid
 2	идеей	идея	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 3	,	,	PUNCT	_
-4	как	как	ADV	Degree=Pos
+4	как	как	CONJ	_
 5	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
 6	сделать	сделать	VERB	VerbForm=Inf
 7	.	.	PUNCT	_
@@ -4339,8 +4339,8 @@
 11	.	.	PUNCT	_
 
 1	.	.	PUNCT	_
-2	Весь	весь	DET	Case=Acc|Gender=Masc|Number=Sing
-3	урок	урок	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+2	Весь	весь	DET	Case=Nom|Gender=Masc|Number=Sing
+3	урок	урок	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	около	около	ADP	_
 5	парты	парта	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 6	посидеть	посидеть	VERB	VerbForm=Inf
@@ -4348,10 +4348,10 @@
 8	кто	кто	PRON	Case=Nom|Number=Sing
 9	так	так	ADV	Degree=Pos
 10	сможет	смочь	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-11	и	и	PART	_
+11	и	и	CONJ	_
 12	главное	главный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 13	чтобы	чтобы	CONJ	_
-14	училка	училка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
+14	училка	училка	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 15	не	не	PART	_
 16	спалила	спалить	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 
@@ -4379,20 +4379,20 @@
 
 1	Кто	кто	PRON	Case=Nom|Number=Sing
 2	такой	такой	DET	Case=Nom|Gender=Masc|Number=Sing
-3	заботливый	заботливый	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+3	заботливый	заботливый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 4	продумал	продумать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 5	для	для	ADP	_
 6	вас	вы	PRON	Case=Gen|Number=Plur|Person=2
 7	миф	миф	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 8	,	,	PUNCT	_
-9	что	что	CONJ	_
+9	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
 10	без	без	ADP	_
 11	натурального	натуральный	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
 12	меха	мех	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 13	и	и	CONJ	_
 14	кожи	кожа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 15	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
-16	замерзнете	замёрзнуть	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
+16	замерзнете	замерзнуть	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 17	и	и	CONJ	_
 18	будете	быть	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 19	не	не	PART	_
@@ -4418,9 +4418,9 @@
 8	на	на	ADP	_
 9	мистификациях	мистификация	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
 10	типа	типа	ADP	_
-11	СПИДа	СПИД	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+11	СПИДа	спид	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 12	и	и	CONJ	_
-13	рака	рак	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+13	рака	рака	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 14	,	,	PUNCT	_
 15	это	это	PART	_
 16	те	тот	DET	Case=Nom|Number=Plur
@@ -4442,7 +4442,7 @@
 2	же	же	PART	_
 3	продают	продавать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	вам	вы	PRON	Case=Dat|Number=Plur|Person=2
-5	наркотики	наркотик	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+5	наркотики	наркотик	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 6	,	,	PUNCT	_
 7	водку	водка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 8	и	и	CONJ	_
@@ -4474,7 +4474,7 @@
 9	вашим	ваш	DET	Case=Ins|Gender=Neut|Number=Sing
 10	сознанием	сознание	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 11	,	,	PUNCT	_
-12	в_том_числе	в_том_числе	H	_
+12	в_том_числе	в_том_числе	ADV	Degree=Pos
 13	,	,	PUNCT	_
 14	с	с	ADP	_
 15	помощью	помощь	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
@@ -4487,7 +4487,7 @@
 4	ваша	ваш	DET	Case=Nom|Gender=Fem|Number=Sing
 5	от	от	ADP	_
 6	них	он	PRON	Case=Gen|Number=Plur|Person=3
-7	зависимость	зависимость	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+7	зависимость	зависимость	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 8	.	.	PUNCT	_
 
 1	Им	он	PRON	Case=Dat|Number=Plur|Person=3
@@ -4549,7 +4549,7 @@
 6	,	,	PUNCT	_
 
 1	Даже	даже	PART	_
-2	ночи	ночь	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+2	ночи	ночь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 3	могу	мочь	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	не	не	PART	_
 5	спать	спать	VERB	VerbForm=Inf
@@ -4558,8 +4558,8 @@
 2	и	и	CONJ	_
 3	два	два	NUM	Case=Nom|Gender=Masc
 4	и	и	CONJ	_
-5	весь	весь	DET	Case=Nom|Gender=Masc|Number=Sing
-6	год	год	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+5	весь	весь	DET	Case=Acc|Gender=Masc|Number=Sing
+6	год	год	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 7	,	,	PUNCT	_
 8	наверно	наверно	H	_
 9	,	,	PUNCT	_
@@ -4574,10 +4574,10 @@
 2	знать	знать	VERB	VerbForm=Inf
 3	бы	бы	PART	_
 4	,	,	PUNCT	_
-5	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
-6	все	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+5	что	что	CONJ	_
+6	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 7	не	не	PART	_
-8	зря	зреть	VERB	Tense=Notpast|VerbForm=Conv|Voice=Act
+8	зря	зря	ADV	Degree=Pos
 9	,	,	PUNCT	_
 
 1	Жизнерадостность	жизнерадостность	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
@@ -4589,9 +4589,9 @@
 7	здоровья	здоровье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 8	,	,	PUNCT	_
 9	но	но	CONJ	_
-10	еще	ещё	ADV	Degree=Pos
+10	еще	еще	ADV	Degree=Pos
 11	и	и	PART	_
-12	самое	самый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+12	самое	сам	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 13	действенное	действенный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 14	средство	средство	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 15	,	,	PUNCT	_
@@ -4604,7 +4604,7 @@
 2	день	день	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	в	в	ADP	_
 4	пионерском	пионерский	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
-5	лагере	лагерь	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+5	лагере	лагер	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 6	.	.	PUNCT	_
 
 1	Маленькая	маленький	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
@@ -4617,16 +4617,16 @@
 8	)	)	PUNCT	_
 
 1	"	"	PUNCT	_
-2	Дело	дело	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
-3	Васильевой	Васильев	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing
+2	Дело	дело	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+3	Васильевой	васильев	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing
 4	"	"	PUNCT	_
 5	оценивают	оценивать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	уже	уже	ADV	Degree=Pos
 7	в	в	ADP	_
-8	16	16	NUM	Form=Digit
+8	16	16	NUM	Form=Digit|	
 9	миллиардов	миллиард	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 
-1	Минфин	Минфин	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+1	Минфин	минфин	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 2	предлагает	предлагать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 3	вернуться	вернуться	VERB	VerbForm=Inf
 4	к	к	ADP	_
@@ -4646,7 +4646,7 @@
 7	?	?	PUNCT	_
 
 1	или	или	CONJ	_
-2	еще	ещё	ADV	Degree=Pos
+2	еще	еще	ADV	Degree=Pos
 3	мало	мало	ADV	Degree=Pos
 4	проблем	проблема	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 5	делают	делать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -4658,9 +4658,9 @@
 
 1	Добрый	добрый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 2	день	день	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-3	Дамы	дама	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur
+3	Дамы	дама	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing
 4	и	и	CONJ	_
-5	Господа	господин	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
+5	Господа	господь	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 7	предлагаем	предлагать	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	Вам	вы	PRON	Case=Dat|Number=Plur|Person=2
@@ -4687,12 +4687,12 @@
 1	Любимый	любимый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 2	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 3	—	—	PUNCT	_
-4	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
+4	это	это	PART	_
 5	тот	тот	DET	Case=Nom|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 7	кто	кто	PRON	Case=Nom|Number=Sing
 8	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-9	рядом	рядом	ADV	Degree=Pos
+9	рядом	ряд	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 10	в	в	ADP	_
 11	самые	самый	ADJ	Case=Acc|Degree=Pos|Number=Plur
 12	трудные	трудный	ADJ	Case=Acc|Degree=Pos|Number=Plur
@@ -4739,7 +4739,7 @@
 4	июля	июль	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 5	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	стоить	стоить	VERB	VerbForm=Inf
-7	80	80	NUM	Form=Digit
+7	80	80	NUM	Form=Digit|	
 8	тысяч	тысяча	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 9	рублей	рубль	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 10	.	.	PUNCT	_
@@ -4758,7 +4758,7 @@
 5	человека	человек	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
 6	.	.	PUNCT	_
 
-1	И	и	PART	_
+1	И	и	CONJ	_
 2	в	в	ADP	_
 3	конечном	конечный	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing
 4	итоге	итог	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
@@ -4766,14 +4766,14 @@
 6	он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
 7	захочет	захотеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	выяснить	выяснить	VERB	VerbForm=Inf
-9	всё	всё	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
+9	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 10	.	.	PUNCT	_
 
 1	Как	как	ADV	Degree=Pos
 2	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 3	ешь	есть	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
-5	как	как	CONJ	_
+5	как	как	ADV	Degree=Pos
 6	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 7	танцуешь	танцевать	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	,	,	PUNCT	_
@@ -4786,8 +4786,8 @@
 15	дня	день	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 16	.	.	PUNCT	_
 
-1	Как	как	ADV	Degree=Pos
-2	твоё	твой	DET	Case=Nom|Gender=Neut|Number=Sing
+1	Как	как	CONJ	_
+2	твое	твой	DET	Case=Nom|Gender=Neut|Number=Sing
 3	лицо	лицо	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 4	выглядит	выглядеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	без	без	ADP	_
@@ -4799,20 +4799,20 @@
 3	любишь	любить	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	шоколад	шоколад	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 5	,	,	PUNCT	_
-6	какой	какой	DET	Case=Ins|Gender=Fem|Number=Sing
+6	какой	какой	DET	Case=Acc|Gender=Masc|Number=Sing
 7	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 8	можешь	мочь	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 9	быть	быть	VERB	VerbForm=Inf
-10	сумасшедшей	сумасшедшая	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+10	сумасшедшей	сумасшедший	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 11	время_от_времени	время_от_времени	ADV	Degree=Pos
 12	,	,	PUNCT	_
 13	как	как	CONJ	_
 14	некоторые	некоторый	DET	Case=Nom|Number=Plur
 15	игры	игра	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 16	,	,	PUNCT	_
-17	песни	песня	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+17	песни	песнь	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 18	и	и	CONJ	_
-19	шоу	шоу	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+19	шоу	шоу	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
 20	делают	делать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 21	тебя	ты	PRON	Case=Acc|Number=Sing|Person=2
 22	счастливой	счастливый	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
@@ -4823,7 +4823,7 @@
 3	знать	знать	VERB	VerbForm=Inf
 4	о	о	ADP	_
 5	тебе	ты	PRON	Case=Loc|Number=Sing|Person=2
-6	всё	весь	DET	Case=Acc|Gender=Neut|Number=Sing
+6	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 7	.	.	PUNCT	_
 
 1	Он	он	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3
@@ -4839,9 +4839,9 @@
 2	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
 3	то	тот	DET	Case=Nom|Gender=Neut|Number=Sing
 4	же	же	PART	_
-5	самое	самый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+5	самое	сам	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 6	,	,	PUNCT	_
-7	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+7	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
 8	смотреть	смотреть	VERB	VerbForm=Inf
 9	в	в	ADP	_
 10	могилу	могила	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
@@ -4872,9 +4872,9 @@
 6	женских	женский	ADJ	Case=Gen|Degree=Pos|Number=Plur
 7	органов	орган	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 8	есть	быть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-9	еще	ещё	ADV	Degree=Pos
-10	и	и	PART	_
-11	мозги	мозг	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
+9	еще	еще	ADV	Degree=Pos
+10	и	и	CONJ	_
+11	мозги	мозг	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 12	,	,	PUNCT	_
 13	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 14	представляешь	представлять	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -4883,7 +4883,7 @@
 17	проблему	проблема	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 18	.	.	PUNCT	_
 
-1	День	день	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+1	День	день	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 2	Победы	победа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 3	официально	официально	ADV	Degree=Pos
 4	включили	включить	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
@@ -4902,14 +4902,14 @@
 8	Днем	день	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 9	Победы	победа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 10	,	,	PUNCT	_
-11	который	который	DET	Case=Acc|Gender=Masc|Number=Sing
+11	который	который	DET	Case=Nom|Gender=Masc|Number=Sing
 12	евреи	еврей	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 13	по	по	ADP	_
 14	всему	весь	DET	Case=Dat|Gender=Masc|Number=Sing
 15	миру	мир	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
 16	будут	быть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 17	отмечать	отмечать	VERB	VerbForm=Inf
-18	9	9	NUM	Form=Digit
+18	9	9	NUM	Form=Digit|	
 19	мая	май	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 20	.	.	PUNCT	_
 
@@ -4923,7 +4923,7 @@
 8	,	,	PUNCT	_
 9	когда	когда	CONJ	_
 10	был	быть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-11	изменен	изменённый	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
+11	изменен	измененный	ADJ	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short
 12	еврейский	еврейский	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 13	календарь	календарь	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 14	.	.	PUNCT	_
@@ -4932,7 +4932,7 @@
 2	приятная	приятный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
 3	атмосфера	атмосфера	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 4	и	и	CONJ	_
-5	внимание	внимание	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+5	внимание	внимание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 6	администратора	администратор	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 7	и	и	CONJ	_
 8	мастера	мастер	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
@@ -4946,7 +4946,7 @@
 6	.	.	PUNCT	_
 
 1	Рекомендую	рекомендовать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
-2	всем	все	PRON	Case=Ins|Gender=Neut|Number=Sing
+2	всем	весь	DET	Case=Dat|Number=Plur
 3	,	,	PUNCT	_
 4	кто	кто	PRON	Case=Nom|Number=Sing
 5	хочет	хотеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -4962,7 +4962,7 @@
 1	Телефонный	телефонный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 2	разговор	разговор	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	с	с	ADP	_
-4	Ариной	Арина	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+4	Ариной	арина	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 5	дал	дать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 6	дополнительное	дополнительный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
 7	понимание	понимание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
@@ -4971,16 +4971,16 @@
 10	,	,	PUNCT	_
 11	которые	который	DET	Case=Acc|Number=Plur
 12	предлагает	предлагать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-13	ее	её	DET	_
+13	ее	ее	DET	_
 14	Студия	студия	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 15	.	.	PUNCT	_
 
 1	Трансфер	трансфер	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 2	в	в	ADP	_
 3	аэропорты	аэропорт	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
-4	Москвы	Москва	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+4	Москвы	москва	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 5	и	и	CONJ	_
-6	Санкт-Петербурга	Санкт-Петербург	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+6	Санкт-Петербурга	санкт-петербург	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	присоединяюсь	присоединяться	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Mid
@@ -4993,7 +4993,7 @@
 
 1	Сейчас	сейчас	ADV	Degree=Pos
 2	хороших	хороший	ADJ	Case=Acc|Degree=Pos|Number=Plur
-3	жён	жена	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur
+3	жен	жена	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur
 4	не	не	PART	_
 5	ищут	искать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	в	в	ADP	_
@@ -5020,7 +5020,7 @@
 2	восстановление	восстановление	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 3	зрения	зрение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 4	для	для	ADP	_
-5	всех	все	PRON	Case=Gen|Number=Plur
+5	всех	весь	DET	Case=Gen|Number=Plur
 6	!	!	PUNCT	_
 
 1	а	а	CONJ	_
@@ -5039,7 +5039,7 @@
 14	обучение	обучение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 15	тела	тело	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 16	в	в	ADP	_
-17	полете	полёт	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+17	полете	полет	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 18	,	,	PUNCT	_
 19	обучение	обучение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 20	мозга	мозг	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -5056,7 +5056,7 @@
 1	Жизнь	жизнь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 2	человека	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 3	—	—	PUNCT	_
-4	это	это	PART	_
+4	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
 5	путь	путь	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 6	от	от	ADP	_
 7	одной	один	NUM	Case=Gen|Gender=Fem
@@ -5072,18 +5072,18 @@
 5	этими	этот	DET	Case=Ins|Number=Plur
 6	двумя	два	NUM	Case=Ins|Gender=Fem
 7	точками	точка	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur
-8	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+8	человек	человек	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 9	живет	жить	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	в	в	ADP	_
 11	поисках	поиск	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur
 12	гармонии	гармония	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 13	.	.	PUNCT	_
 
-1	27	27	NUM	Form=Digit
+1	27	27	NUM	Form=Digit|	
 2	Апреля	апрель	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 3	—	—	PUNCT	_
-4	День	день	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-5	обнимашек	обнимашка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
+4	День	день	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+5	обнимашек	обнимашек	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 6	и	и	CONJ	_
 7	подарков	подарок	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 8	.	.	PUNCT	_
@@ -5099,25 +5099,25 @@
 9	,	,	PUNCT	_
 10	подругу	подруга	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
 11	или	или	CONJ	_
-12	одноклассницу	одноклассница	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
-13	при	переть	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
-14	встрече	встреча	NOUN	Animacy=Inan|Case=Datat|Gender=Fem|Number=Sing
-15	и	и	PART	_
+12	одноклассницу	одноклассница	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+13	при	при	ADP	_
+14	встрече	встреча	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+15	и	и	CONJ	_
 16	подарить	подарить	VERB	VerbForm=Inf
 17	какой-нибудь	какой-нибудь	DET	Case=Acc|Gender=Masc|Number=Sing
 18	подарок	подарок	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 19	:	:	PUNCT	_
-20	3	3	NUM	Form=Digit
+20	3	3	NUM	Form=Digit|	
 
 1	Любить	любить	VERB	VerbForm=Inf
 2	—	—	PUNCT	_
-3	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
+3	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
 4	не	не	PART	_
 5	значит	значить	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 6	смотреть	смотреть	VERB	VerbForm=Inf
-7	друг	друг	NOUN	Case=Nom|Gender=Masc|Number=Sing
+7	друг	друг	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 8	на	на	ADP	_
-9	друга	друг	NOUN	Case=Acc|Gender=Masc|Number=Sing
+9	друга	друг	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
 10	,	,	PUNCT	_
 11	любить	любить	VERB	VerbForm=Inf
 12	—	—	PUNCT	_
@@ -5125,14 +5125,14 @@
 14	вместе	вместе	ADV	Degree=Pos
 15	смотреть	смотреть	VERB	VerbForm=Inf
 16	в	в	ADP	_
-17	одном	один	NUM	Case=Loc|Gender=Masc
+17	одном	один	NUM	Case=Loc|Gender=Neut
 18	направление	направление	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 19	.	.	PUNCT	_
 
 1	при	при	ADP	_
 2	некоторых	некоторый	DET	Case=Loc|Number=Plur
 3	видах	вид	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur
-4	плетения	плетение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+4	плетения	плетение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 5	когда	когда	CONJ	_
 6	вращение	вращение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
 7	купола	купол	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -5140,14 +5140,14 @@
 9	одну	один	NUM	Case=Acc|Gender=Fem
 10	сторону	сторона	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 11	а	а	CONJ	_
-12	колонны	колонна	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+12	колонны	колонна	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 13	в	в	ADP	_
 14	другую	другой	DET	Case=Acc|Gender=Fem|Number=Sing
 15	возникает	возникать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 16	дополнительно	дополнительно	ADV	Degree=Pos
-17	жестокость	жестокость	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+17	жестокость	жестокость	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 18	и	и	CONJ	_
-19	стягивание	стягивание	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+19	стягивание	стягивание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 20	купола	купол	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 
 1	то_есть	то_есть	CONJ	_
@@ -5164,30 +5164,30 @@
 
 1	ВЫЛЕТЫ	вылет	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 2	С	с	ADP	_
-3	КИЕВА	Киев	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
+3	КИЕВА	киев	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 4	НА	на	ADP	_
-5	7	7	NUM	Form=Digit
+5	7	7	NUM	Form=Digit|	
 6	НОЧЕЙ	ночь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 7	.	.	PUNCT	_
 
 1	А	а	CONJ	_
-2	еще	ещё	ADV	Degree=Pos
+2	еще	еще	ADV	Degree=Pos
 3	нас	мы	PRON	Case=Acc|Number=Plur|Person=1
 4	с	с	ADP	_
-5	Дарьей	Дарья	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
-6	Владимировной	Владимировна	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+5	Дарьей	дарья	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
+6	Владимировной	владимировная	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing
 7	разлучили	разлучить	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 8	.	.	PUNCT	_
 
 1	Мы	мы	PRON	Case=Nom|Number=Plur|Person=1
-2	хлеба	хлеб	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
+2	хлеба	хлеб	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 3	горбушку	горбушка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 4	и	и	CONJ	_
 5	ту	тот	DET	Case=Acc|Gender=Fem|Number=Sing
 6	пополам	пополам	ADV	Degree=Pos
 7	...	...	PUNCT	_
 8	на	на	ADP	_
-9	Яндекс	Яндекс	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+9	Яндекс	яндекс	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 10	.	.	PUNCT	_
 
 1	Одно	один	NUM	Case=Nom|Gender=Neut
@@ -5228,7 +5228,7 @@
 17	если	если	CONJ	_
 18	вода	вода	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 19	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-20	комнатной	комнатный	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
+20	комнатной	комнатный	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 21	температуры	температура	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 22	,	,	PUNCT	_
 23	лягушка	лягушка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
@@ -5254,7 +5254,7 @@
 43	нагреваться	нагреваться	VERB	VerbForm=Inf
 44	до	до	ADP	_
 45	температуры	температура	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
-46	20—30	20—30	NUM	Form=Digit
+46	20—30	20—30	PUNCT	_
 47	градусов	градус	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 48	,	,	PUNCT	_
 49	лягушка	лягушка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
@@ -5278,7 +5278,7 @@
 67	слабеть	слабеть	VERB	VerbForm=Inf
 68	,	,	PUNCT	_
 69	сделается	сделаться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
-70	вялой	вялый	ADJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing
+70	вялой	вялый	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 71	и	и	CONJ	_
 72	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 73	уже	уже	ADV	Degree=Pos
@@ -5298,7 +5298,7 @@
 87	останется	остаться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 88	в	в	ADP	_
 89	кастрюле	кастрюля	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
-90	и	и	PART	_
+90	и	и	CONJ	_
 91	будет	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 92	сварена	сваренный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 93	.	.	PUNCT	_
@@ -5314,11 +5314,11 @@
 9	пруд	пруд	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 10	ожил	ожить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 11	.	.	PUNCT	_
-12	Этот	этот	DET	Case=Nom|Gender=Masc|Number=Sing
-13	мир	мир	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+12	Этот	этот	DET	Case=Acc|Gender=Masc|Number=Sing
+13	мир	мир	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 14	малых	малый	ADJ	Case=Gen|Degree=Pos|Number=Plur
 15	прелестных	прелестный	ADJ	Case=Gen|Degree=Pos|Number=Plur
-16	созданий	создание	NOUN	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur
+16	созданий	создание	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
 17	всегда	всегда	ADV	Degree=Pos
 18	был	быть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 19	здесь	здесь	ADV	Degree=Pos
@@ -5338,7 +5338,7 @@
 33	что	что	CONJ	_
 34	наше	наш	DET	Case=Nom|Gender=Neut|Number=Sing
 35	сознание	сознание	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
-36	жёстко	жёстко	ADV	Degree=Pos
+36	жестко	жестко	ADV	Degree=Pos
 37	настроено	настроенный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 38	только	только	ADV	Degree=Pos
 39	на	на	ADP	_
@@ -5373,12 +5373,12 @@
 
 1	ТУРЫ	тур	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 2	В	в	ADP	_
-3	ЕГИПЕТ	Египет	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+3	ЕГИПЕТ	египет	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 4	ИЗ	из	ADP	_
-5	ЗАПОРОЖЬЯ	Запорожье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+5	ЗАПОРОЖЬЯ	запорожье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 6	!	!	PUNCT	_
 
-1	Когда	когда	ADV	Degree=Pos
+1	Когда	когда	CONJ	_
 2	такая	такой	DET	Case=Nom|Gender=Fem|Number=Sing
 3	погода	погода	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 4	мне	я	PRON	Case=Dat|Number=Sing|Person=1
@@ -5389,7 +5389,7 @@
 9	!	!	PUNCT	_
 
 1	А	а	CONJ	_
-2	что	что	PRON	Case=Acc|Gender=Neut|Number=Sing
+2	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
 3	в	в	ADP	_
 4	окне	окно	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 5	видишь	видеть	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -5404,7 +5404,7 @@
 5	в	в	ADP	_
 6	том	то	PRON	Case=Loc|Gender=Neut|Number=Sing
 7	,	,	PUNCT	_
-8	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
+8	что	что	CONJ	_
 9	уже	уже	ADV	Degree=Pos
 10	произошло	произойти	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 11	...	...	PUNCT	_
@@ -5414,8 +5414,8 @@
 3	о	о	ADP	_
 4	том	то	PRON	Case=Loc|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
-6	что	что	PRON	Case=Nom|Gender=Neut|Number=Sing
-7	ещё	ещё	ADV	Degree=Pos
+6	что	что	CONJ	_
+7	еще	еще	ADV	Degree=Pos
 8	не	не	PART	_
 9	случилось	случиться	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid
 10	...	...	PUNCT	_
@@ -5428,7 +5428,7 @@
 6	Жизни	жизнь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 7	.	.	PUNCT	_
 
-1	Самое	самый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
+1	Самое	сам	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 2	удивительное	удивительный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 3	,	,	PUNCT	_
 4	что	что	CONJ	_
@@ -5444,7 +5444,7 @@
 1	Я	я	PRON	Case=Nom|Number=Sing|Person=1
 2	про	про	ADP	_
 3	этот	этот	DET	Case=Acc|Gender=Masc|Number=Sing
-4	приём	приём	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+4	прием	прием	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 5	знала	знать	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 6	давно	давно	ADV	Degree=Pos
 7	,	,	PUNCT	_
@@ -5465,22 +5465,22 @@
 2	мысли	мысль	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 3	улетели	улететь	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 4	только	только	ADV	Degree=Pos
-5	2	2	NUM	Form=Digit
+5	2	2	NUM	Form=Digit|	
 6	раза	раз	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 7	за	за	ADP	_
-8	30	30	NUM	Form=Digit
+8	30	30	NUM	Form=Digit|	
 9	дыхательных	дыхательный	ADJ	Case=Gen|Degree=Pos|Number=Plur
 10	кругов	круг	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 11	!	!	PUNCT	_
 
 1	А	а	CONJ	_
-2	это	этот	DET	Case=Acc|Gender=Neut|Number=Sing
+2	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
 3	,	,	PUNCT	_
 4	хочу	хотеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	Вам	вы	PRON	Case=Dat|Number=Plur|Person=2
 6	сказать	сказать	VERB	VerbForm=Inf
 7	,	,	PUNCT	_
-8	достижение	достижение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+8	достижение	достижение	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 9	!	!	PUNCT	_
 
 1	Идеи	идея	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
@@ -5499,26 +5499,26 @@
 6	твои	твой	DET	Case=Nom|Number=Plur
 7	дела	дело	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
 8	?	?	PUNCT	_
-9	Как	как	CONJ	_
+9	Как	как	ADV	Degree=Pos
 10	ты	ты	PRON	Case=Nom|Number=Sing|Person=2
 11	?	?	PUNCT	_
 12	Надеюсь	надеяться	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Mid
-13	все	всё	ADV	Degree=Pos
-14	хорошо	хорошо	ADV	Degree=Pos
+13	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
+14	хорошо	хорошо	ADV	Case=Gen|Gender=Neut|Number=Sing
 15	у	у	ADP	_
 16	Вас	вы	PRON	Case=Gen|Number=Plur|Person=2
 17	.	.	PUNCT	_
 
-1	Какой	какой	DET	Case=Acc|Gender=Fem|Number=Sing
+1	Какой	какой	DET	Case=Nom|Gender=Masc|Number=Sing
 2	дождливый	дождливый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 3	апрель	апрель	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
-5	да	да	PART	_
+5	да	да	CONJ	_
 6	любимая	любимая	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 7	?	?	PUNCT	_
 
-1	Под	под	ADP	_
-2	звуки	звук	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
+1	Под	под	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+2	звуки	звук	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 3	капающего	капающий	ADJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing
 4	дождя	дождь	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 5	мы	мы	PRON	Case=Nom|Number=Plur|Person=1
@@ -5542,7 +5542,7 @@
 
 1	Как	как	CONJ	_
 2	же	же	PART	_
-3	всего	весь	DET	Case=Gen|Gender=Neut|Number=Sing
+3	всего	весь	DET	Case=Gen|Gender=Masc|Number=Sing
 4	этого	это	PRON	Case=Gen|Gender=Neut|Number=Sing
 5	не	не	PART	_
 6	хватает	хватать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
@@ -5556,7 +5556,7 @@
 6	о	о	ADP	_
 7	малыше	малыш	NOUN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing
 8	состоял	состоять	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-9	в_основном	в_основном	H	_
+9	в_основном	в_основном	ADV	Degree=Pos
 10	из	из	ADP	_
 11	прогулок	прогулка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 12	и	и	CONJ	_
@@ -5575,7 +5575,7 @@
 10	твоей	твой	DET	Case=Gen|Gender=Fem|Number=Sing
 11	поездки	поездка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 12	в	в	ADP	_
-13	Турцию	Турция	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+13	Турцию	турция	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 14	у	у	ADP	_
 15	нас	мы	PRON	Case=Gen|Number=Plur|Person=1
 16	был	быть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -5584,12 +5584,12 @@
 19	период	период	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 20	...	...	PUNCT	_
 
-1	Столько	столько	NUM	_
+1	Столько	столько	NUM	Case=Nom
 2	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 3	трепета	трепет	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 4	конечно	конечно	ADV	Degree=Pos
 5	,	,	PUNCT	_
-6	капец	капец	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+6	капец	капец	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 7	...	...	PUNCT	_
 8	Столько	столько	NUM	Case=Nom
 9	страсти	страсть	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
@@ -5602,8 +5602,8 @@
 5	,	,	PUNCT	_
 6	а	а	CONJ	_
 7	я	я	PRON	Case=Nom|Number=Sing|Person=1
-8	твоим	твой	DET	Case=Ins|Gender=Masc|Number=Sing
-9	любимым	любимый	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+8	твоим	твой	DET	Case=Ins|Gender=Neut|Number=Sing
+9	любимым	любимый	ADJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing
 10	,	,	PUNCT	_
 11	солнышком	солнышко	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 12	и	и	CONJ	_
@@ -5613,7 +5613,7 @@
 1	А	а	CONJ	_
 2	теперь	теперь	ADV	Degree=Pos
 3	тебя	ты	PRON	Case=Gen|Number=Sing|Person=2
-4	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+4	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 5	...	...	PUNCT	_
 6	Нигде	нигде	ADV	Degree=Pos
 7	...	...	PUNCT	_
@@ -5621,7 +5621,7 @@
 1	Зачем	зачем	ADV	Degree=Pos
 2	и	и	CONJ	_
 3	почему	почему	ADV	Degree=Pos
-4	все	весь	DET	Case=Nom|Number=Plur
+4	все	все	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3
 5	так	так	ADV	Degree=Pos
 6	...	...	PUNCT	_
 
@@ -5634,8 +5634,8 @@
 7	любимая	любимая	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 8	....	....	PUNCT	_
 
-1	Олесь	Олеся	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur
-2	Бузина	Бузин	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
+1	Олесь	олесь	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+2	Бузина	бузина	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 3	о	о	ADP	_
 4	цене	цена	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 5	Победы	победа	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
@@ -5643,13 +5643,13 @@
 7	Георгиевской	георгиевский	ADJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
 8	ленточке	ленточка	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 
-1	Кому	кто	PRON	Case=Dat|Number=Sing
+1	Кому	ком	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing
 2	дали	дать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
-3	2	2	NUM	Form=Digit
+3	2	2	NUM	Form=Digit|	
 4	года	год	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
-5	колонии	колония	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+5	колонии	колония	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 6	-	-	PUNCT	_
-7	поселения	поселение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur
+7	поселения	поселение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 8	за	за	ADP	_
 9	призывы	призыв	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 10	убивать	убивать	VERB	VerbForm=Inf
@@ -5666,7 +5666,7 @@
 1	Лично	лично	ADV	Degree=Pos
 2	у	у	ADP	_
 3	меня	я	PRON	Case=Gen|Number=Sing|Person=1
-4	всё	всё	ADV	Degree=Pos
+4	все	все	ADV	Degree=Pos
 5	основательнее	основательно	ADV	Degree=Cmp
 6	складывается	складываться	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Mid
 7	мнение	мнение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
@@ -5676,7 +5676,7 @@
 11	деды	дед	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 12	-	-	PUNCT	_
 13	прадеды	прадед	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
-14	70	70	NUM	Form=Digit
+14	70	70	NUM	Form=Digit|	
 15	лет	год	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 16	назад	назад	ADP	_
 17	воевали	воевать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
@@ -5699,7 +5699,7 @@
 
 1	Но	но	CONJ	_
 2	современная	современный	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing
-3	Россия	Россия	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
+3	Россия	россия	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 4	,	,	PUNCT	_
 5	по-моему	по-моему	ADV	Degree=Pos
 6	,	,	PUNCT	_
@@ -5718,7 +5718,7 @@
 6	старика	старик	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
 7	с	с	ADP	_
 8	убитым	убитый	ADJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing
-9	внуком	внук	NOUN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing
+9	внуком	внук	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 10	на	на	ADP	_
 11	руках	рука	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
 12	.	.	PUNCT	_
@@ -5735,16 +5735,16 @@
 10	.	.	PUNCT	_
 
 1	В	в	ADP	_
-2	С-Петербурге	С-Петербург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
-3	решено	решённый	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+2	С-Петербурге	с-петербург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+3	решено	решенный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 4	устроить	устроить	VERB	VerbForm=Inf
 5	на	на	ADP	_
-6	9	9	NUM	Form=Digit
+6	9	9	NUM	Form=Digit|	
 7	мая	май	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 8	акцию	акция	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 9	с	с	ADP	_
 10	привлечение	привлечение	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
-11	трёх	три	NUM	Case=Gen
+11	трех	три	NUM	Case=Gen
 12	сотен	сотня	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 13	ветеранов	ветеран	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 14	.	.	PUNCT	_
@@ -5759,7 +5759,7 @@
 8	.	.	PUNCT	_
 
 1	В	в	ADP	_
-2	Екатеринбурге	Екатеринбург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+2	Екатеринбурге	екатеринбург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 3	устроили	устроить	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 4	реконструкцию	реконструкция	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 5	Великой	великий	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
@@ -5774,10 +5774,10 @@
 2	же	же	PART	_
 3	,	,	PUNCT	_
 4	в	в	ADP	_
-5	Екатеринбурге	Екатеринбург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+5	Екатеринбурге	екатеринбург	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
-7	местное	местный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
-8	агентство	агентство	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+7	местное	местный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
+8	агентство	агентство	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 9	ритуальных	ритуальный	ADJ	Case=Gen|Degree=Pos|Number=Plur
 10	услуг	услуга	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 11	устроило	устроить	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -5796,7 +5796,7 @@
 4	крестов	крест	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur
 5	и	и	CONJ	_
 6	надгробий	надгробие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
-7	ветеранов	ветеран	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
+7	ветеранов	ветеран	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 8	попотчевали	попотчевать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 9	чаем	чай	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
@@ -5826,7 +5826,7 @@
 
 1	Нет	нет	PART	_
 2	,	,	PUNCT	_
-3	всё-таки	всё-таки	PART	_
+3	все-таки	все-таки	PART	_
 4	,	,	PUNCT	_
 5	по-моему	по-моему	ADV	Degree=Pos
 6	,	,	PUNCT	_
@@ -5850,7 +5850,7 @@
 6	закрой	закрыть	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 7	рот	рот	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 8	и	и	CONJ	_
-9	ешь	есть	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
+9	ешь	есть	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 10	суп	суп	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 11	!	!	PUNCT	_
 12	"	"	PUNCT	_
@@ -5886,7 +5886,7 @@
 3	это	это	PART	_
 4	главный	главный	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 5	источник	источник	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-6	вашего	ваш	DET	Case=Gen|Gender=Neut|Number=Sing
+6	вашего	ваш	DET	Case=Gen|Gender=Masc|Number=Sing
 7	хорошего	хороший	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
 8	настроения	настроение	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 9	.	.	PUNCT	_
@@ -5896,7 +5896,7 @@
 3	—	—	PUNCT	_
 4	и	и	CONJ	_
 5	все	весь	DET	Case=Nom|Number=Plur
-6	невзгоды	невзгода	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
+6	невзгоды	невзгоды	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 7	уйдут	уйти	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	.	.	PUNCT	_
 
@@ -5904,13 +5904,13 @@
 2	смысл	смысл	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 3	токового	токовый	ADJ	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing
 4	общение	общение	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
-5	когда	когда	CONJ	_
+5	когда	когда	ADV	Degree=Pos
 6	один	один	NUM	Case=Nom|Gender=Masc
 7	человек	человек	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 8	хочет	хотеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 9	,	,	PUNCT	_
 10	а	а	CONJ	_
-11	другой	другой	DET	Case=Nom|Gender=Masc|Number=Sing
+11	другой	другой	DET	Case=Gen|Gender=Fem|Number=Sing
 12	не	не	PART	_
 13	хочет	хотеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 14	.	.	PUNCT	_
@@ -5922,7 +5922,7 @@
 5	свидания	свидание	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 6	,	,	PUNCT	_
 7	не	не	PART	_
-8	благодарите	благодарить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
+8	благодарите	благодарить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 9	.	.	PUNCT	_
 
 1	Выберите	выбрать	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
@@ -5932,7 +5932,7 @@
 5	,	,	PUNCT	_
 6	хорошо	хорошо	ADV	Degree=Pos
 7	подойдет	подойти	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-8	место	место	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing
+8	место	место	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 9	на	на	ADP	_
 10	природе	природа	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 11	,	,	PUNCT	_
@@ -5951,7 +5951,7 @@
 2	ухаживать	ухаживать	VERB	VerbForm=Inf
 3	за	за	ADP	_
 4	девушкой	девушка	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
-5	убедитесь	убедиться	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid
+5	убедитесь	убедиться	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Mid
 6	что	что	CONJ	_
 7	ей	он	PRON	Case=Dat|Gender=Fem|Number=Sing|Person=3
 8	некуда	некуда	ADV	Degree=Pos
@@ -5960,19 +5960,19 @@
 
 1	Полностью	полностью	ADV	Degree=Pos
 2	овладейте	овладеть	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
-3	её	её	DET	_
+3	ее	ее	DET	_
 4	вниманием	внимание	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 5	,	,	PUNCT	_
 6	сделайте	сделать	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
 7	что-нибудь	что-нибудь	PRON	Case=Acc|Gender=Neut|Number=Sing
 8	неожиданное	неожиданный	ADJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing
 9	:	:	PUNCT	_
-10	притащите	притащить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
+10	притащите	притащить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
 11	труп	труп	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 12	оленя	олень	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 13	и	и	CONJ	_
 14	расчлените	расчленить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
-15	его	он	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3
+15	его	его	DET	_
 16	бензопилой	бензопила	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 17	.	.	PUNCT	_
 
@@ -5992,7 +5992,7 @@
 1	Ухаживая	ухаживать	VERB	Tense=Notpast|VerbForm=Conv|Voice=Act
 2	за	за	ADP	_
 3	девушкой	девушка	NOUN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing
-4	убедитесь	убедиться	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid
+4	убедитесь	убедиться	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Mid
 5	,	,	PUNCT	_
 6	что	что	CONJ	_
 7	она	он	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3
@@ -6009,7 +6009,7 @@
 5	хлопчатобумажной	хлопчатобумажный	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 6	ткани	ткань	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 7	,	,	PUNCT	_
-8	прикрепленный	прикреплённый	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
+8	прикрепленный	прикрепленный	ADJ	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
 9	скотчем	скотч	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 10	к	к	ADP	_
 11	голове	голова	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
@@ -6029,13 +6029,13 @@
 11	.	.	PUNCT	_
 
 1	Не	не	PART	_
-2	все	весь	DET	Case=Nom|Number=Plur
+2	все	все	PRON	Case=Nom|Number=Plur|Person=3
 3	девушки	девушка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur
 4	акцентируют	акцентировать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-5	своё	свой	DET	Case=Acc|Gender=Neut|Number=Sing
+5	свое	свой	DET	Case=Acc|Gender=Neut|Number=Sing
 6	внимание	внимание	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 7	на	на	ADP	_
-8	внешности	внешность	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+8	внешности	внешность	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur
 9	,	,	PUNCT	_
 10	будьте	быть	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
 11	скромны	скромный	ADJ	Degree=Pos|Number=Plur|Variant=Short
@@ -6044,7 +6044,7 @@
 14	,	,	PUNCT	_
 15	не	не	PART	_
 16	показывайте	показывать	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
-17	своё	свой	DET	Case=Acc|Gender=Neut|Number=Sing
+17	свое	свой	DET	Case=Acc|Gender=Neut|Number=Sing
 18	лицо	лицо	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 19	,	,	PUNCT	_
 20	хорошо	хорошо	ADV	Degree=Pos
@@ -6072,8 +6072,8 @@
 10	на	на	ADP	_
 11	диване	диван	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 12	,	,	PUNCT	_
-13	есть	есть	VERB	VerbForm=Inf
-14	попкорн	попкорн	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+13	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
+14	попкорн	попкорн	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 15	и	и	CONJ	_
 16	смотреть	смотреть	VERB	VerbForm=Inf
 17	видео	видео	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
@@ -6095,7 +6095,7 @@
 10	дома	дом	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 11	,	,	PUNCT	_
 12	оставьте	оставить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
-13	её	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
+13	ее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
 14	посреди	посреди	ADP	_
 15	ночи	ночь	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 16	на	на	ADP	_
@@ -6130,7 +6130,7 @@
 2	психологи	психолог	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur
 3	советуют	советовать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	:	:	PUNCT	_
-5	мертвые	мёртвый	ADJ	Case=Nom|Degree=Pos|Number=Plur
+5	мертвые	мертвый	ADJ	Case=Nom|Degree=Pos|Number=Plur
 6	птицы	птица	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur
 7	и	и	CONJ	_
 8	кровь	кровь	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
@@ -6151,13 +6151,13 @@
 1	Хочу	хотеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	стать	стать	VERB	VerbForm=Inf
 3	"	"	PUNCT	_
-4	Гуру	гуру	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+4	Гуру	гуру	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing
 5	бизнеса	бизнес	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 6	"	"	PUNCT	_
 7	с	с	ADP	_
 8	приложением	приложение	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing
 9	"	"	PUNCT	_
-10	Бизнес	бизнес	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+10	Бизнес	бизнес	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
 11	в	в	ADP	_
 12	кармане	карман	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 13	:	:	PUNCT	_
@@ -6167,7 +6167,7 @@
 17	,	,	PUNCT	_
 18	повышаю	повышать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 19	уровень	уровень	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
-20	знаний	знание	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
+20	знаний	знанье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur
 21	и	и	CONJ	_
 22	получаю	получать	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 23	бонусы	бонус	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
@@ -6203,7 +6203,7 @@
 12	,	,	PUNCT	_
 13	у	у	ADP	_
 14	Вас	вы	PRON	Case=Gen|Number=Plur|Person=2
-15	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin
+15	нет	нет	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
 16	проблем	проблема	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur
 17	.	.	PUNCT	_
 
@@ -6211,11 +6211,11 @@
 2	просто	просто	ADV	Degree=Pos
 3	не	не	PART	_
 4	любят	любить	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-5	спортсменов	спортсмен	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur
+5	спортсменов	спортсмен	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
 6	...	...	PUNCT	_
 
 1	Всем	весь	DET	Case=Dat|Number=Plur
-2	бабам	баба	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur
+2	бабам	баба	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur
 3	нужны	нужный	ADJ	Degree=Pos|Number=Plur|Variant=Short
 4	только	только	ADV	Degree=Pos
 5	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Number=Plur
@@ -6261,9 +6261,9 @@
 25	нужна	нужный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 26	девушка	девушка	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 27	,	,	PUNCT	_
-28	и	и	PART	_
+28	и	и	CONJ	_
 29	уж	уж	PART	_
-30	тем_более	тем_более	PART	_
+30	тем_более	тем_более	ADV	Degree=Pos
 31	жена	жена	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 32	.	.	PUNCT	_
 
@@ -6274,7 +6274,7 @@
 5	на	на	ADP	_
 6	нее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
 7	—	—	PUNCT	_
-8	то	то	PRON	Case=Acc|Gender=Neut|Number=Sing
+8	то	тот	CONJ	_
 9	купи	купить	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 10	,	,	PUNCT	_
 11	это	это	PRON	Case=Acc|Gender=Neut|Number=Sing
@@ -6284,7 +6284,7 @@
 1	Бабам	баба	NOUN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur
 2	же	же	PART	_
 3	только	только	ADV	Degree=Pos
-4	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Number=Plur
+4	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 5	и	и	PART	_
 6	нужны	нужный	ADJ	Degree=Pos|Number=Plur|Variant=Short
 7	.	.	PUNCT	_
@@ -6305,7 +6305,7 @@
 14	.	.	PUNCT	_
 
 1	-	-	PUNCT	_
-2	Помните	помнить	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Notpast|VerbForm=Fin|Voice=Act
+2	Помните	помнить	VERB	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act
 3	,	,	PUNCT	_
 4	я	я	PRON	Case=Nom|Number=Sing|Person=1
 5	говорил	говорить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -6314,7 +6314,7 @@
 8	всем	весь	DET	Case=Dat|Number=Plur
 9	нужны	нужный	ADJ	Degree=Pos|Number=Plur|Variant=Short
 10	только	только	ADV	Degree=Pos
-11	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Number=Plur
+11	деньги	деньги	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur
 12	?	?	PUNCT	_
 
 1	Она	он	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3
@@ -6341,7 +6341,7 @@
 4	пригласил	пригласить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 5	ее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
 6	в	в	ADP	_
-7	кафе	кафе	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+7	кафе	кафе	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 8	.	.	PUNCT	_
 
 1	Решил	решить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
@@ -6352,7 +6352,7 @@
 6	.	.	PUNCT	_
 
 1	Подруги	подруга	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur
-2	ее	её	DET	_
+2	ее	ее	DET	_
 3	сказали	сказать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 4	,	,	PUNCT	_
 5	что	что	CONJ	_
@@ -6395,7 +6395,7 @@
 5	мне	я	PRON	Case=Dat|Number=Sing|Person=1
 6	нужно	нужный	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
 7	было	быть	VERB	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-8	просто	простой	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+8	просто	просто	ADV	Degree=Pos
 9	на	на	ADP	_
 10	тренировку	тренировка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 11	.	.	PUNCT	_
@@ -6449,7 +6449,7 @@
 13	.	.	PUNCT	_
 
 1	-	-	PUNCT	_
-2	Ага	ага	INTJ	_
+2	Ага	ага	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing
 3	,	,	PUNCT	_
 4	то_есть	то_есть	CONJ	_
 5	вы	вы	PRON	Case=Nom|Number=Plur|Person=2
@@ -6546,7 +6546,7 @@
 3	пригласил	пригласить	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 4	ее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
 5	в	в	ADP	_
-6	кафе	кафе	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
+6	кафе	кафе	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing
 7	!	!	PUNCT	_
 
 1	-	-	PUNCT	_
@@ -6570,11 +6570,11 @@
 3	должна	должный	ADJ	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short
 4	принять	принять	VERB	VerbForm=Inf
 5	меня	я	PRON	Case=Acc|Number=Sing|Person=1
-6	таким	такой	DET	Case=Dat|Number=Plur
+6	таким	такой	DET	Case=Ins|Gender=Masc|Number=Sing
 7	,	,	PUNCT	_
 8	какой	какой	DET	Case=Ins|Gender=Fem|Number=Sing
 9	я	я	PRON	Case=Nom|Number=Sing|Person=1
-10	есть	быть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
+10	есть	быть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 11	!	!	PUNCT	_
 
 1	-	-	PUNCT	_
@@ -6587,7 +6587,7 @@
 8	!	!	PUNCT	_
 
 1	О	о	ADP	_
-2	Украине	Украина	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
+2	Украине	украина	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 3	и	и	CONJ	_
 4	третьей	третий	ADJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
 5	мировой	мировой	ADJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing
@@ -6606,7 +6606,7 @@
 6	с	с	ADP	_
 7	которыми	который	DET	Case=Ins|Number=Plur
 8	,	,	PUNCT	_
-9	что-то	что-то	PRON	Case=Nom|Gender=Neut|Number=Sing
+9	что-то	что-то	PRON	Case=Acc|Gender=Neut|Number=Sing
 10	светлое	светлый	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
 11	и	и	CONJ	_
 12	радостное	радостный	ADJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing
@@ -6620,7 +6620,7 @@
 2	на	на	ADP	_
 3	подоконнике	подоконник	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
-5	хрен	хрен	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+5	хрен	хрен	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	,	,	PUNCT	_
 7	корнеплод	корнеплод	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 8	петрушки	петрушка	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
@@ -6641,7 +6641,7 @@
 3	бесит	бесить	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 4	...	...	PUNCT	_
 5	Уже	уже	ADV	Degree=Pos
-6	мозги	мозг	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
+6	мозги	мозги	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur
 7	кипят	кипеть	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 8	от	от	ADP	_
 9	языка	язык	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing
@@ -6661,8 +6661,8 @@
 10	годы	год	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 11	...	...	PUNCT	_
 
-1	Больше	много	ADV	Degree=Cmp
-2	всего	всё	PRON	Case=Gen|Gender=Neut|Number=Sing
+1	Больше	больше	ADV	Degree=Cmp
+2	всего	всего	PART	_
 3	я	я	PRON	Case=Nom|Number=Sing|Person=1
 4	хочу	хотеть	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 5	прийти	прийти	VERB	VerbForm=Inf
@@ -6715,7 +6715,7 @@
 6	всю	весь	DET	Case=Acc|Gender=Fem|Number=Sing
 7	растоптали	растоптать	VERB	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act
 
-1	Когда	когда	ADV	Degree=Pos
+1	Когда	когда	CONJ	_
 2	в	в	ADP	_
 3	ней	он	PRON	Case=Loc|Gender=Fem|Number=Sing|Person=3
 4	от	от	ADP	_
@@ -6723,8 +6723,8 @@
 6	душа	душа	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 7	умирала	умирать	VERB	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 
-1	Когда	когда	ADV	Degree=Pos
-2	ее	её	DET	_
+1	Когда	когда	CONJ	_
+2	ее	ее	DET	_
 3	веру	вера	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 4	в	в	ADP	_
 5	любовь	любовь	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
@@ -6758,7 +6758,7 @@
 1	нитью	нить	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
 2	по	по	ADP	_
 3	-	-	PUNCT	_
-4	толще	толща	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
+4	толще	толстый	ADJ	Degree=Cmp
 5	да	да	CONJ	_
 6	ржавой	ржавый	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
 7	иголкой	иголка	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing
@@ -6779,12 +6779,12 @@
 5	стекла	стекло	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 
 1	Ее	он	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3
-2	еще	ещё	ADV	Degree=Pos
+2	еще	еще	ADV	Degree=Pos
 3	никто	никто	PRON	Case=Nom|Gender=Masc|Number=Sing
 4	не	не	PART	_
 5	видел	видеть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
-6	такой	такой	DET	Case=Ins|Gender=Fem|Number=Sing
-7	слабой	слабый	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing
+6	такой	такой	DET	Case=Gen|Gender=Fem|Number=Sing
+7	слабой	слабый	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing
 
 1	Зажмурит	зажмурить	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 2	веки	веко	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur
@@ -6799,7 +6799,7 @@
 2	сидел	сидеть	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 3	парень	парень	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
-5	то	то	CONJ	_
+5	то	тот	CONJ	_
 6	поднимал	поднимать	VERB	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act
 7	глаза	глаз	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur
 8	на	на	ADP	_
@@ -6821,14 +6821,14 @@
 10	читает	читать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 11	книгу	книга	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 12	"	"	PUNCT	_
-13	Как	как	CONJ	_
+13	Как	как	ADV	Degree=Pos
 14	распознать	распознать	VERB	VerbForm=Inf
 15	ведьму	ведьма	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing
 16	.	.	PUNCT	_
 17	"	"	PUNCT	_
 
 1	Гормон	гормон	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
-2	счастья	счастье	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
+2	счастья	счастие	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing
 3	в	в	ADP	_
 4	зависимости	зависимость	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 5	от	от	ADP	_
@@ -6840,7 +6840,7 @@
 4	и	и	CONJ	_
 5	поиском	поиск	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing
 6	солдат	солдат	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur
-7	ВОВ	ВОВ	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
+7	ВОВ	вов	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing
 8	прошу	просить	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Notpast|VerbForm=Fin|Voice=Act
 9	помочь	помочь	VERB	VerbForm=Inf
 10	.	.	PUNCT	_
@@ -6866,7 +6866,7 @@
 2	возьми	взять	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
 3	и	и	CONJ	_
 4	сделай	сделать	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
-5	все	всё	PRON	Case=Acc|Gender=Neut|Number=Sing
+5	все	все	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3
 6	сам	сам	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 7	.	.	PUNCT	_
 
@@ -6882,11 +6882,11 @@
 2	стране	страна	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing
 3	абзац	абзац	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
-5	все	всё	PRON	Case=Nom|Number=Plur|Person=3
+5	все	все	PRON	Case=Nom|Number=Plur|Person=3
 6	паникуют	паниковать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	,	,	PUNCT	_
 8	а	а	CONJ	_
-9	Кэл	Кэл	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+9	Кэл	Кэл	PUNCT	_
 10	сидит	сидеть	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 11	в	в	ADP	_
 12	кабинете	кабинет	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
@@ -6904,12 +6904,12 @@
 6	через	через	ADP	_
 7	окно	окно	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing
 8	)	)	PUNCT	_
-9	Лавджой	Лавджой	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing
+9	Лавджой	лавджой	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing
 10	.	.	PUNCT	_
 
 1	-	-	PUNCT	_
 2	Выдыхай	выдыхать	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act
-3	бобер	бобёр	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing
+3	бобер	бобер	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 4	,	,	PUNCT	_
 5	у	у	ADP	_
 6	меня	я	PRON	Case=Gen|Number=Sing|Person=1
@@ -6917,14 +6917,14 @@
 8	—	—	PUNCT	_
 9	!	!	PUNCT	_
 10	стекает	стекать	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-11	Кэла	Кэл	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing
+11	Кэла	кэла	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing
 12	по	по	ADP	_
 13	спине	спина	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing
 14	.	.	PUNCT	_
 
 1	-	-	PUNCT	_
 2	Это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
-3	хорошо	хороший	ADJ	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short
+3	хорошо	хорошо	ADV	Case=Gen|Gender=Neut|Number=Sing
 4	,	,	PUNCT	_
 5	а_то	а_то	CONJ	_
 6	у	у	ADP	_
@@ -6956,17 +6956,17 @@
 1	И	и	CONJ	_
 2	они	он	PRON	Case=Nom|Number=Plur|Person=3
 3	на	на	ADP	_
-4	ковре	ковёр	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
-5	вертолете	вертолёт	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+4	ковре	ковер	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
+5	вертолете	вертолет	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing
 6	сваливают	сваливать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
 7	сначала	сначала	ADV	Degree=Pos
 8	на	на	ADP	_
-9	Ямайку	Ямайка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+9	Ямайку	ямайка	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 10	,	,	PUNCT	_
 11	а	а	CONJ	_
 12	потом	потом	ADV	Degree=Pos
 13	в	в	ADP	_
-14	Бразилию	Бразилия	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
+14	Бразилию	бразилия	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing
 15	,	,	PUNCT	_
 16	ну	ну	INTJ	_
 17	это	это	PRON	Case=Nom|Gender=Neut|Number=Sing
@@ -6977,7 +6977,7 @@
 22	обезьян	обезьяна	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur
 23	в	в	ADP	_
 24	белых	белый	ADJ	Case=Loc|Degree=Pos|Number=Plur
-25	штанах	штаны	NOUN	Animacy=Inan|Case=Loc|Number=Plur
+25	штанах	штаны	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur
 26	.	.	PUNCT	_
 
 1	Два	два	NUM	Case=Nom|Gender=Neut
@@ -7005,7 +7005,8 @@
 
 1	Почему	почему	ADV	Degree=Pos
 2	уничтожают	уничтожать	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Notpast|VerbForm=Fin|Voice=Act
-3	Луганск	Луганск	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+3	Луганск	луганск	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 4	и	и	CONJ	_
-5	Донецк	Донецк	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
+5	Донецк	донецк	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing
 6	?	?	PUNCT	_
+
